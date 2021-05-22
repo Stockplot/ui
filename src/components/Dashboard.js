@@ -1,51 +1,78 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Divider from '@material-ui/core/Divider';
-import Drawer from '@material-ui/core/Drawer';
-import Hidden from '@material-ui/core/Hidden';
-import Button from '@material-ui/core/Button';
-import TextField from '@material-ui/core/TextField';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
-import 'date-fns';
-import DateFnsUtils from '@date-io/date-fns';
+import React, { useLayoutEffect, useState } from "react";
+import PropTypes from "prop-types";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import Divider from "@material-ui/core/Divider";
+import Drawer from "@material-ui/core/Drawer";
+import Hidden from "@material-ui/core/Hidden";
+import Button from "@material-ui/core/Button";
+import TextField from "@material-ui/core/TextField";
+import Typography from "@material-ui/core/Typography";
+import { makeStyles, useTheme } from "@material-ui/core/styles";
+import "date-fns";
+import DateFnsUtils from "@date-io/date-fns";
 
-import {MuiPickersUtilsProvider, KeyboardDatePicker} from '@material-ui/pickers';
+import {
+  MuiPickersUtilsProvider,
+  KeyboardDatePicker,
+} from "@material-ui/pickers";
+
+import Chart from "./Chart/Chart";
+import ChartJS from "./Chart/ChartJS";
+
+import axios from "axios";
+
+const getData = async (data) => {
+  console.log(data);
+
+  const res = await axios.post("http://127.0.0.1:5000/", data);
+  console.log("foo");
+  console.log(res);
+
+  let dataArray = [];
+
+  Array(res["data"]["length"])
+    .fill(0)
+    .map((_, i) => {
+      dataArray.push(res["data"]["data"][i]);
+      dataArray[i]["date"] = new Date(dataArray[i]["date"]);
+    });
+  console.log(dataArray);
+  return dataArray;
+};
 
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: 'flex',
+    display: "flex",
   },
   drawer: {
-    [theme.breakpoints.up('sm')]: {
+    [theme.breakpoints.up("sm")]: {
       width: drawerWidth,
       flexShrink: 0,
     },
   },
   appBar: {
-    [theme.breakpoints.up('sm')]: {
+    [theme.breakpoints.up("sm")]: {
       width: `calc(100% - ${drawerWidth}px)`,
       marginLeft: drawerWidth,
     },
   },
   menuButton: {
     marginRight: theme.spacing(2),
-    [theme.breakpoints.up('sm')]: {
-      display: 'none',
+    [theme.breakpoints.up("sm")]: {
+      display: "none",
     },
   },
   drawerItem: {
-      margin: '10px',
+    margin: "10px",
   },
   // necessary for content to be below app bar
   toolbar: theme.mixins.toolbar,
   drawerPaper: {
     width: drawerWidth,
-    textAlign: 'center',
-    zIndex: -1
+    textAlign: "center",
+    zIndex: -1,
   },
   content: {
     flexGrow: 1,
@@ -54,9 +81,27 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function ResponsiveDrawer(props) {
+  let [chartData, setChartData] = useState([]); 
+
+  useLayoutEffect(() => {
+    (async () => {
+      const data = {
+        context: {
+          ticker: "MSFT",
+          start: "2018-01-01",
+          end: "2020-11-30",
+        },
+      };
+
+      setChartData(await getData(data));
+      console.log(chartData);
+    })();
+  }, []);
 
   let { mobileDrawerOpen, setMobileDrawerOpen } = props;
-  const [selectedDate, setSelectedDate] = React.useState(new Date('2014-08-18T21:11:54'));
+  const [selectedDate, setSelectedDate] = React.useState(
+    new Date("2014-08-18T21:11:54")
+  );
 
   const handleDateChange = (date) => {
     setSelectedDate(date);
@@ -70,12 +115,17 @@ function ResponsiveDrawer(props) {
   };
 
   const drawer = (
-    <div  className={{textAlign: 'center'}}>
+    <div className={{ textAlign: "center" }}>
       <div className={classes.toolbar} />
       <Divider />
-      <TextField id="outlined-basic" label="Ticker" variant="outlined" className={classes.drawerItem}/>
+      <TextField
+        id="outlined-basic"
+        label="Ticker"
+        variant="outlined"
+        className={classes.drawerItem}
+      />
       <MuiPickersUtilsProvider utils={DateFnsUtils}>
-      <KeyboardDatePicker
+        <KeyboardDatePicker
           disableToolbar
           variant="inline"
           format="MM/dd/yyyy"
@@ -85,7 +135,7 @@ function ResponsiveDrawer(props) {
           value={selectedDate}
           onChange={handleDateChange}
           KeyboardButtonProps={{
-            'aria-label': 'change date',
+            "aria-label": "change date",
           }}
           className={classes.drawerItem}
         />
@@ -99,7 +149,7 @@ function ResponsiveDrawer(props) {
           value={selectedDate}
           onChange={handleDateChange}
           KeyboardButtonProps={{
-            'aria-label': 'change date',
+            "aria-label": "change date",
           }}
           className={classes.drawerItem}
         />
@@ -110,7 +160,8 @@ function ResponsiveDrawer(props) {
     </div>
   );
 
-  const container = window !== undefined ? () => window().document.body : undefined;
+  const container =
+    window !== undefined ? () => window().document.body : undefined;
 
   return (
     <div className={classes.root}>
@@ -121,7 +172,7 @@ function ResponsiveDrawer(props) {
           <Drawer
             container={container}
             variant="temporary"
-            anchor={theme.direction === 'rtl' ? 'right' : 'left'}
+            anchor={theme.direction === "rtl" ? "right" : "left"}
             open={mobileDrawerOpen}
             onClose={handleDrawerToggle}
             classes={{
@@ -148,29 +199,11 @@ function ResponsiveDrawer(props) {
       </nav>
       <main className={classes.content}>
         <div className={classes.toolbar} />
-        <Typography paragraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Rhoncus dolor purus non enim praesent elementum
-          facilisis leo vel. Risus at ultrices mi tempus imperdiet. Semper risus in hendrerit
-          gravida rutrum quisque non tellus. Convallis convallis tellus id interdum velit laoreet id
-          donec ultrices. Odio morbi quis commodo odio aenean sed adipiscing. Amet nisl suscipit
-          adipiscing bibendum est ultricies integer quis. Cursus euismod quis viverra nibh cras.
-          Metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Mauris commodo quis
-          imperdiet massa tincidunt. Cras tincidunt lobortis feugiat vivamus at augue. At augue eget
-          arcu dictum varius duis at consectetur lorem. Velit sed ullamcorper morbi tincidunt. Lorem
-          donec massa sapien faucibus et molestie ac.
-        </Typography>
-        <Typography paragraph>
-          Consequat mauris nunc congue nisi vitae suscipit. Fringilla est ullamcorper eget nulla
-          facilisi etiam dignissim diam. Pulvinar elementum integer enim neque volutpat ac
-          tincidunt. Ornare suspendisse sed nisi lacus sed viverra tellus. Purus sit amet volutpat
-          consequat mauris. Elementum eu facilisis sed odio morbi. Euismod lacinia at quis risus sed
-          vulputate odio. Morbi tincidunt ornare massa eget egestas purus viverra accumsan in. In
-          hendrerit gravida rutrum quisque non tellus orci ac. Pellentesque nec nam aliquam sem et
-          tortor. Habitant morbi tristique senectus et. Adipiscing elit duis tristique sollicitudin
-          nibh sit. Ornare aenean euismod elementum nisi quis eleifend. Commodo viverra maecenas
-          accumsan lacus vel facilisis. Nulla posuere sollicitudin aliquam ultrices sagittis orci a.
-        </Typography>
+        {chartData.length === 0 ? (
+          "Loading..."
+        ) : (
+          <ChartJS data={chartData}></ChartJS>
+        )}
       </main>
     </div>
   );
