@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from "react";
-import PropTypes from "prop-types";
+import React from "react";
 import { scaleTime } from "d3-scale";
-import MadeData from "./Data";
 import { ChartCanvas, Chart } from "react-stockcharts";
 import { CandlestickSeries } from "react-stockcharts/lib/series";
 import { XAxis, YAxis } from "react-stockcharts/lib/axes";
@@ -9,23 +7,12 @@ import { utcDay } from "d3-time";
 import { fitWidth } from "react-stockcharts/lib/helper";
 import { timeIntervalBarWidth } from "react-stockcharts/lib/utils";
 
-
-
-
-
 let ChartJS = (props) => {
-  // const { type, width, ratio } = props;
   const data = props.data;
-  console.log(data)
-  // const data = MadeData;
 
-  // const [stockData, setStockData] = useState([]);
-  
   const xAccessor = (d) => {
     return d.date;
   };
-
-  
 
   return (
     <div className="ChartJS">
@@ -34,7 +21,7 @@ let ChartJS = (props) => {
         ratio={1}
         width={1000}
         margin={{ left: 50, right: 50, top: 10, bottom: 30 }}
-        type={'svg'}
+        type={"svg"}
         data={data}
         seriesName="MSFT"
         xAccessor={xAccessor}
@@ -49,17 +36,6 @@ let ChartJS = (props) => {
       </ChartCanvas>
     </div>
   );
-};
-
-ChartJS.prototype = {
-  data: PropTypes.array.isRequired,
-  width: PropTypes.number.isRequired,
-  ratio: PropTypes.number.isRequired,
-  type: PropTypes.oneOf(["svg", "hybrid"]).isRequired,
-};
-
-ChartJS.defaultProps = {
-  type: "svg",
 };
 
 ChartJS = fitWidth(ChartJS);

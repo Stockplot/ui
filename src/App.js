@@ -3,7 +3,7 @@ import "./App.css";
 
 import { Route, Switch } from "react-router";
 import Home from "./components/Home";
-import Dashboard from "./components/Dashboard";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 import Blog from "./components/Blog";
 import {BrowserRouter} from "react-router-dom"
