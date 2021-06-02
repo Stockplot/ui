@@ -6,6 +6,10 @@ const styles = makeStyles((theme) => ({
   drawerItem: {
     margin: "20px 10px 10px 10px",
   },
+  tickerList: {
+    width: "90%",
+    marginTop: "20px",
+  },
 
   // necessary for content to be below app bar
 
