@@ -10,6 +10,7 @@ const styles = makeStyles((theme) => ({
     [theme.breakpoints.up("sm")]: {
       width: drawerWidth,
       flexShrink: 0,
+      zIndex: 0,
     },
   },
   appBar: {
@@ -38,6 +39,11 @@ const styles = makeStyles((theme) => ({
     flexGrow: 1,
     padding: theme.spacing(3),
   },
+  progress: {
+    display: "block",
+    marginLeft: "auto",
+    marginRight: "auto",
+  }
 }));
 
 export default styles;

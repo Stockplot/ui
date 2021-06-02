@@ -4,7 +4,7 @@ const drawerWidth = 240;
 
 const styles = makeStyles((theme) => ({
   drawerItem: {
-    margin: "10px",
+    margin: "20px 10px 10px 10px",
   },
 
   // necessary for content to be below app bar

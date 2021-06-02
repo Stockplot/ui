@@ -9,17 +9,40 @@ import {
 import DateFnsUtils from "@date-io/date-fns";
 
 import Styles from "./styles";
+import getData from "../getData";
 
-const DashboardDrawer = () => {
+const DashboardDrawer = (props) => {
   const useStyles = Styles;
   const classes = useStyles();
 
-  const [selectedDate, setSelectedDate] = useState(
-    new Date("2014-08-18T21:11:54")
-  );
+  let [ticker, setTicker] = useState("MSFT");
+  let [startDate, setStartDate] = useState(new Date(2018,1,1));
+  let [endDate, setEndDate] = useState(new Date(2020,11,30));
 
-  const handleDateChange = (date) => {
-    setSelectedDate(date);
+  const handleTickerChange = (e) => {
+    setTicker(e.target.value);
+  };
+
+  const handleStartDateChange = (date) => {
+    setStartDate(date);
+  };
+
+  const handleEndDateChange = (date) => {
+    setEndDate(date);
+  };
+
+  const handleSubmit = async () => {
+    console.log(startDate.toISOString().substring(0, 10));
+    console.log(endDate.toISOString().substring(0, 10));
+    console.log(ticker);
+    const data = {
+      context: {
+        ticker: ticker,
+        start: startDate.toISOString().substring(0, 10),
+        end: endDate.toISOString().substring(0, 10),
+      },
+    };
+    props.setChartData(await getData(data));
   };
 
   return (
@@ -31,17 +54,19 @@ const DashboardDrawer = () => {
         label="Ticker"
         variant="outlined"
         className={classes.drawerItem}
+        value={ticker}
+        onChange={handleTickerChange}
       />
       <MuiPickersUtilsProvider utils={DateFnsUtils}>
         <KeyboardDatePicker
           disableToolbar
           variant="inline"
-          format="MM/dd/yyyy"
+          format="dd/MM/yyyy"
           margin="normal"
           id="date-picker-inline"
           label="Start date"
-          value={selectedDate}
-          onChange={handleDateChange}
+          value={startDate}
+          onChange={handleStartDateChange}
           KeyboardButtonProps={{
             "aria-label": "change date",
           }}
@@ -50,19 +75,19 @@ const DashboardDrawer = () => {
         <KeyboardDatePicker
           disableToolbar
           variant="inline"
-          format="MM/dd/yyyy"
+          format="dd/MM/yyyy"
           margin="normal"
           id="date-picker-inline"
           label="End date"
-          value={selectedDate}
-          onChange={handleDateChange}
+          value={endDate}
+          onChange={handleEndDateChange}
           KeyboardButtonProps={{
             "aria-label": "change date",
           }}
           className={classes.drawerItem}
         />
       </MuiPickersUtilsProvider>
-      <Button variant="contained" color="primary">
+      <Button variant="contained" color="primary" onClick={handleSubmit}>
         Submit
       </Button>
     </div>

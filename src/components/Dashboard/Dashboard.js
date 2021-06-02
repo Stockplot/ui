@@ -9,12 +9,11 @@ import CircularProgress from "@material-ui/core/CircularProgress";
 import Chart from "./Chart/Chart";
 import DashboardDrawer from "./Drawer/Drawer";
 import Styles from "./styles";
-import getData from './getData';
+import getData from "./getData";
 
 const useStyles = Styles;
 
 function ResponsiveDrawer(props) {
-
   let [chartData, setChartData] = useState([]);
 
   useLayoutEffect(() => {
@@ -63,7 +62,7 @@ function ResponsiveDrawer(props) {
               keepMounted: true, // Better open performance on mobile.
             }}
           >
-            <DashboardDrawer></DashboardDrawer>
+            <DashboardDrawer setChartData={setChartData}></DashboardDrawer>
           </Drawer>
         </Hidden>
         <Hidden xsDown implementation="css">
@@ -74,7 +73,7 @@ function ResponsiveDrawer(props) {
             variant="permanent"
             open
           >
-            <DashboardDrawer></DashboardDrawer>
+            <DashboardDrawer setChartData={setChartData}></DashboardDrawer>
           </Drawer>
         </Hidden>
       </nav>
@@ -82,12 +81,11 @@ function ResponsiveDrawer(props) {
       <main className={classes.content}>
         <div className={classes.toolbar} />
         {chartData.length === 0 ? (
-          <CircularProgress />
+          <CircularProgress className={classes.progress}/>
         ) : (
           <Chart data={chartData}></Chart>
         )}
       </main>
-
     </div>
   );
 }
