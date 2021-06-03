@@ -10,16 +10,18 @@ import DateFnsUtils from "@date-io/date-fns";
 
 import Styles from "./styles";
 import getData from "../getData";
+import Ticker from "./Ticker";
 
 const DashboardDrawer = (props) => {
   const useStyles = Styles;
   const classes = useStyles();
 
-  let [ticker, setTicker] = useState("MSFT");
-  let [startDate, setStartDate] = useState(new Date(2018,1,1));
-  let [endDate, setEndDate] = useState(new Date(2020,11,30));
+  let [ticker, setTicker] = useState("BAJFINANCE.NS");
+  let [startDate, setStartDate] = useState(new Date(2018, 1, 1));
+  let [endDate, setEndDate] = useState(new Date(2020, 11, 30));
 
   const handleTickerChange = (e) => {
+    console.log(e.target.value);
     setTicker(e.target.value);
   };
 
@@ -32,6 +34,7 @@ const DashboardDrawer = (props) => {
   };
 
   const handleSubmit = async () => {
+    props.setChartData([]);
     console.log(startDate.toISOString().substring(0, 10));
     console.log(endDate.toISOString().substring(0, 10));
     console.log(ticker);
@@ -49,14 +52,7 @@ const DashboardDrawer = (props) => {
     <div className={{ textAlign: "center" }}>
       <div className={classes.toolbar} />
       <Divider />
-      <TextField
-        id="outlined-basic"
-        label="Ticker"
-        variant="outlined"
-        className={classes.drawerItem}
-        value={ticker}
-        onChange={handleTickerChange}
-      />
+      <Ticker value={ticker} handleChange={handleTickerChange} />
       <MuiPickersUtilsProvider utils={DateFnsUtils}>
         <KeyboardDatePicker
           disableToolbar
