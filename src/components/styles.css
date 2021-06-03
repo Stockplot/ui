@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500&display=swap");
+
+#nav {
+  font-family: "Karla", sans-serif;
+  /* background-image: linear-gradient(to right, #000, #00cba9); */
+  font-weight: 700;
+  background: transparent;
+  box-shadow: none;
+}
+
+.curved {
+  color: rgb(37, 37, 37);
+  font-family: "Karla";
+  font-size: 30px;
+  text-align: center;
+}
+.curved svg {
+  display: block;
+}
+.curved_txt {
+  padding: 5%;
+}
