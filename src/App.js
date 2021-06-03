@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "./App.css";
+
 
 import { Route, Switch } from "react-router";
 import Home from "./components/Home";
@@ -10,11 +10,12 @@ import {BrowserRouter} from "react-router-dom"
 import Header from "./components/Navbar";
 
 import { makeStyles } from "@material-ui/core/styles";
+import Navbar from './components/Navbar';
 
 const useStyles = makeStyles(theme => ({
   appBar: {
     position: 'relative',
-    zIndex: 14000,
+   
 },
 }));
 
@@ -27,8 +28,9 @@ function App() {
   return (
     <BrowserRouter>
     
-      
-      <Header mobileDrawerOpen={mobileDrawerOpen} setMobileDrawerOpen={setMobileDrawerOpen} className={classes.appBar}/>
+
+      <div className="App">
+      <Navbar mobileDrawerOpen={mobileDrawerOpen} setMobileDrawerOpen={setMobileDrawerOpen} className={classes.appBar}/>
      
       <Switch >
         <Route path="/" exact component={Home} />
@@ -40,7 +42,7 @@ function App() {
         />
         <Route path='/blog' component={Blog}/>
       </Switch>
-     
+     </div>
     </BrowserRouter>
   );
 }
