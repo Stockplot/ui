@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Blinker&family=Josefin+Sans&family=New+Tegomin&family=Raleway&family=Sriracha&family=Wallpoet&display=swap");
 #nav {
   font-family: "Karla", sans-serif;
   /* background-image: linear-gradient(to right, #000, #00cba9); */
   font-weight: 700;
-  background: transparent;
+  background: white;
   box-shadow: none;
 }
 
@@ -38,4 +38,40 @@
   width: 100%;
   margin-right: 75px;
   color: #000;
+}
+.btn {
+  border: 4px solid #fff;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.btn:hover {
+  border: 4px solid #fff;
+}
+@keyframes example {
+  0% {
+    background-color: rgb(38, 38, 41);
+
+    top: 0px;
+  }
+
+  50% {
+    top: 20px;
+  }
+
+  100% {
+    background-color: rgb(38, 38, 41);
+    left: 0px;
+    top: 0px;
+  }
 }
