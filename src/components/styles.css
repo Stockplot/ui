@@ -4,7 +4,7 @@
   font-family: "Karla", sans-serif;
   /* background-image: linear-gradient(to right, #000, #00cba9); */
   font-weight: 700;
-  background: white;
+  background: transparent;
   box-shadow: none;
 }
 
@@ -23,8 +23,7 @@
 .content {
   text-align: center;
   /* background-color: rgb(48, 48, 68); */
-
-  padding-bottom: 5%;
+  padding-top: 5%;
 
   font-family: Karla;
   font-size: 30px;
