@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="curved">
       <div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 90 1440 190">
           <path
             fill="#a4d3fa"
             fill-opacity="1"
@@ -34,7 +34,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 50 1440 270">
           <path
             fill="#a4d3fa"
             fill-opacity="1"
