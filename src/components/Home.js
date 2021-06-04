@@ -1,22 +1,28 @@
 import React from "react";
-import  "./styles.css";
+import LottieControl from "./Lotte";
+import Lotte from "./Lotte";
+import "./styles.css";
 function Home() {
   return (
     <div className="curved">
-      <h1>Hello Home</h1>
-      <p className="curved_txt">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </p>
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
+      <div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319" ><path fill="#a4d3fa" fill-opacity="1" d="M0,128L26.7,154.7C53.3,181,107,235,160,256C213.3,277,267,267,320,229.3C373.3,192,427,128,480,133.3C533.3,139,587,213,640,208C693.3,203,747,117,800,117.3C853.3,117,907,203,960,245.3C1013.3,288,1067,288,1120,245.3C1173.3,203,1227,117,1280,96C1333.3,75,1387,117,1413,138.7L1440,160L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+      <div className="content">
+        <LottieControl />
+        <div className="desc">
+          <h1>Train Test Stock</h1>
+          <p className="curved_txt">
+           An online platform to plot indicators for stocks 
+           <br>
+           </br>
+           
+          </p>
+        </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" ><path fill="#a4d3fa" fill-opacity="1" d="M0,320L26.7,277.3C53.3,235,107,149,160,138.7C213.3,128,267,192,320,192C373.3,192,427,128,480,112C533.3,96,587,128,640,128C693.3,128,747,96,800,117.3C853.3,139,907,213,960,218.7C1013.3,224,1067,160,1120,149.3C1173.3,139,1227,181,1280,176C1333.3,171,1387,117,1413,90.7L1440,64L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 5 1440 319" >
         <path
           fill="#d0ebc7"
           fill-opacity="1"
