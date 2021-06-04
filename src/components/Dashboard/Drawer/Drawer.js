@@ -2,6 +2,10 @@ import { useState } from "react";
 import Divider from "@material-ui/core/Divider";
 import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
+import FormControl from "@material-ui/core/FormControl";
+import InputLabel from "@material-ui/core/InputLabel";
+import Select from "@material-ui/core/Select";
+import MenuItem from "@material-ui/core/MenuItem";
 import {
   MuiPickersUtilsProvider,
   KeyboardDatePicker,
@@ -19,6 +23,7 @@ const DashboardDrawer = (props) => {
   let [ticker, setTicker] = useState("BAJFINANCE.NS");
   let [startDate, setStartDate] = useState(new Date(2018, 1, 1));
   let [endDate, setEndDate] = useState(new Date(2020, 11, 30));
+  let [chartType, setChartType] = useState("CS");
 
   const handleTickerChange = (e) => {
     console.log(e.target.value);
@@ -31,6 +36,10 @@ const DashboardDrawer = (props) => {
 
   const handleEndDateChange = (date) => {
     setEndDate(date);
+  };
+
+  const handleChartTypeChange = (e) => {
+    setChartType(e.target.value);
   };
 
   const handleSubmit = async () => {
@@ -83,7 +92,25 @@ const DashboardDrawer = (props) => {
           className={classes.drawerItem}
         />
       </MuiPickersUtilsProvider>
-      <Button variant="contained" color="primary" onClick={handleSubmit}>
+      <FormControl className={classes.tickerList}>
+        <InputLabel id="demo-simple-select-label">Type</InputLabel>
+        <Select
+          labelId="demo-simple-select-label"
+          id="demo-simple-select"
+          style={{ textAlign: "left" }}
+          value={chartType}
+          onChange={handleChartTypeChange}
+        >
+          <MenuItem value={"CS"}>Candlesticks</MenuItem>
+          <MenuItem value={"BB"}>Bollinger Bands</MenuItem>
+        </Select>
+      </FormControl>
+      <Button
+        variant="contained"
+        color="primary"
+        className={classes.drawerItem}
+        onClick={handleSubmit}
+      >
         Submit
       </Button>
     </div>
