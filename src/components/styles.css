@@ -20,3 +20,22 @@
 .curved_txt {
   padding: 5%;
 }
+.content {
+  text-align: center;
+  /* background-color: rgb(48, 48, 68); */
+
+  padding-bottom: 5%;
+
+  font-family: Karla;
+  font-size: 30px;
+  color: "blue";
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #a4d3fa;
+}
+.desc {
+  width: 100%;
+  margin-right: 75px;
+  color: #000;
+}

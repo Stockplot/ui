@@ -29,7 +29,8 @@ const useStyles = makeStyles((theme) => ({
       display: "block",
       
     },
-    color:"black"
+    color:"black",
+    
   },
   search: {
     position: "relative",
@@ -208,6 +209,7 @@ export default function Navbar(props) {
                 textDecoration: "none",
                 color: "black",
                 fontFamily: "Karla",
+                fontSize:"25px"
               }}
             >
               {" "}
