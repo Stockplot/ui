@@ -23,7 +23,8 @@ const DashboardDrawer = (props) => {
   let [ticker, setTicker] = useState("BAJFINANCE.NS");
   let [startDate, setStartDate] = useState(new Date(2018, 1, 1));
   let [endDate, setEndDate] = useState(new Date(2020, 11, 30));
-  let [chartType, setChartType] = useState("CS");
+  let chartType = props.chartType;
+  let setChartType = props.setChartType;
 
   const handleTickerChange = (e) => {
     console.log(e.target.value);

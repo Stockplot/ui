@@ -15,6 +15,7 @@ const useStyles = Styles;
 
 function ResponsiveDrawer(props) {
   let [chartData, setChartData] = useState([]);
+  let [chartType, setChartType] = useState("CS");
 
   useLayoutEffect(() => {
     (async () => {
@@ -62,7 +63,11 @@ function ResponsiveDrawer(props) {
               keepMounted: true, // Better open performance on mobile.
             }}
           >
-            <DashboardDrawer setChartData={setChartData}></DashboardDrawer>
+            <DashboardDrawer
+              chartType={chartType}
+              setChartType={setChartType}
+              setChartData={setChartData}
+            ></DashboardDrawer>
           </Drawer>
         </Hidden>
         <Hidden xsDown implementation="css">
@@ -73,7 +78,11 @@ function ResponsiveDrawer(props) {
             variant="permanent"
             open
           >
-            <DashboardDrawer setChartData={setChartData}></DashboardDrawer>
+            <DashboardDrawer
+              chartType={chartType}
+              setChartType={setChartType}
+              setChartData={setChartData}
+            ></DashboardDrawer>
           </Drawer>
         </Hidden>
       </nav>
@@ -81,9 +90,9 @@ function ResponsiveDrawer(props) {
       <main className={classes.content}>
         <div className={classes.toolbar} />
         {chartData.length === 0 ? (
-          <CircularProgress className={classes.progress}/>
+          <CircularProgress className={classes.progress} />
         ) : (
-          <Chart data={chartData}></Chart>
+          <Chart data={chartData} chartType={chartType} ></Chart>
         )}
       </main>
     </div>
