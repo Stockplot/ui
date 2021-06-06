@@ -18,1606 +18,1606 @@ function Ticker(props) {
         id="demo-simple-select"
         style={{textAlign:"left"}}
       >
-        <option style={{marginLeft: "25px"}} value={"20MICRONS.NS"}>20MICRONS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"21STCENMGM.NS"}>21STCENMGM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"3IINFOTECH.NS"}>3IINFOTECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"3MINDIA.NS"}>3MINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"3PLAND.NS"}>3PLAND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"5PAISA.NS"}>5PAISA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"63MOONS.NS"}>63MOONS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"A2ZINFRA.NS"}>A2ZINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AARTIDRUGS.NS"}>AARTIDRUGS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AARTIIND.NS"}>AARTIIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AARVEEDEN.NS"}>AARVEEDEN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AARVI.NS"}>AARVI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AAVAS.NS"}>AAVAS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ABAN.NS"}>ABAN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ABB.NS"}>ABB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ABBOTINDIA.NS"}>ABBOTINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ABCAPITAL.NS"}>ABCAPITAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ABFRL.NS"}>ABFRL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ABMINTLTD.NS"}>ABMINTLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ACC.NS"}>ACC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ACCELYA.NS"}>ACCELYA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ACE.NS"}>ACE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ADANIENT.NS"}>ADANIENT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ADANIGAS.NS"}>ADANIGAS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ADANIGREEN.NS"}>ADANIGREEN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ADANIPORTS.NS"}>ADANIPORTS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ADANIPOWER.NS"}>ADANIPOWER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ADANITRANS.NS"}>ADANITRANS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ADFFOODS.NS"}>ADFFOODS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ADHUNIKIND.NS"}>ADHUNIKIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ADORWELD.NS"}>ADORWELD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ADROITINFO.NS"}>ADROITINFO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ADSL.NS"}>ADSL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ADVANIHOTR.NS"}>ADVANIHOTR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ADVENZYMES.NS"}>ADVENZYMES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AEGISCHEM.NS"}>AEGISCHEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AFFLE.NS"}>AFFLE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AGARIND.NS"}>AGARIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AGCNET.NS"}>AGCNET.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AGRITECH.NS"}>AGRITECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AGROPHOS.NS"}>AGROPHOS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AHLEAST.NS"}>AHLEAST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AHLUCONT.NS"}>AHLUCONT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AHLWEST.NS"}>AHLWEST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AIAENG.NS"}>AIAENG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AIONJSW.NS"}>AIONJSW.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AIRAN.NS"}>AIRAN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AJANTPHARM.NS"}>AJANTPHARM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AJMERA.NS"}>AJMERA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AKASH.NS"}>AKASH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AKSHARCHEM.NS"}>AKSHARCHEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AKSHOPTFBR.NS"}>AKSHOPTFBR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AKZOINDIA.NS"}>AKZOINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ALANKIT.NS"}>ALANKIT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ALBERTDAVD.NS"}>ALBERTDAVD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ALCHEM.NS"}>ALCHEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ALEMBICLTD.NS"}>ALEMBICLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ALICON.NS"}>ALICON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ALKALI.NS"}>ALKALI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ALKEM.NS"}>ALKEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ALKYLAMINE.NS"}>ALKYLAMINE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ALLCARGO.NS"}>ALLCARGO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ALLSEC.NS"}>ALLSEC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ALMONDZ.NS"}>ALMONDZ.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ALOKINDS.NS"}>ALOKINDS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ALPA.NS"}>ALPA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ALPHAGEO.NS"}>ALPHAGEO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ALPSINDUS.NS"}>ALPSINDUS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AMARAJABAT.NS"}>AMARAJABAT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AMBER.NS"}>AMBER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AMBIKCO.NS"}>AMBIKCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AMBUJACEM.NS"}>AMBUJACEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AMDIND.NS"}>AMDIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AMJLAND.NS"}>AMJLAND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AMRUTANJAN.NS"}>AMRUTANJAN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ANANTRAJ.NS"}>ANANTRAJ.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ANDHRACEMT.NS"}>ANDHRACEMT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ANDHRAPAP.NS"}>ANDHRAPAP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ANDHRSUGAR.NS"}>ANDHRSUGAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ANIKINDS.NS"}>ANIKINDS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ANKITMETAL.NS"}>ANKITMETAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ANSALAPI.NS"}>ANSALAPI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ANSALHSG.NS"}>ANSALHSG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ANUP.NS"}>ANUP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"APARINDS.NS"}>APARINDS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"APCL.NS"}>APCL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"APCOTEXIND.NS"}>APCOTEXIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"APEX.NS"}>APEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"APLAPOLLO.NS"}>APLAPOLLO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"APLLTD.NS"}>APLLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"APOLLO.NS"}>APOLLO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"APOLLOHOSP.NS"}>APOLLOHOSP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"APOLLOPIPE.NS"}>APOLLOPIPE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"APOLLOTYRE.NS"}>APOLLOTYRE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"APOLSINHOT.NS"}>APOLSINHOT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"APTECHT.NS"}>APTECHT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ARCHIDPLY.NS"}>ARCHIDPLY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ARCHIES.NS"}>ARCHIES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ARCOTECH.NS"}>ARCOTECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ARENTERP.NS"}>ARENTERP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ARIES.NS"}>ARIES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ARIHANT.NS"}>ARIHANT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ARIHANTSUP.NS"}>ARIHANTSUP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ARMANFIN.NS"}>ARMANFIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AROGRANITE.NS"}>AROGRANITE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ARROWGREEN.NS"}>ARROWGREEN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ARSHIYA.NS"}>ARSHIYA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ARSSINFRA.NS"}>ARSSINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ARTEMISMED.NS"}>ARTEMISMED.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ARVIND.NS"}>ARVIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ARVINDFASN.NS"}>ARVINDFASN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ARVSMART.NS"}>ARVSMART.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASAHIINDIA.NS"}>ASAHIINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASAHISONG.NS"}>ASAHISONG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASAL.NS"}>ASAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASALCBR.NS"}>ASALCBR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASHAPURMIN.NS"}>ASHAPURMIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASHIANA.NS"}>ASHIANA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASHIMASYN.NS"}>ASHIMASYN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASHOKA.NS"}>ASHOKA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASHOKLEY.NS"}>ASHOKLEY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASIANHOTNR.NS"}>ASIANHOTNR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASIANPAINT.NS"}>ASIANPAINT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASIANTILES.NS"}>ASIANTILES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASPINWALL.NS"}>ASPINWALL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASTEC.NS"}>ASTEC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASTERDM.NS"}>ASTERDM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASTRAL.NS"}>ASTRAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASTRAMICRO.NS"}>ASTRAMICRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASTRAZEN.NS"}>ASTRAZEN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ASTRON.NS"}>ASTRON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ATFL.NS"}>ATFL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ATLANTA.NS"}>ATLANTA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ATLASCYCLE.NS"}>ATLASCYCLE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ATUL.NS"}>ATUL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ATULAUTO.NS"}>ATULAUTO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AUBANK.NS"}>AUBANK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AURIONPRO.NS"}>AURIONPRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AUROPHARMA.NS"}>AUROPHARMA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AUSOMENT.NS"}>AUSOMENT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AUTOAXLES.NS"}>AUTOAXLES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AUTOIND.NS"}>AUTOIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AUTOLITIND.NS"}>AUTOLITIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AVADHSUGAR.NS"}>AVADHSUGAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AVANTIFEED.NS"}>AVANTIFEED.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AVTNPL.NS"}>AVTNPL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AXISBANK.NS"}>AXISBANK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AXISCADES.NS"}>AXISCADES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"AYMSYNTEX.NS"}>AYMSYNTEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BAGFILMS.NS"}>BAGFILMS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BAJAJ-AUTO.NS"}>BAJAJ-AUTO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BAJAJCON.NS"}>BAJAJCON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BAJAJELEC.NS"}>BAJAJELEC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BAJAJFINSV.NS"}>BAJAJFINSV.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BAJAJHIND.NS"}>BAJAJHIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BAJAJHLDNG.NS"}>BAJAJHLDNG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BAJFINANCE.NS"}>BAJFINANCE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BALAJITELE.NS"}>BALAJITELE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BALAMINES.NS"}>BALAMINES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BALAXI.NS"}>BALAXI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BALKRISHNA.NS"}>BALKRISHNA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BALKRISIND.NS"}>BALKRISIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BALLARPUR.NS"}>BALLARPUR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BALMLAWRIE.NS"}>BALMLAWRIE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BALPHARMA.NS"}>BALPHARMA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BALRAMCHIN.NS"}>BALRAMCHIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BANARBEADS.NS"}>BANARBEADS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BANARISUG.NS"}>BANARISUG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BANCOINDIA.NS"}>BANCOINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BANDHANBNK.NS"}>BANDHANBNK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BANG.NS"}>BANG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BANKBARODA.NS"}>BANKBARODA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BANKINDIA.NS"}>BANKINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BANSWRAS.NS"}>BANSWRAS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BARTRONICS.NS"}>BARTRONICS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BASF.NS"}>BASF.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BASML.NS"}>BASML.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BATAINDIA.NS"}>BATAINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BAYERCROP.NS"}>BAYERCROP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BBL.NS"}>BBL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BBTC.NS"}>BBTC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BCG.NS"}>BCG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BCP.NS"}>BCP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BDL.NS"}>BDL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BEARDSELL.NS"}>BEARDSELL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BEDMUTHA.NS"}>BEDMUTHA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BEL.NS"}>BEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BEML.NS"}>BEML.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BEPL.NS"}>BEPL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BERGEPAINT.NS"}>BERGEPAINT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BFINVEST.NS"}>BFINVEST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BFUTILITIE.NS"}>BFUTILITIE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BGRENERGY.NS"}>BGRENERGY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BHAGERIA.NS"}>BHAGERIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BHAGYANGR.NS"}>BHAGYANGR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BHAGYAPROP.NS"}>BHAGYAPROP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BHANDARI.NS"}>BHANDARI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BHARATFORG.NS"}>BHARATFORG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BHARATGEAR.NS"}>BHARATGEAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BHARATRAS.NS"}>BHARATRAS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BHARATWIRE.NS"}>BHARATWIRE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BHARTIARTL.NS"}>BHARTIARTL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BHEL.NS"}>BHEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BIGBLOC.NS"}>BIGBLOC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BIL.NS"}>BIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BILENERGY.NS"}>BILENERGY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BINDALAGRO.NS"}>BINDALAGRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BIOCON.NS"}>BIOCON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BIOFILCHEM.NS"}>BIOFILCHEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BIRLACABLE.NS"}>BIRLACABLE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BIRLACORPN.NS"}>BIRLACORPN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BIRLAMONEY.NS"}>BIRLAMONEY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BIRLATYRE.NS"}>BIRLATYRE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BKMINDST.NS"}>BKMINDST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BLBLIMITED.NS"}>BLBLIMITED.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BLISSGVS.NS"}>BLISSGVS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BLKASHYAP.NS"}>BLKASHYAP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BLS.NS"}>BLS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BLUECOAST.NS"}>BLUECOAST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BLUEDART.NS"}>BLUEDART.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BLUESTARCO.NS"}>BLUESTARCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BODALCHEM.NS"}>BODALCHEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BOMDYEING.NS"}>BOMDYEING.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BORORENEW.NS"}>BORORENEW.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BOSCHLTD.NS"}>BOSCHLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BPCL.NS"}>BPCL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BPL.NS"}>BPL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BRFL.NS"}>BRFL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BRIGADE.NS"}>BRIGADE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BRITANNIA.NS"}>BRITANNIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BRNL.NS"}>BRNL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BROOKS.NS"}>BROOKS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BSE.NS"}>BSE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BSELINFRA.NS"}>BSELINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BSL.NS"}>BSL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BSOFT.NS"}>BSOFT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BURNPUR.NS"}>BURNPUR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BUTTERFLY.NS"}>BUTTERFLY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BVCL.NS"}>BVCL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"BYKE.NS"}>BYKE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CADILAHC.NS"}>CADILAHC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CALSOFT.NS"}>CALSOFT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CAMLINFINE.NS"}>CAMLINFINE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CANBK.NS"}>CANBK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CANDC.NS"}>CANDC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CANFINHOME.NS"}>CANFINHOME.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CANTABIL.NS"}>CANTABIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CAPACITE.NS"}>CAPACITE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CAPLIPOINT.NS"}>CAPLIPOINT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CAPTRUST.NS"}>CAPTRUST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CARBORUNIV.NS"}>CARBORUNIV.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CAREERP.NS"}>CAREERP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CARERATING.NS"}>CARERATING.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CASTROLIND.NS"}>CASTROLIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CCHHL.NS"}>CCHHL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CCL.NS"}>CCL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CDSL.NS"}>CDSL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CEATLTD.NS"}>CEATLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CEBBCO.NS"}>CEBBCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CELEBRITY.NS"}>CELEBRITY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CENTENKA.NS"}>CENTENKA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CENTEXT.NS"}>CENTEXT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CENTRALBK.NS"}>CENTRALBK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CENTRUM.NS"}>CENTRUM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CENTUM.NS"}>CENTUM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CENTURYPLY.NS"}>CENTURYPLY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CENTURYTEX.NS"}>CENTURYTEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CERA.NS"}>CERA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CEREBRAINT.NS"}>CEREBRAINT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CESC.NS"}>CESC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CESCVENT.NS"}>CESCVENT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CGCL.NS"}>CGCL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CGPOWER.NS"}>CGPOWER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CHALET.NS"}>CHALET.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CHAMBLFERT.NS"}>CHAMBLFERT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CHEMBOND.NS"}>CHEMBOND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CHEMFAB.NS"}>CHEMFAB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CHENNPETRO.NS"}>CHENNPETRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CHOLAFIN.NS"}>CHOLAFIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CHOLAHLDNG.NS"}>CHOLAHLDNG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CHROMATIC.NS"}>CHROMATIC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CIGNITITEC.NS"}>CIGNITITEC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CIMMCO.NS"}>CIMMCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CINELINE.NS"}>CINELINE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CINEVISTA.NS"}>CINEVISTA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CIPLA.NS"}>CIPLA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CKFSL.NS"}>CKFSL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CLEDUCATE.NS"}>CLEDUCATE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CLNINDIA.NS"}>CLNINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CMICABLES.NS"}>CMICABLES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CNOVAPETRO.NS"}>CNOVAPETRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"COALINDIA.NS"}>COALINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"COCHINSHIP.NS"}>COCHINSHIP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"COLPAL.NS"}>COLPAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"COMPINFO.NS"}>COMPINFO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"COMPUSOFT.NS"}>COMPUSOFT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CONCOR.NS"}>CONCOR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CONSOFINVT.NS"}>CONSOFINVT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CONTROLPR.NS"}>CONTROLPR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CORALFINAC.NS"}>CORALFINAC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CORDSCABLE.NS"}>CORDSCABLE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"COROMANDEL.NS"}>COROMANDEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"COSMOFILMS.NS"}>COSMOFILMS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"COUNCODOS.NS"}>COUNCODOS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"COX&KINGS.NS"}>COX&KINGS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CREATIVE.NS"}>CREATIVE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CREATIVEYE.NS"}>CREATIVEYE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CREDITACC.NS"}>CREDITACC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CREST.NS"}>CREST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CRISIL.NS"}>CRISIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CROMPTON.NS"}>CROMPTON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CSBBANK.NS"}>CSBBANK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CTE.NS"}>CTE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CUB.NS"}>CUB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CUBEXTUB.NS"}>CUBEXTUB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CUMMINSIND.NS"}>CUMMINSIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CUPID.NS"}>CUPID.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CYBERTECH.NS"}>CYBERTECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"CYIENT.NS"}>CYIENT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DAAWAT.NS"}>DAAWAT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DABUR.NS"}>DABUR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DALBHARAT.NS"}>DALBHARAT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DALMIASUG.NS"}>DALMIASUG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DAMODARIND.NS"}>DAMODARIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DATAMATICS.NS"}>DATAMATICS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DBCORP.NS"}>DBCORP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DBL.NS"}>DBL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DBREALTY.NS"}>DBREALTY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DBSTOCKBRO.NS"}>DBSTOCKBRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DCAL.NS"}>DCAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DCBBANK.NS"}>DCBBANK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DCM.NS"}>DCM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DCMFINSERV.NS"}>DCMFINSERV.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DCMNVL.NS"}>DCMNVL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DCMSHRIRAM.NS"}>DCMSHRIRAM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DCW.NS"}>DCW.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DECCANCE.NS"}>DECCANCE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DEEPAKFERT.NS"}>DEEPAKFERT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DEEPAKNTR.NS"}>DEEPAKNTR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DEEPIND.NS"}>DEEPIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DELTACORP.NS"}>DELTACORP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DELTAMAGNT.NS"}>DELTAMAGNT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DEN.NS"}>DEN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DENORA.NS"}>DENORA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DFMFOODS.NS"}>DFMFOODS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DGCONTENT.NS"}>DGCONTENT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DHAMPURSUG.NS"}>DHAMPURSUG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DHANBANK.NS"}>DHANBANK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DHANUKA.NS"}>DHANUKA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DHFL.NS"}>DHFL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DHUNINV.NS"}>DHUNINV.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DIAMONDYD.NS"}>DIAMONDYD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DIAPOWER.NS"}>DIAPOWER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DICIND.NS"}>DICIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DIGISPICE.NS"}>DIGISPICE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DIGJAMLTD.NS"}>DIGJAMLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DISHTV.NS"}>DISHTV.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DIVISLAB.NS"}>DIVISLAB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DIXON.NS"}>DIXON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DLF.NS"}>DLF.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DLINKINDIA.NS"}>DLINKINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DMART.NS"}>DMART.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DNAMEDIA.NS"}>DNAMEDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DOLAT.NS"}>DOLAT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DOLLAR.NS"}>DOLLAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DONEAR.NS"}>DONEAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DPSCLTD.NS"}>DPSCLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DPWIRES.NS"}>DPWIRES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DQE.NS"}>DQE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DREDGECORP.NS"}>DREDGECORP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DRREDDY.NS"}>DRREDDY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DSSL.NS"}>DSSL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DTIL.NS"}>DTIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DUCON.NS"}>DUCON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DVL.NS"}>DVL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DWARKESH.NS"}>DWARKESH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DYNAMATECH.NS"}>DYNAMATECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"DYNPRO.NS"}>DYNPRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EASTSILK.NS"}>EASTSILK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EASUNREYRL.NS"}>EASUNREYRL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EBIXFOREX.NS"}>EBIXFOREX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ECLERX.NS"}>ECLERX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EDELWEISS.NS"}>EDELWEISS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EDUCOMP.NS"}>EDUCOMP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EICHERMOT.NS"}>EICHERMOT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EIDPARRY.NS"}>EIDPARRY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EIHAHOTELS.NS"}>EIHAHOTELS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EIHOTEL.NS"}>EIHOTEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EIMCOELECO.NS"}>EIMCOELECO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EKC.NS"}>EKC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ELECON.NS"}>ELECON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ELECTCAST.NS"}>ELECTCAST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ELECTHERM.NS"}>ELECTHERM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ELGIEQUIP.NS"}>ELGIEQUIP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ELGIRUBCO.NS"}>ELGIRUBCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EMAMILTD.NS"}>EMAMILTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EMAMIREAL.NS"}>EMAMIREAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EMCO.NS"}>EMCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EMKAY.NS"}>EMKAY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EMMBI.NS"}>EMMBI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ENDURANCE.NS"}>ENDURANCE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ENERGYDEV.NS"}>ENERGYDEV.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ENGINERSIN.NS"}>ENGINERSIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ENIL.NS"}>ENIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EQUITAS.NS"}>EQUITAS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ERIS.NS"}>ERIS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EROSMEDIA.NS"}>EROSMEDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ESABINDIA.NS"}>ESABINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ESCORTS.NS"}>ESCORTS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ESSARSHPNG.NS"}>ESSARSHPNG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ESSELPACK.NS"}>ESSELPACK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ESTER.NS"}>ESTER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EUROCERA.NS"}>EUROCERA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EUROMULTI.NS"}>EUROMULTI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EUROTEXIND.NS"}>EUROTEXIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EVEREADY.NS"}>EVEREADY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EVERESTIND.NS"}>EVERESTIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EXCEL.NS"}>EXCEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EXCELINDUS.NS"}>EXCELINDUS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EXIDEIND.NS"}>EXIDEIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"EXPLEOSOL.NS"}>EXPLEOSOL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FACT.NS"}>FACT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FAIRCHEM.NS"}>FAIRCHEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FCL.NS"}>FCL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FCONSUMER.NS"}>FCONSUMER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FCSSOFT.NS"}>FCSSOFT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FDC.NS"}>FDC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FEDERALBNK.NS"}>FEDERALBNK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FEL.NS"}>FEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FELDVR.NS"}>FELDVR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FIEMIND.NS"}>FIEMIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FILATEX.NS"}>FILATEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FINCABLES.NS"}>FINCABLES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FINEORG.NS"}>FINEORG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FINPIPE.NS"}>FINPIPE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FLEXITUFF.NS"}>FLEXITUFF.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FLFL.NS"}>FLFL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FLUOROCHEM.NS"}>FLUOROCHEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FMGOETZE.NS"}>FMGOETZE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FMNL.NS"}>FMNL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FORCEMOT.NS"}>FORCEMOT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FORTIS.NS"}>FORTIS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FOSECOIND.NS"}>FOSECOIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FRETAIL.NS"}>FRETAIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FSC.NS"}>FSC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"FSL.NS"}>FSL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GABRIEL.NS"}>GABRIEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GAEL.NS"}>GAEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GAIL.NS"}>GAIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GAL.NS"}>GAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GALAXYSURF.NS"}>GALAXYSURF.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GALLANTT.NS"}>GALLANTT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GALLISPAT.NS"}>GALLISPAT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GAMMNINFRA.NS"}>GAMMNINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GANDHITUBE.NS"}>GANDHITUBE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GANECOS.NS"}>GANECOS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GANESHHOUC.NS"}>GANESHHOUC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GANGESSECU.NS"}>GANGESSECU.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GARDENSILK.NS"}>GARDENSILK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GARFIBRES.NS"}>GARFIBRES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GATI.NS"}>GATI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GAYAHWS.NS"}>GAYAHWS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GAYAPROJ.NS"}>GAYAPROJ.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GBGLOBAL.NS"}>GBGLOBAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GDL.NS"}>GDL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GEECEE.NS"}>GEECEE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GEEKAYWIRE.NS"}>GEEKAYWIRE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GENESYS.NS"}>GENESYS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GENUSPAPER.NS"}>GENUSPAPER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GENUSPOWER.NS"}>GENUSPOWER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GEOJITFSL.NS"}>GEOJITFSL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GEPIL.NS"}>GEPIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GESHIP.NS"}>GESHIP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GET&D.NS"}>GET&D.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GFLLIMITED.NS"}>GFLLIMITED.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GFSTEELS.NS"}>GFSTEELS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GHCL.NS"}>GHCL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GICHSGFIN.NS"}>GICHSGFIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GICRE.NS"}>GICRE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GILLANDERS.NS"}>GILLANDERS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GILLETTE.NS"}>GILLETTE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GINNIFILA.NS"}>GINNIFILA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GIPCL.NS"}>GIPCL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GISOLUTION.NS"}>GISOLUTION.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GKWLIMITED.NS"}>GKWLIMITED.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GLAXO.NS"}>GLAXO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GLENMARK.NS"}>GLENMARK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GLOBALVECT.NS"}>GLOBALVECT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GLOBOFFS.NS"}>GLOBOFFS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GLOBUSSPR.NS"}>GLOBUSSPR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GMBREW.NS"}>GMBREW.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GMDCLTD.NS"}>GMDCLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GMMPFAUDLR.NS"}>GMMPFAUDLR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GMRINFRA.NS"}>GMRINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GNA.NS"}>GNA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GNFC.NS"}>GNFC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GOACARBON.NS"}>GOACARBON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GOCLCORP.NS"}>GOCLCORP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GODFRYPHLP.NS"}>GODFRYPHLP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GODREJAGRO.NS"}>GODREJAGRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GODREJCP.NS"}>GODREJCP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GODREJIND.NS"}>GODREJIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GODREJPROP.NS"}>GODREJPROP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GOENKA.NS"}>GOENKA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GOKEX.NS"}>GOKEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GOKUL.NS"}>GOKUL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GOKULAGRO.NS"}>GOKULAGRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GOLDENTOBC.NS"}>GOLDENTOBC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GOLDIAM.NS"}>GOLDIAM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GOLDTECH.NS"}>GOLDTECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GOODLUCK.NS"}>GOODLUCK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GPIL.NS"}>GPIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GPPL.NS"}>GPPL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GPTINFRA.NS"}>GPTINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GRANULES.NS"}>GRANULES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GRAPHITE.NS"}>GRAPHITE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GRASIM.NS"}>GRASIM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GRAVITA.NS"}>GRAVITA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GREAVESCOT.NS"}>GREAVESCOT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GREENLAM.NS"}>GREENLAM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GREENPANEL.NS"}>GREENPANEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GREENPLY.NS"}>GREENPLY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GREENPOWER.NS"}>GREENPOWER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GRINDWELL.NS"}>GRINDWELL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GROBTEA.NS"}>GROBTEA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GRPLTD.NS"}>GRPLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GRSE.NS"}>GRSE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GSCLCEMENT.NS"}>GSCLCEMENT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GSFC.NS"}>GSFC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GSPL.NS"}>GSPL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GSS.NS"}>GSS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GTLINFRA.NS"}>GTLINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GTNIND.NS"}>GTNIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GTNTEX.NS"}>GTNTEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GTPL.NS"}>GTPL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GUFICBIO.NS"}>GUFICBIO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GUJALKALI.NS"}>GUJALKALI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GUJAPOLLO.NS"}>GUJAPOLLO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GUJGASLTD.NS"}>GUJGASLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GULFOILLUB.NS"}>GULFOILLUB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GULFPETRO.NS"}>GULFPETRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GULPOLY.NS"}>GULPOLY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"GVKPIL.NS"}>GVKPIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HAL.NS"}>HAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HARITASEAT.NS"}>HARITASEAT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HARRMALAYA.NS"}>HARRMALAYA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HATHWAY.NS"}>HATHWAY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HATSUN.NS"}>HATSUN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HAVELLS.NS"}>HAVELLS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HAVISHA.NS"}>HAVISHA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HBLPOWER.NS"}>HBLPOWER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HBSL.NS"}>HBSL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HCC.NS"}>HCC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HCG.NS"}>HCG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HCL-INSYS.NS"}>HCL-INSYS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HCLTECH.NS"}>HCLTECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HDFC.NS"}>HDFC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HDFCAMC.NS"}>HDFCAMC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HDFCBANK.NS"}>HDFCBANK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HDFCLIFE.NS"}>HDFCLIFE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HDIL.NS"}>HDIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HEG.NS"}>HEG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HEIDELBERG.NS"}>HEIDELBERG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HERCULES.NS"}>HERCULES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HERITGFOOD.NS"}>HERITGFOOD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HEROMOTOCO.NS"}>HEROMOTOCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HESTERBIO.NS"}>HESTERBIO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HEXATRADEX.NS"}>HEXATRADEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HEXAWARE.NS"}>HEXAWARE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HFCL.NS"}>HFCL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HGINFRA.NS"}>HGINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HGS.NS"}>HGS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HIKAL.NS"}>HIKAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HIL.NS"}>HIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HILTON.NS"}>HILTON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HIMATSEIDE.NS"}>HIMATSEIDE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HINDALCO.NS"}>HINDALCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HINDCOMPOS.NS"}>HINDCOMPOS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HINDCOPPER.NS"}>HINDCOPPER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HINDMOTORS.NS"}>HINDMOTORS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HINDNATGLS.NS"}>HINDNATGLS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HINDOILEXP.NS"}>HINDOILEXP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HINDPETRO.NS"}>HINDPETRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HINDUNILVR.NS"}>HINDUNILVR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HINDZINC.NS"}>HINDZINC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HIRECT.NS"}>HIRECT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HISARMETAL.NS"}>HISARMETAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HITECH.NS"}>HITECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HITECHCORP.NS"}>HITECHCORP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HITECHGEAR.NS"}>HITECHGEAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HLVLTD.NS"}>HLVLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HMT.NS"}>HMT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HMVL.NS"}>HMVL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HNDFDS.NS"}>HNDFDS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HONAUT.NS"}>HONAUT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HONDAPOWER.NS"}>HONDAPOWER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HOTELRUGBY.NS"}>HOTELRUGBY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HOVS.NS"}>HOVS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HPL.NS"}>HPL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HSCL.NS"}>HSCL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HSIL.NS"}>HSIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HTMEDIA.NS"}>HTMEDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HUBTOWN.NS"}>HUBTOWN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"HUDCO.NS"}>HUDCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IBREALEST.NS"}>IBREALEST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IBULHSGFIN.NS"}>IBULHSGFIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IBULISL.NS"}>IBULISL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IBVENTURES.NS"}>IBVENTURES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ICICIBANK.NS"}>ICICIBANK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ICICIGI.NS"}>ICICIGI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ICICIPRULI.NS"}>ICICIPRULI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ICIL.NS"}>ICIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ICRA.NS"}>ICRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IDBI.NS"}>IDBI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IDEA.NS"}>IDEA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IDFC.NS"}>IDFC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IDFCFIRSTB.NS"}>IDFCFIRSTB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IEX.NS"}>IEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IFBAGRO.NS"}>IFBAGRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IFBIND.NS"}>IFBIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IFCI.NS"}>IFCI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IFGLEXPOR.NS"}>IFGLEXPOR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IGARASHI.NS"}>IGARASHI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IGL.NS"}>IGL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IGPL.NS"}>IGPL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IIFL.NS"}>IIFL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IIFLSEC.NS"}>IIFLSEC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IIFLWAM.NS"}>IIFLWAM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IITL.NS"}>IITL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IL&FSENGG.NS"}>IL&FSENGG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IL&FSTRANS.NS"}>IL&FSTRANS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IMAGICAA.NS"}>IMAGICAA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IMFA.NS"}>IMFA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IMPAL.NS"}>IMPAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IMPEXFERRO.NS"}>IMPEXFERRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDBANK.NS"}>INDBANK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDHOTEL.NS"}>INDHOTEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDIACEM.NS"}>INDIACEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDIAGLYCO.NS"}>INDIAGLYCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDIAMART.NS"}>INDIAMART.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDIANB.NS"}>INDIANB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDIANCARD.NS"}>INDIANCARD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDIANHUME.NS"}>INDIANHUME.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDIGO.NS"}>INDIGO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDLMETER.NS"}>INDLMETER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDNIPPON.NS"}>INDNIPPON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDOCO.NS"}>INDOCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDORAMA.NS"}>INDORAMA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDOSOLAR.NS"}>INDOSOLAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDOSTAR.NS"}>INDOSTAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDOTECH.NS"}>INDOTECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDOTHAI.NS"}>INDOTHAI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDOWIND.NS"}>INDOWIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDRAMEDCO.NS"}>INDRAMEDCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDSWFTLAB.NS"}>INDSWFTLAB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDSWFTLTD.NS"}>INDSWFTLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDTERRAIN.NS"}>INDTERRAIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INDUSINDBK.NS"}>INDUSINDBK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INEOSSTYRO.NS"}>INEOSSTYRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INFIBEAM.NS"}>INFIBEAM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INFOBEAN.NS"}>INFOBEAN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INFRATEL.NS"}>INFRATEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INFY.NS"}>INFY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INGERRAND.NS"}>INGERRAND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INOXLEISUR.NS"}>INOXLEISUR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INOXWIND.NS"}>INOXWIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INSECTICID.NS"}>INSECTICID.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INSPIRISYS.NS"}>INSPIRISYS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INTEGRA.NS"}>INTEGRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INTELLECT.NS"}>INTELLECT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INTENTECH.NS"}>INTENTECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"INVENTURE.NS"}>INVENTURE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IOB.NS"}>IOB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IOC.NS"}>IOC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IOLCP.NS"}>IOLCP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IPCALAB.NS"}>IPCALAB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IRB.NS"}>IRB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IRCON.NS"}>IRCON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IRCTC.NS"}>IRCTC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ISEC.NS"}>ISEC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ISFT.NS"}>ISFT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ISMTLTD.NS"}>ISMTLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ITC.NS"}>ITC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ITDC.NS"}>ITDC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ITDCEM.NS"}>ITDCEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ITI.NS"}>ITI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IVC.NS"}>IVC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IVP.NS"}>IVP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"IZMO.NS"}>IZMO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"J&KBANK.NS"}>J&KBANK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JAGRAN.NS"}>JAGRAN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JAGSNPHARM.NS"}>JAGSNPHARM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JAIBALAJI.NS"}>JAIBALAJI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JAICORPLTD.NS"}>JAICORPLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JAIHINDPRO.NS"}>JAIHINDPRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JAINSTUDIO.NS"}>JAINSTUDIO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JAMNAAUTO.NS"}>JAMNAAUTO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JASH.NS"}>JASH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JAYAGROGN.NS"}>JAYAGROGN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JAYBARMARU.NS"}>JAYBARMARU.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JAYNECOIND.NS"}>JAYNECOIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JAYSREETEA.NS"}>JAYSREETEA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JBCHEPHARM.NS"}>JBCHEPHARM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JBFIND.NS"}>JBFIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JBMA.NS"}>JBMA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JCHAC.NS"}>JCHAC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JETAIRWAYS.NS"}>JETAIRWAYS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JHS.NS"}>JHS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JINDALPHOT.NS"}>JINDALPHOT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JINDALPOLY.NS"}>JINDALPOLY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JINDALSAW.NS"}>JINDALSAW.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JINDALSTEL.NS"}>JINDALSTEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JINDRILL.NS"}>JINDRILL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JINDWORLD.NS"}>JINDWORLD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JISLDVREQS.NS"}>JISLDVREQS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JISLJALEQS.NS"}>JISLJALEQS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JITFINFRA.NS"}>JITFINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JIYAECO.NS"}>JIYAECO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JKCEMENT.NS"}>JKCEMENT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JKIL.NS"}>JKIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JKLAKSHMI.NS"}>JKLAKSHMI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JKPAPER.NS"}>JKPAPER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JKTYRE.NS"}>JKTYRE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JMA.NS"}>JMA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JMCPROJECT.NS"}>JMCPROJECT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JMFINANCIL.NS"}>JMFINANCIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JMTAUTOLTD.NS"}>JMTAUTOLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JOCIL.NS"}>JOCIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JPASSOCIAT.NS"}>JPASSOCIAT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JPINFRATEC.NS"}>JPINFRATEC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JPOLYINVST.NS"}>JPOLYINVST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JPPOWER.NS"}>JPPOWER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JSL.NS"}>JSL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JSLHISAR.NS"}>JSLHISAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JSWENERGY.NS"}>JSWENERGY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JSWHL.NS"}>JSWHL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JSWSTEEL.NS"}>JSWSTEEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JTEKTINDIA.NS"}>JTEKTINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JUBILANT.NS"}>JUBILANT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JUBLFOOD.NS"}>JUBLFOOD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JUBLINDS.NS"}>JUBLINDS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JUMPNET.NS"}>JUMPNET.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JUSTDIAL.NS"}>JUSTDIAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JVLAGRO.NS"}>JVLAGRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"JYOTHYLAB.NS"}>JYOTHYLAB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KABRAEXTRU.NS"}>KABRAEXTRU.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KAJARIACER.NS"}>KAJARIACER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KAKATCEM.NS"}>KAKATCEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KALPATPOWR.NS"}>KALPATPOWR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KALYANIFRG.NS"}>KALYANIFRG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KAMATHOTEL.NS"}>KAMATHOTEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KAMDHENU.NS"}>KAMDHENU.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KANANIIND.NS"}>KANANIIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KANORICHEM.NS"}>KANORICHEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KANSAINER.NS"}>KANSAINER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KAPSTON.NS"}>KAPSTON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KARDA.NS"}>KARDA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KARMAENG.NS"}>KARMAENG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KARURVYSYA.NS"}>KARURVYSYA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KAUSHALYA.NS"}>KAUSHALYA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KAYA.NS"}>KAYA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KCP.NS"}>KCP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KCPSUGIND.NS"}>KCPSUGIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KDDL.NS"}>KDDL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KEC.NS"}>KEC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KECL.NS"}>KECL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KEI.NS"}>KEI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KELLTONTEC.NS"}>KELLTONTEC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KENNAMET.NS"}>KENNAMET.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KERNEX.NS"}>KERNEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KESORAMIND.NS"}>KESORAMIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KEYFINSERV.NS"}>KEYFINSERV.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KGL.NS"}>KGL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KHADIM.NS"}>KHADIM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KHANDSE.NS"}>KHANDSE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KICL.NS"}>KICL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KILITCH.NS"}>KILITCH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KINGFA.NS"}>KINGFA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KIOCL.NS"}>KIOCL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KIRIINDUS.NS"}>KIRIINDUS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KIRLFER.NS"}>KIRLFER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KIRLOSBROS.NS"}>KIRLOSBROS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KIRLOSENG.NS"}>KIRLOSENG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KIRLOSIND.NS"}>KIRLOSIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KITEX.NS"}>KITEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KKCL.NS"}>KKCL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KMSUGAR.NS"}>KMSUGAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KNRCON.NS"}>KNRCON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KOHINOOR.NS"}>KOHINOOR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KOKUYOCMLN.NS"}>KOKUYOCMLN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KOLTEPATIL.NS"}>KOLTEPATIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KOPRAN.NS"}>KOPRAN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KOTAKBANK.NS"}>KOTAKBANK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KOTARISUG.NS"}>KOTARISUG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KOTHARIPET.NS"}>KOTHARIPET.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KOTHARIPRO.NS"}>KOTHARIPRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KPITTECH.NS"}>KPITTECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KPRMILL.NS"}>KPRMILL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KRBL.NS"}>KRBL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KREBSBIO.NS"}>KREBSBIO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KRIDHANINF.NS"}>KRIDHANINF.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KRISHANA.NS"}>KRISHANA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KSB.NS"}>KSB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KSCL.NS"}>KSCL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KSERASERA.NS"}>KSERASERA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KSL.NS"}>KSL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KTKBANK.NS"}>KTKBANK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KUANTUM.NS"}>KUANTUM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"KWALITY.NS"}>KWALITY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"L&TFH.NS"}>L&TFH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LAKPRE.NS"}>LAKPRE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LAKSHVILAS.NS"}>LAKSHVILAS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LALPATHLAB.NS"}>LALPATHLAB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LAMBODHARA.NS"}>LAMBODHARA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LAOPALA.NS"}>LAOPALA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LASA.NS"}>LASA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LAURUSLABS.NS"}>LAURUSLABS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LAXMIMACH.NS"}>LAXMIMACH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LEMONTREE.NS"}>LEMONTREE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LFIC.NS"}>LFIC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LGBBROSLTD.NS"}>LGBBROSLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LGBFORGE.NS"}>LGBFORGE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LIBAS.NS"}>LIBAS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LIBERTSHOE.NS"}>LIBERTSHOE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LICHSGFIN.NS"}>LICHSGFIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LINCOLN.NS"}>LINCOLN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LINCPEN.NS"}>LINCPEN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LINDEINDIA.NS"}>LINDEINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LOKESHMACH.NS"}>LOKESHMACH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LOTUSEYE.NS"}>LOTUSEYE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LOVABLE.NS"}>LOVABLE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LPDC.NS"}>LPDC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LSIL.NS"}>LSIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LT.NS"}>LT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LTI.NS"}>LTI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LTTS.NS"}>LTTS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LUMAXIND.NS"}>LUMAXIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LUMAXTECH.NS"}>LUMAXTECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LUPIN.NS"}>LUPIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LUXIND.NS"}>LUXIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LYKALABS.NS"}>LYKALABS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"LYPSAGEMS.NS"}>LYPSAGEMS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"M&M.NS"}>M&M.NS</option>
-        <option style={{marginLeft: "25px"}} value={"M&MFIN.NS"}>M&MFIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAANALU.NS"}>MAANALU.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MADHAV.NS"}>MADHAV.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MADRASFERT.NS"}>MADRASFERT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAGADSUGAR.NS"}>MAGADSUGAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAGMA.NS"}>MAGMA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAGNUM.NS"}>MAGNUM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAHABANK.NS"}>MAHABANK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAHAPEXLTD.NS"}>MAHAPEXLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAHASTEEL.NS"}>MAHASTEEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAHEPC.NS"}>MAHEPC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAHESHWARI.NS"}>MAHESHWARI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAHINDCIE.NS"}>MAHINDCIE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAHLIFE.NS"}>MAHLIFE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAHLOG.NS"}>MAHLOG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAHSCOOTER.NS"}>MAHSCOOTER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAHSEAMLES.NS"}>MAHSEAMLES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAITHANALL.NS"}>MAITHANALL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAJESCO.NS"}>MAJESCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MALUPAPER.NS"}>MALUPAPER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MANAKALUCO.NS"}>MANAKALUCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MANAKCOAT.NS"}>MANAKCOAT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MANAKSIA.NS"}>MANAKSIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MANAKSTEEL.NS"}>MANAKSTEEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MANALIPETC.NS"}>MANALIPETC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MANAPPURAM.NS"}>MANAPPURAM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MANGALAM.NS"}>MANGALAM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MANGCHEFER.NS"}>MANGCHEFER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MANGLMCEM.NS"}>MANGLMCEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MANGTIMBER.NS"}>MANGTIMBER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MANINDS.NS"}>MANINDS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MANINFRA.NS"}>MANINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MANUGRAPH.NS"}>MANUGRAPH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MARALOVER.NS"}>MARALOVER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MARATHON.NS"}>MARATHON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MARICO.NS"}>MARICO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MARKSANS.NS"}>MARKSANS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MARUTI.NS"}>MARUTI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MASFIN.NS"}>MASFIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MASKINVEST.NS"}>MASKINVEST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MASTEK.NS"}>MASTEK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MATRIMONY.NS"}>MATRIMONY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAWANASUG.NS"}>MAWANASUG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAXVIL.NS"}>MAXVIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAYURUNIQ.NS"}>MAYURUNIQ.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MAZDA.NS"}>MAZDA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MBAPL.NS"}>MBAPL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MBECL.NS"}>MBECL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MBLINFRA.NS"}>MBLINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MCDHOLDING.NS"}>MCDHOLDING.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MCDOWELL-N.NS"}>MCDOWELL-N.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MCLEODRUSS.NS"}>MCLEODRUSS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MCX.NS"}>MCX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MEGASOFT.NS"}>MEGASOFT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MEGH.NS"}>MEGH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MELSTAR.NS"}>MELSTAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MENONBE.NS"}>MENONBE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MEP.NS"}>MEP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MERCATOR.NS"}>MERCATOR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"METALFORGE.NS"}>METALFORGE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"METKORE.NS"}>METKORE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"METROPOLIS.NS"}>METROPOLIS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MFSL.NS"}>MFSL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MGL.NS"}>MGL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MHRIL.NS"}>MHRIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MIDHANI.NS"}>MIDHANI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MINDACORP.NS"}>MINDACORP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MINDAIND.NS"}>MINDAIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MINDTECK.NS"}>MINDTECK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MINDTREE.NS"}>MINDTREE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MIRCELECTR.NS"}>MIRCELECTR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MIRZAINT.NS"}>MIRZAINT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MITTAL.NS"}>MITTAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MMFL.NS"}>MMFL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MMP.NS"}>MMP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MMTC.NS"}>MMTC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MODIRUBBER.NS"}>MODIRUBBER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MOHITIND.NS"}>MOHITIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MOHOTAIND.NS"}>MOHOTAIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MOIL.NS"}>MOIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MOLDTECH.NS"}>MOLDTECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MOLDTKPAC.NS"}>MOLDTKPAC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MONTECARLO.NS"}>MONTECARLO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MORARJEE.NS"}>MORARJEE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MOREPENLAB.NS"}>MOREPENLAB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MOTHERSUMI.NS"}>MOTHERSUMI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MOTILALOFS.NS"}>MOTILALOFS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MOTOGENFIN.NS"}>MOTOGENFIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MPHASIS.NS"}>MPHASIS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MPSLTD.NS"}>MPSLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MRF.NS"}>MRF.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MRO-TEK.NS"}>MRO-TEK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MRPL.NS"}>MRPL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MSPL.NS"}>MSPL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MSTCLTD.NS"}>MSTCLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MTEDUCARE.NS"}>MTEDUCARE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MTNL.NS"}>MTNL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MUKANDENGG.NS"}>MUKANDENGG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MUKANDLTD.NS"}>MUKANDLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MUKTAARTS.NS"}>MUKTAARTS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MUNJALAU.NS"}>MUNJALAU.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MUNJALSHOW.NS"}>MUNJALSHOW.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MURUDCERA.NS"}>MURUDCERA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MUTHOOTCAP.NS"}>MUTHOOTCAP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"MUTHOOTFIN.NS"}>MUTHOOTFIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NACLIND.NS"}>NACLIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NAGAFERT.NS"}>NAGAFERT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NAGREEKCAP.NS"}>NAGREEKCAP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NAGREEKEXP.NS"}>NAGREEKEXP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NAHARCAP.NS"}>NAHARCAP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NAHARINDUS.NS"}>NAHARINDUS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NAHARPOLY.NS"}>NAHARPOLY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NAHARSPING.NS"}>NAHARSPING.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NAM-INDIA.NS"}>NAM-INDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NATCOPHARM.NS"}>NATCOPHARM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NATHBIOGEN.NS"}>NATHBIOGEN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NATIONALUM.NS"}>NATIONALUM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NATNLSTEEL.NS"}>NATNLSTEEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NAUKRI.NS"}>NAUKRI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NAVINFLUOR.NS"}>NAVINFLUOR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NAVKARCORP.NS"}>NAVKARCORP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NAVNETEDUL.NS"}>NAVNETEDUL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NBCC.NS"}>NBCC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NBIFIN.NS"}>NBIFIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NBVENTURES.NS"}>NBVENTURES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NCC.NS"}>NCC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NCLIND.NS"}>NCLIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NDGL.NS"}>NDGL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NDL.NS"}>NDL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NDTV.NS"}>NDTV.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NECCLTD.NS"}>NECCLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NECLIFE.NS"}>NECLIFE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NELCAST.NS"}>NELCAST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NELCO.NS"}>NELCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NEOGEN.NS"}>NEOGEN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NESCO.NS"}>NESCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NESTLEIND.NS"}>NESTLEIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NETWORK18.NS"}>NETWORK18.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NEULANDLAB.NS"}>NEULANDLAB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NEWGEN.NS"}>NEWGEN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NEXTMEDIA.NS"}>NEXTMEDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NFL.NS"}>NFL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NH.NS"}>NH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NHPC.NS"}>NHPC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NIACL.NS"}>NIACL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NIBL.NS"}>NIBL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NIITLTD.NS"}>NIITLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NIITTECH.NS"}>NIITTECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NILAINFRA.NS"}>NILAINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NILASPACES.NS"}>NILASPACES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NILKAMAL.NS"}>NILKAMAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NIPPOBATRY.NS"}>NIPPOBATRY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NITCO.NS"}>NITCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NITINFIRE.NS"}>NITINFIRE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NITINSPIN.NS"}>NITINSPIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NKIND.NS"}>NKIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NLCINDIA.NS"}>NLCINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NMDC.NS"}>NMDC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NOCIL.NS"}>NOCIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NOIDATOLL.NS"}>NOIDATOLL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NORBTEAEXP.NS"}>NORBTEAEXP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NRAIL.NS"}>NRAIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NRBBEARING.NS"}>NRBBEARING.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NSIL.NS"}>NSIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NTL.NS"}>NTL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NTPC.NS"}>NTPC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NUCLEUS.NS"}>NUCLEUS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"NXTDIGITAL.NS"}>NXTDIGITAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"OAL.NS"}>OAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"OBEROIRLTY.NS"}>OBEROIRLTY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"OCCL.NS"}>OCCL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"OFSS.NS"}>OFSS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"OIL.NS"}>OIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"OILCOUNTUB.NS"}>OILCOUNTUB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"OISL.NS"}>OISL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"OLECTRA.NS"}>OLECTRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"OMAXAUTO.NS"}>OMAXAUTO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"OMAXE.NS"}>OMAXE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"OMKARCHEM.NS"}>OMKARCHEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"OMMETALS.NS"}>OMMETALS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ONELIFECAP.NS"}>ONELIFECAP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ONEPOINT.NS"}>ONEPOINT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ONGC.NS"}>ONGC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ONMOBILE.NS"}>ONMOBILE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ONWARDTEC.NS"}>ONWARDTEC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"OPTIEMUS.NS"}>OPTIEMUS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"OPTOCIRCUI.NS"}>OPTOCIRCUI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ORBTEXP.NS"}>ORBTEXP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ORICONENT.NS"}>ORICONENT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ORIENTABRA.NS"}>ORIENTABRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ORIENTALTL.NS"}>ORIENTALTL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ORIENTBELL.NS"}>ORIENTBELL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ORIENTCEM.NS"}>ORIENTCEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ORIENTELEC.NS"}>ORIENTELEC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ORIENTHOT.NS"}>ORIENTHOT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ORIENTLTD.NS"}>ORIENTLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ORIENTPPR.NS"}>ORIENTPPR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ORIENTREF.NS"}>ORIENTREF.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ORISSAMINE.NS"}>ORISSAMINE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ORTEL.NS"}>ORTEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ORTINLABSS.NS"}>ORTINLABSS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"OSWALAGRO.NS"}>OSWALAGRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PAEL.NS"}>PAEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PAGEIND.NS"}>PAGEIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PAISALO.NS"}>PAISALO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PALASHSECU.NS"}>PALASHSECU.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PALREDTEC.NS"}>PALREDTEC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PANACEABIO.NS"}>PANACEABIO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PANACHE.NS"}>PANACHE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PANAMAPET.NS"}>PANAMAPET.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PAPERPROD.NS"}>PAPERPROD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PARABDRUGS.NS"}>PARABDRUGS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PARACABLES.NS"}>PARACABLES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PARAGMILK.NS"}>PARAGMILK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PARSVNATH.NS"}>PARSVNATH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PATELENG.NS"}>PATELENG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PATINTLOG.NS"}>PATINTLOG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PATSPINLTD.NS"}>PATSPINLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PCJEWELLER.NS"}>PCJEWELLER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PDMJEPAPER.NS"}>PDMJEPAPER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PDSMFL.NS"}>PDSMFL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PEARLPOLY.NS"}>PEARLPOLY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PEL.NS"}>PEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PENIND.NS"}>PENIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PENINLAND.NS"}>PENINLAND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PERSISTENT.NS"}>PERSISTENT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PETRONET.NS"}>PETRONET.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PFC.NS"}>PFC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PFIZER.NS"}>PFIZER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PFOCUS.NS"}>PFOCUS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PFS.NS"}>PFS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PGEL.NS"}>PGEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PGHH.NS"}>PGHH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PGHL.NS"}>PGHL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PGIL.NS"}>PGIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PHILIPCARB.NS"}>PHILIPCARB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PHOENIXLTD.NS"}>PHOENIXLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PIDILITIND.NS"}>PIDILITIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PIIND.NS"}>PIIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PILANIINVS.NS"}>PILANIINVS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PILITA.NS"}>PILITA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PIONDIST.NS"}>PIONDIST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PIONEEREMB.NS"}>PIONEEREMB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PITTIENG.NS"}>PITTIENG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PKTEA.NS"}>PKTEA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PLASTIBLEN.NS"}>PLASTIBLEN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PNB.NS"}>PNB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PNBGILTS.NS"}>PNBGILTS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PNBHOUSING.NS"}>PNBHOUSING.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PNC.NS"}>PNC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PNCINFRA.NS"}>PNCINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PODDARHOUS.NS"}>PODDARHOUS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PODDARMENT.NS"}>PODDARMENT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"POKARNA.NS"}>POKARNA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"POLYCAB.NS"}>POLYCAB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"POLYMED.NS"}>POLYMED.NS</option>
-        <option style={{marginLeft: "25px"}} value={"POLYPLEX.NS"}>POLYPLEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PONNIERODE.NS"}>PONNIERODE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"POWERGRID.NS"}>POWERGRID.NS</option>
-        <option style={{marginLeft: "25px"}} value={"POWERINDIA.NS"}>POWERINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"POWERMECH.NS"}>POWERMECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PPAP.NS"}>PPAP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PPL.NS"}>PPL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PRABHAT.NS"}>PRABHAT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PRADIP.NS"}>PRADIP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PRAENG.NS"}>PRAENG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PRAJIND.NS"}>PRAJIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PRAKASH.NS"}>PRAKASH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PRAKASHSTL.NS"}>PRAKASHSTL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PRAXIS.NS"}>PRAXIS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PRECAM.NS"}>PRECAM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PRECOT.NS"}>PRECOT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PRECWIRE.NS"}>PRECWIRE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PREMEXPLN.NS"}>PREMEXPLN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PREMIER.NS"}>PREMIER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PREMIERPOL.NS"}>PREMIERPOL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PRESSMN.NS"}>PRESSMN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PRESTIGE.NS"}>PRESTIGE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PRICOLLTD.NS"}>PRICOLLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PRIMESECU.NS"}>PRIMESECU.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PRINCEPIPE.NS"}>PRINCEPIPE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PROZONINTU.NS"}>PROZONINTU.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PRSMJOHNSN.NS"}>PRSMJOHNSN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PSB.NS"}>PSB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PSPPROJECT.NS"}>PSPPROJECT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PTC.NS"}>PTC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PTL.NS"}>PTL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PUNJABCHEM.NS"}>PUNJABCHEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PUNJLLOYD.NS"}>PUNJLLOYD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PURVA.NS"}>PURVA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"PVR.NS"}>PVR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"QUESS.NS"}>QUESS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"QUICKHEAL.NS"}>QUICKHEAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RADAAN.NS"}>RADAAN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RADICO.NS"}>RADICO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RADIOCITY.NS"}>RADIOCITY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RAIN.NS"}>RAIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RAJESHEXPO.NS"}>RAJESHEXPO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RAJRATAN.NS"}>RAJRATAN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RAJSREESUG.NS"}>RAJSREESUG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RAJTV.NS"}>RAJTV.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RALLIS.NS"}>RALLIS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RAMANEWS.NS"}>RAMANEWS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RAMASTEEL.NS"}>RAMASTEEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RAMCOCEM.NS"}>RAMCOCEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RAMCOIND.NS"}>RAMCOIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RAMCOSYS.NS"}>RAMCOSYS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RAMKY.NS"}>RAMKY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RANASUG.NS"}>RANASUG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RANEENGINE.NS"}>RANEENGINE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RANEHOLDIN.NS"}>RANEHOLDIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RATNAMANI.NS"}>RATNAMANI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RAYMOND.NS"}>RAYMOND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RBL.NS"}>RBL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RBLBANK.NS"}>RBLBANK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RCOM.NS"}>RCOM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RECLTD.NS"}>RECLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"REDINGTON.NS"}>REDINGTON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"REFEX.NS"}>REFEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RELAXO.NS"}>RELAXO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RELCAPITAL.NS"}>RELCAPITAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RELIANCE.NS"}>RELIANCE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RELIGARE.NS"}>RELIGARE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RELINFRA.NS"}>RELINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"REMSONSIND.NS"}>REMSONSIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RENUKA.NS"}>RENUKA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"REPCOHOME.NS"}>REPCOHOME.NS</option>
-        <option style={{marginLeft: "25px"}} value={"REPRO.NS"}>REPRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RESPONIND.NS"}>RESPONIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"REVATHI.NS"}>REVATHI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RGL.NS"}>RGL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RHFL.NS"}>RHFL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RICOAUTO.NS"}>RICOAUTO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RIIL.NS"}>RIIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RITES.NS"}>RITES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RKDL.NS"}>RKDL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RKFORGE.NS"}>RKFORGE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RMCL.NS"}>RMCL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RML.NS"}>RML.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RNAVAL.NS"}>RNAVAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ROHITFERRO.NS"}>ROHITFERRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ROHLTD.NS"}>ROHLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ROLLT.NS"}>ROLLT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ROLTA.NS"}>ROLTA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ROSSELLIND.NS"}>ROSSELLIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RPGLIFE.NS"}>RPGLIFE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RPOWER.NS"}>RPOWER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RPPINFRA.NS"}>RPPINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RSSOFTWARE.NS"}>RSSOFTWARE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RSWM.NS"}>RSWM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RSYSTEMS.NS"}>RSYSTEMS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RTNINFRA.NS"}>RTNINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RTNPOWER.NS"}>RTNPOWER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RUBYMILLS.NS"}>RUBYMILLS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RUCHI.NS"}>RUCHI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RUCHINFRA.NS"}>RUCHINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RUCHIRA.NS"}>RUCHIRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RUPA.NS"}>RUPA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RUSHIL.NS"}>RUSHIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"RVNL.NS"}>RVNL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"S&SPOWER.NS"}>S&SPOWER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SABEVENTS.NS"}>SABEVENTS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SADBHAV.NS"}>SADBHAV.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SADBHIN.NS"}>SADBHIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SAFARI.NS"}>SAFARI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SAGARDEEP.NS"}>SAGARDEEP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SAGCEM.NS"}>SAGCEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SAIL.NS"}>SAIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SAKAR.NS"}>SAKAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SAKHTISUG.NS"}>SAKHTISUG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SAKSOFT.NS"}>SAKSOFT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SAKUMA.NS"}>SAKUMA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SALASAR.NS"}>SALASAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SALONA.NS"}>SALONA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SALSTEEL.NS"}>SALSTEEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SALZERELEC.NS"}>SALZERELEC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SAMBHAAV.NS"}>SAMBHAAV.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SANCO.NS"}>SANCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SANDESH.NS"}>SANDESH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SANDHAR.NS"}>SANDHAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SANGAMIND.NS"}>SANGAMIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SANGHIIND.NS"}>SANGHIIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SANGHVIFOR.NS"}>SANGHVIFOR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SANGHVIMOV.NS"}>SANGHVIMOV.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SANGINITA.NS"}>SANGINITA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SANOFI.NS"}>SANOFI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SANWARIA.NS"}>SANWARIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SARDAEN.NS"}>SARDAEN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SAREGAMA.NS"}>SAREGAMA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SARLAPOLY.NS"}>SARLAPOLY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SASKEN.NS"}>SASKEN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SASTASUNDR.NS"}>SASTASUNDR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SATHAISPAT.NS"}>SATHAISPAT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SATIA.NS"}>SATIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SATIN.NS"}>SATIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SBICARD.NS"}>SBICARD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SBILIFE.NS"}>SBILIFE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SBIN.NS"}>SBIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SCAPDVR.NS"}>SCAPDVR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SCHAEFFLER.NS"}>SCHAEFFLER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SCHAND.NS"}>SCHAND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SCHNEIDER.NS"}>SCHNEIDER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SCI.NS"}>SCI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SDBL.NS"}>SDBL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SEAMECLTD.NS"}>SEAMECLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SELAN.NS"}>SELAN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SELMCL.NS"}>SELMCL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SEPOWER.NS"}>SEPOWER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SEQUENT.NS"}>SEQUENT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SESHAPAPER.NS"}>SESHAPAPER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SETCO.NS"}>SETCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SETUINFRA.NS"}>SETUINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SEYAIND.NS"}>SEYAIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SEZAL.NS"}>SEZAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SFL.NS"}>SFL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SGL.NS"}>SGL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHAHALLOYS.NS"}>SHAHALLOYS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHAKTIPUMP.NS"}>SHAKTIPUMP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHALBY.NS"}>SHALBY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHALPAINTS.NS"}>SHALPAINTS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHANKARA.NS"}>SHANKARA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHANTIGEAR.NS"}>SHANTIGEAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHARDACROP.NS"}>SHARDACROP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHARDAMOTR.NS"}>SHARDAMOTR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHEMAROO.NS"}>SHEMAROO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHIL.NS"}>SHIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHILPAMED.NS"}>SHILPAMED.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHIRPUR-G.NS"}>SHIRPUR-G.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHIVAMAUTO.NS"}>SHIVAMAUTO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHIVAMILLS.NS"}>SHIVAMILLS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHIVATEX.NS"}>SHIVATEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHK.NS"}>SHK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHOPERSTOP.NS"}>SHOPERSTOP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHREDIGCEM.NS"}>SHREDIGCEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHREECEM.NS"}>SHREECEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHREEPUSHK.NS"}>SHREEPUSHK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHREERAMA.NS"}>SHREERAMA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHRENIK.NS"}>SHRENIK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHREYANIND.NS"}>SHREYANIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHREYAS.NS"}>SHREYAS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHRIPISTON.NS"}>SHRIPISTON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHRIRAMCIT.NS"}>SHRIRAMCIT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHRIRAMEPC.NS"}>SHRIRAMEPC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHYAMCENT.NS"}>SHYAMCENT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SHYAMTEL.NS"}>SHYAMTEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SICAGEN.NS"}>SICAGEN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SICAL.NS"}>SICAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SIEMENS.NS"}>SIEMENS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SIGIND.NS"}>SIGIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SIL.NS"}>SIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SILINV.NS"}>SILINV.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SILLYMONKS.NS"}>SILLYMONKS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SIMBHALS.NS"}>SIMBHALS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SIMPLEXINF.NS"}>SIMPLEXINF.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SINTEX.NS"}>SINTEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SIRCA.NS"}>SIRCA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SIS.NS"}>SIS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SITINET.NS"}>SITINET.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SIYSIL.NS"}>SIYSIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SJVN.NS"}>SJVN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SKFINDIA.NS"}>SKFINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SKIL.NS"}>SKIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SKIPPER.NS"}>SKIPPER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SKMEGGPROD.NS"}>SKMEGGPROD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SMARTLINK.NS"}>SMARTLINK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SMLISUZU.NS"}>SMLISUZU.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SMSLIFE.NS"}>SMSLIFE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SMSPHARMA.NS"}>SMSPHARMA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SNOWMAN.NS"}>SNOWMAN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SOBHA.NS"}>SOBHA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SOLARA.NS"}>SOLARA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SOLARINDS.NS"}>SOLARINDS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SOMANYCERA.NS"}>SOMANYCERA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SOMATEX.NS"}>SOMATEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SOMICONVEY.NS"}>SOMICONVEY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SONATSOFTW.NS"}>SONATSOFTW.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SORILINFRA.NS"}>SORILINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SOTL.NS"}>SOTL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SOUTHBANK.NS"}>SOUTHBANK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SOUTHWEST.NS"}>SOUTHWEST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SPAL.NS"}>SPAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SPANDANA.NS"}>SPANDANA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SPARC.NS"}>SPARC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SPECIALITY.NS"}>SPECIALITY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SPENCERS.NS"}>SPENCERS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SPENTEX.NS"}>SPENTEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SPIC.NS"}>SPIC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SPICEJET.NS"}>SPICEJET.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SPLIL.NS"}>SPLIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SPMLINFRA.NS"}>SPMLINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SPTL.NS"}>SPTL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SREEL.NS"}>SREEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SREINFRA.NS"}>SREINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SRF.NS"}>SRF.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SRHHYPOLTD.NS"}>SRHHYPOLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SRIPIPES.NS"}>SRIPIPES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SRTRANSFIN.NS"}>SRTRANSFIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SSWL.NS"}>SSWL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"STAR.NS"}>STAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"STARCEMENT.NS"}>STARCEMENT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"STARPAPER.NS"}>STARPAPER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"STEELCITY.NS"}>STEELCITY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"STEELXIND.NS"}>STEELXIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"STEL.NS"}>STEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"STERTOOLS.NS"}>STERTOOLS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"STINDIA.NS"}>STINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"STRTECH.NS"}>STRTECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUBEX.NS"}>SUBEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUBROS.NS"}>SUBROS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUDARSCHEM.NS"}>SUDARSCHEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUMEETINDS.NS"}>SUMEETINDS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUMICHEM.NS"}>SUMICHEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUMIT.NS"}>SUMIT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUMMITSEC.NS"}>SUMMITSEC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUNCLAYLTD.NS"}>SUNCLAYLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUNDARAM.NS"}>SUNDARAM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUNDARMFIN.NS"}>SUNDARMFIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUNDARMHLD.NS"}>SUNDARMHLD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUNDRMBRAK.NS"}>SUNDRMBRAK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUNDRMFAST.NS"}>SUNDRMFAST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUNFLAG.NS"}>SUNFLAG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUNPHARMA.NS"}>SUNPHARMA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUNTECK.NS"}>SUNTECK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUNTV.NS"}>SUNTV.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUPERHOUSE.NS"}>SUPERHOUSE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUPERSPIN.NS"}>SUPERSPIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUPPETRO.NS"}>SUPPETRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUPRAJIT.NS"}>SUPRAJIT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUPREMEIND.NS"}>SUPREMEIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUPREMEINF.NS"}>SUPREMEINF.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SURANASOL.NS"}>SURANASOL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SURANAT&P.NS"}>SURANAT&P.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SURYALAXMI.NS"}>SURYALAXMI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SURYAROSNI.NS"}>SURYAROSNI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUTLEJTEX.NS"}>SUTLEJTEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUVEN.NS"}>SUVEN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUVENPHAR.NS"}>SUVENPHAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SUZLON.NS"}>SUZLON.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SWANENERGY.NS"}>SWANENERGY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SWARAJENG.NS"}>SWARAJENG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SWELECTES.NS"}>SWELECTES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SWSOLAR.NS"}>SWSOLAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SYMPHONY.NS"}>SYMPHONY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SYNCOM.NS"}>SYNCOM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"SYNGENE.NS"}>SYNGENE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TAINWALCHM.NS"}>TAINWALCHM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TAJGVK.NS"}>TAJGVK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TAKE.NS"}>TAKE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TALBROAUTO.NS"}>TALBROAUTO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TALWALKARS.NS"}>TALWALKARS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TALWGYM.NS"}>TALWGYM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TANLA.NS"}>TANLA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TANTIACONS.NS"}>TANTIACONS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TARMAT.NS"}>TARMAT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TASTYBITE.NS"}>TASTYBITE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TATACHEM.NS"}>TATACHEM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TATACOFFEE.NS"}>TATACOFFEE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TATACOMM.NS"}>TATACOMM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TATACONSUM.NS"}>TATACONSUM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TATAELXSI.NS"}>TATAELXSI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TATAINVEST.NS"}>TATAINVEST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TATAMETALI.NS"}>TATAMETALI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TATAMOTORS.NS"}>TATAMOTORS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TATAMTRDVR.NS"}>TATAMTRDVR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TATAPOWER.NS"}>TATAPOWER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TATASTEEL.NS"}>TATASTEEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TATASTLBSL.NS"}>TATASTLBSL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TATASTLLP.NS"}>TATASTLLP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TBZ.NS"}>TBZ.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TCI.NS"}>TCI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TCIDEVELOP.NS"}>TCIDEVELOP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TCIEXP.NS"}>TCIEXP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TCIFINANCE.NS"}>TCIFINANCE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TCNSBRANDS.NS"}>TCNSBRANDS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TCPLPACK.NS"}>TCPLPACK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TCS.NS"}>TCS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TDPOWERSYS.NS"}>TDPOWERSYS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TEAMLEASE.NS"}>TEAMLEASE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TECHIN.NS"}>TECHIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TECHM.NS"}>TECHM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TECHNOE.NS"}>TECHNOE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TECHNOFAB.NS"}>TECHNOFAB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TEJASNET.NS"}>TEJASNET.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TERASOFT.NS"}>TERASOFT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TEXINFRA.NS"}>TEXINFRA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TEXMOPIPES.NS"}>TEXMOPIPES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TEXRAIL.NS"}>TEXRAIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TFCILTD.NS"}>TFCILTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TFL.NS"}>TFL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TGBHOTELS.NS"}>TGBHOTELS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"THANGAMAYL.NS"}>THANGAMAYL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"THEINVEST.NS"}>THEINVEST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"THEMISMED.NS"}>THEMISMED.NS</option>
-        <option style={{marginLeft: "25px"}} value={"THERMAX.NS"}>THERMAX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"THIRUSUGAR.NS"}>THIRUSUGAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"THOMASCOOK.NS"}>THOMASCOOK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"THOMASCOTT.NS"}>THOMASCOTT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"THYROCARE.NS"}>THYROCARE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TI.NS"}>TI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TIDEWATER.NS"}>TIDEWATER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TIIL.NS"}>TIIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TIINDIA.NS"}>TIINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TIJARIA.NS"}>TIJARIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TIL.NS"}>TIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TIMESGTY.NS"}>TIMESGTY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TIMETECHNO.NS"}>TIMETECHNO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TIMKEN.NS"}>TIMKEN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TINPLATE.NS"}>TINPLATE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TIPSINDLTD.NS"}>TIPSINDLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TIRUMALCHM.NS"}>TIRUMALCHM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TITAN.NS"}>TITAN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TMRVL.NS"}>TMRVL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TNPETRO.NS"}>TNPETRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TNPL.NS"}>TNPL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TNTELE.NS"}>TNTELE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TOKYOPLAST.NS"}>TOKYOPLAST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TORNTPHARM.NS"}>TORNTPHARM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TORNTPOWER.NS"}>TORNTPOWER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TOUCHWOOD.NS"}>TOUCHWOOD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TPLPLASTEH.NS"}>TPLPLASTEH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TREEHOUSE.NS"}>TREEHOUSE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TREJHARA.NS"}>TREJHARA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TRENT.NS"}>TRENT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TRF.NS"}>TRF.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TRIDENT.NS"}>TRIDENT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TRIGYN.NS"}>TRIGYN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TRIL.NS"}>TRIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TRITURBINE.NS"}>TRITURBINE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TRIVENI.NS"}>TRIVENI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TTKHLTCARE.NS"}>TTKHLTCARE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TTKPRESTIG.NS"}>TTKPRESTIG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TTL.NS"}>TTL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TTML.NS"}>TTML.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TV18BRDCST.NS"}>TV18BRDCST.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TVSELECT.NS"}>TVSELECT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TVSMOTOR.NS"}>TVSMOTOR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TVSSRICHAK.NS"}>TVSSRICHAK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TVTODAY.NS"}>TVTODAY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TVVISION.NS"}>TVVISION.NS</option>
-        <option style={{marginLeft: "25px"}} value={"TWL.NS"}>TWL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UBL.NS"}>UBL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UCALFUEL.NS"}>UCALFUEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UCOBANK.NS"}>UCOBANK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UFLEX.NS"}>UFLEX.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UFO.NS"}>UFO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UGARSUGAR.NS"}>UGARSUGAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UJAAS.NS"}>UJAAS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UJJIVAN.NS"}>UJJIVAN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UJJIVANSFB.NS"}>UJJIVANSFB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ULTRACEMCO.NS"}>ULTRACEMCO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UMANGDAIRY.NS"}>UMANGDAIRY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UNICHEMLAB.NS"}>UNICHEMLAB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UNIENTER.NS"}>UNIENTER.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UNIONBANK.NS"}>UNIONBANK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UNIPLY.NS"}>UNIPLY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UNITECH.NS"}>UNITECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UNITEDTEA.NS"}>UNITEDTEA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UNITY.NS"}>UNITY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UNIVASTU.NS"}>UNIVASTU.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UNIVCABLES.NS"}>UNIVCABLES.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UNIVPHOTO.NS"}>UNIVPHOTO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UPL.NS"}>UPL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"URJA.NS"}>URJA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"USHAMART.NS"}>USHAMART.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UTTAMSTL.NS"}>UTTAMSTL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UTTAMSUGAR.NS"}>UTTAMSUGAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"UVSL.NS"}>UVSL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"V2RETAIL.NS"}>V2RETAIL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VADILALIND.NS"}>VADILALIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VAIBHAVGBL.NS"}>VAIBHAVGBL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VAISHALI.NS"}>VAISHALI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VAKRANGEE.NS"}>VAKRANGEE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VARDHACRLC.NS"}>VARDHACRLC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VARDMNPOLY.NS"}>VARDMNPOLY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VARROC.NS"}>VARROC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VASCONEQ.NS"}>VASCONEQ.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VASWANI.NS"}>VASWANI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VBL.NS"}>VBL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VEDL.NS"}>VEDL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VENKEYS.NS"}>VENKEYS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VENUSREM.NS"}>VENUSREM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VERTOZ.NS"}>VERTOZ.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VESUVIUS.NS"}>VESUVIUS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VETO.NS"}>VETO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VGUARD.NS"}>VGUARD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VHL.NS"}>VHL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VICEROY.NS"}>VICEROY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VIDEOIND.NS"}>VIDEOIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VIDHIING.NS"}>VIDHIING.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VIJIFIN.NS"}>VIJIFIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VIKASECO.NS"}>VIKASECO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VIKASMCORP.NS"}>VIKASMCORP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VIKASPROP.NS"}>VIKASPROP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VIKASWSP.NS"}>VIKASWSP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VIMTALABS.NS"}>VIMTALABS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VINATIORGA.NS"}>VINATIORGA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VINDHYATEL.NS"}>VINDHYATEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VINYLINDIA.NS"}>VINYLINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VIPCLOTHNG.NS"}>VIPCLOTHNG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VIPIND.NS"}>VIPIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VIPULLTD.NS"}>VIPULLTD.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VISAKAIND.NS"}>VISAKAIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VISASTEEL.NS"}>VISASTEEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VISHAL.NS"}>VISHAL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VISHNU.NS"}>VISHNU.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VISHWARAJ.NS"}>VISHWARAJ.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VIVIDHA.NS"}>VIVIDHA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VIVIMEDLAB.NS"}>VIVIMEDLAB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VLSFINANCE.NS"}>VLSFINANCE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VMART.NS"}>VMART.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VOLTAMP.NS"}>VOLTAMP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VOLTAS.NS"}>VOLTAS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VRLLOG.NS"}>VRLLOG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VSSL.NS"}>VSSL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VSTIND.NS"}>VSTIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VSTTILLERS.NS"}>VSTTILLERS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"VTL.NS"}>VTL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WABAG.NS"}>WABAG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WABCOINDIA.NS"}>WABCOINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WALCHANNAG.NS"}>WALCHANNAG.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WANBURY.NS"}>WANBURY.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WATERBASE.NS"}>WATERBASE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WEBELSOLAR.NS"}>WEBELSOLAR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WEIZMANIND.NS"}>WEIZMANIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WELCORP.NS"}>WELCORP.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WELENT.NS"}>WELENT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WELINV.NS"}>WELINV.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WELSPUNIND.NS"}>WELSPUNIND.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WENDT.NS"}>WENDT.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WESTLIFE.NS"}>WESTLIFE.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WHEELS.NS"}>WHEELS.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WHIRLPOOL.NS"}>WHIRLPOOL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WILLAMAGOR.NS"}>WILLAMAGOR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WINDMACHIN.NS"}>WINDMACHIN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WIPL.NS"}>WIPL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WIPRO.NS"}>WIPRO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WOCKPHARMA.NS"}>WOCKPHARMA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WONDERLA.NS"}>WONDERLA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WSI.NS"}>WSI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"WSTCSTPAPR.NS"}>WSTCSTPAPR.NS</option>
-        <option style={{marginLeft: "25px"}} value={"XCHANGING.NS"}>XCHANGING.NS</option>
-        <option style={{marginLeft: "25px"}} value={"XELPMOC.NS"}>XELPMOC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"XPROINDIA.NS"}>XPROINDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"YESBANK.NS"}>YESBANK.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ZEEL.NS"}>ZEEL.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ZEELEARN.NS"}>ZEELEARN.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ZEEMEDIA.NS"}>ZEEMEDIA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ZENITHEXPO.NS"}>ZENITHEXPO.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ZENSARTECH.NS"}>ZENSARTECH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ZENTEC.NS"}>ZENTEC.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ZICOM.NS"}>ZICOM.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ZODIACLOTH.NS"}>ZODIACLOTH.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ZODJRDMKJ.NS"}>ZODJRDMKJ.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ZOTA.NS"}>ZOTA.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ZUARI.NS"}>ZUARI.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ZUARIGLOB.NS"}>ZUARIGLOB.NS</option>
-        <option style={{marginLeft: "25px"}} value={"ZYDUSWELL.NS"}>ZYDUSWELL.NS</option>
+        <MenuItem value={"20MICRONS.NS"}>20MICRONS.NS</MenuItem>
+        <MenuItem value={"21STCENMGM.NS"}>21STCENMGM.NS</MenuItem>
+        <MenuItem value={"3IINFOTECH.NS"}>3IINFOTECH.NS</MenuItem>
+        <MenuItem value={"3MINDIA.NS"}>3MINDIA.NS</MenuItem>
+        <MenuItem value={"3PLAND.NS"}>3PLAND.NS</MenuItem>
+        <MenuItem value={"5PAISA.NS"}>5PAISA.NS</MenuItem>
+        <MenuItem value={"63MOONS.NS"}>63MOONS.NS</MenuItem>
+        <MenuItem value={"A2ZINFRA.NS"}>A2ZINFRA.NS</MenuItem>
+        <MenuItem value={"AARTIDRUGS.NS"}>AARTIDRUGS.NS</MenuItem>
+        <MenuItem value={"AARTIIND.NS"}>AARTIIND.NS</MenuItem>
+        <MenuItem value={"AARVEEDEN.NS"}>AARVEEDEN.NS</MenuItem>
+        <MenuItem value={"AARVI.NS"}>AARVI.NS</MenuItem>
+        <MenuItem value={"AAVAS.NS"}>AAVAS.NS</MenuItem>
+        <MenuItem value={"ABAN.NS"}>ABAN.NS</MenuItem>
+        <MenuItem value={"ABB.NS"}>ABB.NS</MenuItem>
+        <MenuItem value={"ABBOTINDIA.NS"}>ABBOTINDIA.NS</MenuItem>
+        <MenuItem value={"ABCAPITAL.NS"}>ABCAPITAL.NS</MenuItem>
+        <MenuItem value={"ABFRL.NS"}>ABFRL.NS</MenuItem>
+        <MenuItem value={"ABMINTLTD.NS"}>ABMINTLTD.NS</MenuItem>
+        <MenuItem value={"ACC.NS"}>ACC.NS</MenuItem>
+        <MenuItem value={"ACCELYA.NS"}>ACCELYA.NS</MenuItem>
+        <MenuItem value={"ACE.NS"}>ACE.NS</MenuItem>
+        <MenuItem value={"ADANIENT.NS"}>ADANIENT.NS</MenuItem>
+        <MenuItem value={"ADANIGAS.NS"}>ADANIGAS.NS</MenuItem>
+        <MenuItem value={"ADANIGREEN.NS"}>ADANIGREEN.NS</MenuItem>
+        <MenuItem value={"ADANIPORTS.NS"}>ADANIPORTS.NS</MenuItem>
+        <MenuItem value={"ADANIPOWER.NS"}>ADANIPOWER.NS</MenuItem>
+        <MenuItem value={"ADANITRANS.NS"}>ADANITRANS.NS</MenuItem>
+        <MenuItem value={"ADFFOODS.NS"}>ADFFOODS.NS</MenuItem>
+        <MenuItem value={"ADHUNIKIND.NS"}>ADHUNIKIND.NS</MenuItem>
+        <MenuItem value={"ADORWELD.NS"}>ADORWELD.NS</MenuItem>
+        <MenuItem value={"ADROITINFO.NS"}>ADROITINFO.NS</MenuItem>
+        <MenuItem value={"ADSL.NS"}>ADSL.NS</MenuItem>
+        <MenuItem value={"ADVANIHOTR.NS"}>ADVANIHOTR.NS</MenuItem>
+        <MenuItem value={"ADVENZYMES.NS"}>ADVENZYMES.NS</MenuItem>
+        <MenuItem value={"AEGISCHEM.NS"}>AEGISCHEM.NS</MenuItem>
+        <MenuItem value={"AFFLE.NS"}>AFFLE.NS</MenuItem>
+        <MenuItem value={"AGARIND.NS"}>AGARIND.NS</MenuItem>
+        <MenuItem value={"AGCNET.NS"}>AGCNET.NS</MenuItem>
+        <MenuItem value={"AGRITECH.NS"}>AGRITECH.NS</MenuItem>
+        <MenuItem value={"AGROPHOS.NS"}>AGROPHOS.NS</MenuItem>
+        <MenuItem value={"AHLEAST.NS"}>AHLEAST.NS</MenuItem>
+        <MenuItem value={"AHLUCONT.NS"}>AHLUCONT.NS</MenuItem>
+        <MenuItem value={"AHLWEST.NS"}>AHLWEST.NS</MenuItem>
+        <MenuItem value={"AIAENG.NS"}>AIAENG.NS</MenuItem>
+        <MenuItem value={"AIONJSW.NS"}>AIONJSW.NS</MenuItem>
+        <MenuItem value={"AIRAN.NS"}>AIRAN.NS</MenuItem>
+        <MenuItem value={"AJANTPHARM.NS"}>AJANTPHARM.NS</MenuItem>
+        <MenuItem value={"AJMERA.NS"}>AJMERA.NS</MenuItem>
+        <MenuItem value={"AKASH.NS"}>AKASH.NS</MenuItem>
+        <MenuItem value={"AKSHARCHEM.NS"}>AKSHARCHEM.NS</MenuItem>
+        <MenuItem value={"AKSHOPTFBR.NS"}>AKSHOPTFBR.NS</MenuItem>
+        <MenuItem value={"AKZOINDIA.NS"}>AKZOINDIA.NS</MenuItem>
+        <MenuItem value={"ALANKIT.NS"}>ALANKIT.NS</MenuItem>
+        <MenuItem value={"ALBERTDAVD.NS"}>ALBERTDAVD.NS</MenuItem>
+        <MenuItem value={"ALCHEM.NS"}>ALCHEM.NS</MenuItem>
+        <MenuItem value={"ALEMBICLTD.NS"}>ALEMBICLTD.NS</MenuItem>
+        <MenuItem value={"ALICON.NS"}>ALICON.NS</MenuItem>
+        <MenuItem value={"ALKALI.NS"}>ALKALI.NS</MenuItem>
+        <MenuItem value={"ALKEM.NS"}>ALKEM.NS</MenuItem>
+        <MenuItem value={"ALKYLAMINE.NS"}>ALKYLAMINE.NS</MenuItem>
+        <MenuItem value={"ALLCARGO.NS"}>ALLCARGO.NS</MenuItem>
+        <MenuItem value={"ALLSEC.NS"}>ALLSEC.NS</MenuItem>
+        <MenuItem value={"ALMONDZ.NS"}>ALMONDZ.NS</MenuItem>
+        <MenuItem value={"ALOKINDS.NS"}>ALOKINDS.NS</MenuItem>
+        <MenuItem value={"ALPA.NS"}>ALPA.NS</MenuItem>
+        <MenuItem value={"ALPHAGEO.NS"}>ALPHAGEO.NS</MenuItem>
+        <MenuItem value={"ALPSINDUS.NS"}>ALPSINDUS.NS</MenuItem>
+        <MenuItem value={"AMARAJABAT.NS"}>AMARAJABAT.NS</MenuItem>
+        <MenuItem value={"AMBER.NS"}>AMBER.NS</MenuItem>
+        <MenuItem value={"AMBIKCO.NS"}>AMBIKCO.NS</MenuItem>
+        <MenuItem value={"AMBUJACEM.NS"}>AMBUJACEM.NS</MenuItem>
+        <MenuItem value={"AMDIND.NS"}>AMDIND.NS</MenuItem>
+        <MenuItem value={"AMJLAND.NS"}>AMJLAND.NS</MenuItem>
+        <MenuItem value={"AMRUTANJAN.NS"}>AMRUTANJAN.NS</MenuItem>
+        <MenuItem value={"ANANTRAJ.NS"}>ANANTRAJ.NS</MenuItem>
+        <MenuItem value={"ANDHRACEMT.NS"}>ANDHRACEMT.NS</MenuItem>
+        <MenuItem value={"ANDHRAPAP.NS"}>ANDHRAPAP.NS</MenuItem>
+        <MenuItem value={"ANDHRSUGAR.NS"}>ANDHRSUGAR.NS</MenuItem>
+        <MenuItem value={"ANIKINDS.NS"}>ANIKINDS.NS</MenuItem>
+        <MenuItem value={"ANKITMETAL.NS"}>ANKITMETAL.NS</MenuItem>
+        <MenuItem value={"ANSALAPI.NS"}>ANSALAPI.NS</MenuItem>
+        <MenuItem value={"ANSALHSG.NS"}>ANSALHSG.NS</MenuItem>
+        <MenuItem value={"ANUP.NS"}>ANUP.NS</MenuItem>
+        <MenuItem value={"APARINDS.NS"}>APARINDS.NS</MenuItem>
+        <MenuItem value={"APCL.NS"}>APCL.NS</MenuItem>
+        <MenuItem value={"APCOTEXIND.NS"}>APCOTEXIND.NS</MenuItem>
+        <MenuItem value={"APEX.NS"}>APEX.NS</MenuItem>
+        <MenuItem value={"APLAPOLLO.NS"}>APLAPOLLO.NS</MenuItem>
+        <MenuItem value={"APLLTD.NS"}>APLLTD.NS</MenuItem>
+        <MenuItem value={"APOLLO.NS"}>APOLLO.NS</MenuItem>
+        <MenuItem value={"APOLLOHOSP.NS"}>APOLLOHOSP.NS</MenuItem>
+        <MenuItem value={"APOLLOPIPE.NS"}>APOLLOPIPE.NS</MenuItem>
+        <MenuItem value={"APOLLOTYRE.NS"}>APOLLOTYRE.NS</MenuItem>
+        <MenuItem value={"APOLSINHOT.NS"}>APOLSINHOT.NS</MenuItem>
+        <MenuItem value={"APTECHT.NS"}>APTECHT.NS</MenuItem>
+        <MenuItem value={"ARCHIDPLY.NS"}>ARCHIDPLY.NS</MenuItem>
+        <MenuItem value={"ARCHIES.NS"}>ARCHIES.NS</MenuItem>
+        <MenuItem value={"ARCOTECH.NS"}>ARCOTECH.NS</MenuItem>
+        <MenuItem value={"ARENTERP.NS"}>ARENTERP.NS</MenuItem>
+        <MenuItem value={"ARIES.NS"}>ARIES.NS</MenuItem>
+        <MenuItem value={"ARIHANT.NS"}>ARIHANT.NS</MenuItem>
+        <MenuItem value={"ARIHANTSUP.NS"}>ARIHANTSUP.NS</MenuItem>
+        <MenuItem value={"ARMANFIN.NS"}>ARMANFIN.NS</MenuItem>
+        <MenuItem value={"AROGRANITE.NS"}>AROGRANITE.NS</MenuItem>
+        <MenuItem value={"ARROWGREEN.NS"}>ARROWGREEN.NS</MenuItem>
+        <MenuItem value={"ARSHIYA.NS"}>ARSHIYA.NS</MenuItem>
+        <MenuItem value={"ARSSINFRA.NS"}>ARSSINFRA.NS</MenuItem>
+        <MenuItem value={"ARTEMISMED.NS"}>ARTEMISMED.NS</MenuItem>
+        <MenuItem value={"ARVIND.NS"}>ARVIND.NS</MenuItem>
+        <MenuItem value={"ARVINDFASN.NS"}>ARVINDFASN.NS</MenuItem>
+        <MenuItem value={"ARVSMART.NS"}>ARVSMART.NS</MenuItem>
+        <MenuItem value={"ASAHIINDIA.NS"}>ASAHIINDIA.NS</MenuItem>
+        <MenuItem value={"ASAHISONG.NS"}>ASAHISONG.NS</MenuItem>
+        <MenuItem value={"ASAL.NS"}>ASAL.NS</MenuItem>
+        <MenuItem value={"ASALCBR.NS"}>ASALCBR.NS</MenuItem>
+        <MenuItem value={"ASHAPURMIN.NS"}>ASHAPURMIN.NS</MenuItem>
+        <MenuItem value={"ASHIANA.NS"}>ASHIANA.NS</MenuItem>
+        <MenuItem value={"ASHIMASYN.NS"}>ASHIMASYN.NS</MenuItem>
+        <MenuItem value={"ASHOKA.NS"}>ASHOKA.NS</MenuItem>
+        <MenuItem value={"ASHOKLEY.NS"}>ASHOKLEY.NS</MenuItem>
+        <MenuItem value={"ASIANHOTNR.NS"}>ASIANHOTNR.NS</MenuItem>
+        <MenuItem value={"ASIANPAINT.NS"}>ASIANPAINT.NS</MenuItem>
+        <MenuItem value={"ASIANTILES.NS"}>ASIANTILES.NS</MenuItem>
+        <MenuItem value={"ASPINWALL.NS"}>ASPINWALL.NS</MenuItem>
+        <MenuItem value={"ASTEC.NS"}>ASTEC.NS</MenuItem>
+        <MenuItem value={"ASTERDM.NS"}>ASTERDM.NS</MenuItem>
+        <MenuItem value={"ASTRAL.NS"}>ASTRAL.NS</MenuItem>
+        <MenuItem value={"ASTRAMICRO.NS"}>ASTRAMICRO.NS</MenuItem>
+        <MenuItem value={"ASTRAZEN.NS"}>ASTRAZEN.NS</MenuItem>
+        <MenuItem value={"ASTRON.NS"}>ASTRON.NS</MenuItem>
+        <MenuItem value={"ATFL.NS"}>ATFL.NS</MenuItem>
+        <MenuItem value={"ATLANTA.NS"}>ATLANTA.NS</MenuItem>
+        <MenuItem value={"ATLASCYCLE.NS"}>ATLASCYCLE.NS</MenuItem>
+        <MenuItem value={"ATUL.NS"}>ATUL.NS</MenuItem>
+        <MenuItem value={"ATULAUTO.NS"}>ATULAUTO.NS</MenuItem>
+        <MenuItem value={"AUBANK.NS"}>AUBANK.NS</MenuItem>
+        <MenuItem value={"AURIONPRO.NS"}>AURIONPRO.NS</MenuItem>
+        <MenuItem value={"AUROPHARMA.NS"}>AUROPHARMA.NS</MenuItem>
+        <MenuItem value={"AUSOMENT.NS"}>AUSOMENT.NS</MenuItem>
+        <MenuItem value={"AUTOAXLES.NS"}>AUTOAXLES.NS</MenuItem>
+        <MenuItem value={"AUTOIND.NS"}>AUTOIND.NS</MenuItem>
+        <MenuItem value={"AUTOLITIND.NS"}>AUTOLITIND.NS</MenuItem>
+        <MenuItem value={"AVADHSUGAR.NS"}>AVADHSUGAR.NS</MenuItem>
+        <MenuItem value={"AVANTIFEED.NS"}>AVANTIFEED.NS</MenuItem>
+        <MenuItem value={"AVTNPL.NS"}>AVTNPL.NS</MenuItem>
+        <MenuItem value={"AXISBANK.NS"}>AXISBANK.NS</MenuItem>
+        <MenuItem value={"AXISCADES.NS"}>AXISCADES.NS</MenuItem>
+        <MenuItem value={"AYMSYNTEX.NS"}>AYMSYNTEX.NS</MenuItem>
+        <MenuItem value={"BAGFILMS.NS"}>BAGFILMS.NS</MenuItem>
+        <MenuItem value={"BAJAJ-AUTO.NS"}>BAJAJ-AUTO.NS</MenuItem>
+        <MenuItem value={"BAJAJCON.NS"}>BAJAJCON.NS</MenuItem>
+        <MenuItem value={"BAJAJELEC.NS"}>BAJAJELEC.NS</MenuItem>
+        <MenuItem value={"BAJAJFINSV.NS"}>BAJAJFINSV.NS</MenuItem>
+        <MenuItem value={"BAJAJHIND.NS"}>BAJAJHIND.NS</MenuItem>
+        <MenuItem value={"BAJAJHLDNG.NS"}>BAJAJHLDNG.NS</MenuItem>
+        <MenuItem value={"BAJFINANCE.NS"}>BAJFINANCE.NS</MenuItem>
+        <MenuItem value={"BALAJITELE.NS"}>BALAJITELE.NS</MenuItem>
+        <MenuItem value={"BALAMINES.NS"}>BALAMINES.NS</MenuItem>
+        <MenuItem value={"BALAXI.NS"}>BALAXI.NS</MenuItem>
+        <MenuItem value={"BALKRISHNA.NS"}>BALKRISHNA.NS</MenuItem>
+        <MenuItem value={"BALKRISIND.NS"}>BALKRISIND.NS</MenuItem>
+        <MenuItem value={"BALLARPUR.NS"}>BALLARPUR.NS</MenuItem>
+        <MenuItem value={"BALMLAWRIE.NS"}>BALMLAWRIE.NS</MenuItem>
+        <MenuItem value={"BALPHARMA.NS"}>BALPHARMA.NS</MenuItem>
+        <MenuItem value={"BALRAMCHIN.NS"}>BALRAMCHIN.NS</MenuItem>
+        <MenuItem value={"BANARBEADS.NS"}>BANARBEADS.NS</MenuItem>
+        <MenuItem value={"BANARISUG.NS"}>BANARISUG.NS</MenuItem>
+        <MenuItem value={"BANCOINDIA.NS"}>BANCOINDIA.NS</MenuItem>
+        <MenuItem value={"BANDHANBNK.NS"}>BANDHANBNK.NS</MenuItem>
+        <MenuItem value={"BANG.NS"}>BANG.NS</MenuItem>
+        <MenuItem value={"BANKBARODA.NS"}>BANKBARODA.NS</MenuItem>
+        <MenuItem value={"BANKINDIA.NS"}>BANKINDIA.NS</MenuItem>
+        <MenuItem value={"BANSWRAS.NS"}>BANSWRAS.NS</MenuItem>
+        <MenuItem value={"BARTRONICS.NS"}>BARTRONICS.NS</MenuItem>
+        <MenuItem value={"BASF.NS"}>BASF.NS</MenuItem>
+        <MenuItem value={"BASML.NS"}>BASML.NS</MenuItem>
+        <MenuItem value={"BATAINDIA.NS"}>BATAINDIA.NS</MenuItem>
+        <MenuItem value={"BAYERCROP.NS"}>BAYERCROP.NS</MenuItem>
+        <MenuItem value={"BBL.NS"}>BBL.NS</MenuItem>
+        <MenuItem value={"BBTC.NS"}>BBTC.NS</MenuItem>
+        <MenuItem value={"BCG.NS"}>BCG.NS</MenuItem>
+        <MenuItem value={"BCP.NS"}>BCP.NS</MenuItem>
+        <MenuItem value={"BDL.NS"}>BDL.NS</MenuItem>
+        <MenuItem value={"BEARDSELL.NS"}>BEARDSELL.NS</MenuItem>
+        <MenuItem value={"BEDMUTHA.NS"}>BEDMUTHA.NS</MenuItem>
+        <MenuItem value={"BEL.NS"}>BEL.NS</MenuItem>
+        <MenuItem value={"BEML.NS"}>BEML.NS</MenuItem>
+        <MenuItem value={"BEPL.NS"}>BEPL.NS</MenuItem>
+        <MenuItem value={"BERGEPAINT.NS"}>BERGEPAINT.NS</MenuItem>
+        <MenuItem value={"BFINVEST.NS"}>BFINVEST.NS</MenuItem>
+        <MenuItem value={"BFUTILITIE.NS"}>BFUTILITIE.NS</MenuItem>
+        <MenuItem value={"BGRENERGY.NS"}>BGRENERGY.NS</MenuItem>
+        <MenuItem value={"BHAGERIA.NS"}>BHAGERIA.NS</MenuItem>
+        <MenuItem value={"BHAGYANGR.NS"}>BHAGYANGR.NS</MenuItem>
+        <MenuItem value={"BHAGYAPROP.NS"}>BHAGYAPROP.NS</MenuItem>
+        <MenuItem value={"BHANDARI.NS"}>BHANDARI.NS</MenuItem>
+        <MenuItem value={"BHARATFORG.NS"}>BHARATFORG.NS</MenuItem>
+        <MenuItem value={"BHARATGEAR.NS"}>BHARATGEAR.NS</MenuItem>
+        <MenuItem value={"BHARATRAS.NS"}>BHARATRAS.NS</MenuItem>
+        <MenuItem value={"BHARATWIRE.NS"}>BHARATWIRE.NS</MenuItem>
+        <MenuItem value={"BHARTIARTL.NS"}>BHARTIARTL.NS</MenuItem>
+        <MenuItem value={"BHEL.NS"}>BHEL.NS</MenuItem>
+        <MenuItem value={"BIGBLOC.NS"}>BIGBLOC.NS</MenuItem>
+        <MenuItem value={"BIL.NS"}>BIL.NS</MenuItem>
+        <MenuItem value={"BILENERGY.NS"}>BILENERGY.NS</MenuItem>
+        <MenuItem value={"BINDALAGRO.NS"}>BINDALAGRO.NS</MenuItem>
+        <MenuItem value={"BIOCON.NS"}>BIOCON.NS</MenuItem>
+        <MenuItem value={"BIOFILCHEM.NS"}>BIOFILCHEM.NS</MenuItem>
+        <MenuItem value={"BIRLACABLE.NS"}>BIRLACABLE.NS</MenuItem>
+        <MenuItem value={"BIRLACORPN.NS"}>BIRLACORPN.NS</MenuItem>
+        <MenuItem value={"BIRLAMONEY.NS"}>BIRLAMONEY.NS</MenuItem>
+        <MenuItem value={"BIRLATYRE.NS"}>BIRLATYRE.NS</MenuItem>
+        <MenuItem value={"BKMINDST.NS"}>BKMINDST.NS</MenuItem>
+        <MenuItem value={"BLBLIMITED.NS"}>BLBLIMITED.NS</MenuItem>
+        <MenuItem value={"BLISSGVS.NS"}>BLISSGVS.NS</MenuItem>
+        <MenuItem value={"BLKASHYAP.NS"}>BLKASHYAP.NS</MenuItem>
+        <MenuItem value={"BLS.NS"}>BLS.NS</MenuItem>
+        <MenuItem value={"BLUECOAST.NS"}>BLUECOAST.NS</MenuItem>
+        <MenuItem value={"BLUEDART.NS"}>BLUEDART.NS</MenuItem>
+        <MenuItem value={"BLUESTARCO.NS"}>BLUESTARCO.NS</MenuItem>
+        <MenuItem value={"BODALCHEM.NS"}>BODALCHEM.NS</MenuItem>
+        <MenuItem value={"BOMDYEING.NS"}>BOMDYEING.NS</MenuItem>
+        <MenuItem value={"BORORENEW.NS"}>BORORENEW.NS</MenuItem>
+        <MenuItem value={"BOSCHLTD.NS"}>BOSCHLTD.NS</MenuItem>
+        <MenuItem value={"BPCL.NS"}>BPCL.NS</MenuItem>
+        <MenuItem value={"BPL.NS"}>BPL.NS</MenuItem>
+        <MenuItem value={"BRFL.NS"}>BRFL.NS</MenuItem>
+        <MenuItem value={"BRIGADE.NS"}>BRIGADE.NS</MenuItem>
+        <MenuItem value={"BRITANNIA.NS"}>BRITANNIA.NS</MenuItem>
+        <MenuItem value={"BRNL.NS"}>BRNL.NS</MenuItem>
+        <MenuItem value={"BROOKS.NS"}>BROOKS.NS</MenuItem>
+        <MenuItem value={"BSE.NS"}>BSE.NS</MenuItem>
+        <MenuItem value={"BSELINFRA.NS"}>BSELINFRA.NS</MenuItem>
+        <MenuItem value={"BSL.NS"}>BSL.NS</MenuItem>
+        <MenuItem value={"BSOFT.NS"}>BSOFT.NS</MenuItem>
+        <MenuItem value={"BURNPUR.NS"}>BURNPUR.NS</MenuItem>
+        <MenuItem value={"BUTTERFLY.NS"}>BUTTERFLY.NS</MenuItem>
+        <MenuItem value={"BVCL.NS"}>BVCL.NS</MenuItem>
+        <MenuItem value={"BYKE.NS"}>BYKE.NS</MenuItem>
+        <MenuItem value={"CADILAHC.NS"}>CADILAHC.NS</MenuItem>
+        <MenuItem value={"CALSOFT.NS"}>CALSOFT.NS</MenuItem>
+        <MenuItem value={"CAMLINFINE.NS"}>CAMLINFINE.NS</MenuItem>
+        <MenuItem value={"CANBK.NS"}>CANBK.NS</MenuItem>
+        <MenuItem value={"CANDC.NS"}>CANDC.NS</MenuItem>
+        <MenuItem value={"CANFINHOME.NS"}>CANFINHOME.NS</MenuItem>
+        <MenuItem value={"CANTABIL.NS"}>CANTABIL.NS</MenuItem>
+        <MenuItem value={"CAPACITE.NS"}>CAPACITE.NS</MenuItem>
+        <MenuItem value={"CAPLIPOINT.NS"}>CAPLIPOINT.NS</MenuItem>
+        <MenuItem value={"CAPTRUST.NS"}>CAPTRUST.NS</MenuItem>
+        <MenuItem value={"CARBORUNIV.NS"}>CARBORUNIV.NS</MenuItem>
+        <MenuItem value={"CAREERP.NS"}>CAREERP.NS</MenuItem>
+        <MenuItem value={"CARERATING.NS"}>CARERATING.NS</MenuItem>
+        <MenuItem value={"CASTROLIND.NS"}>CASTROLIND.NS</MenuItem>
+        <MenuItem value={"CCHHL.NS"}>CCHHL.NS</MenuItem>
+        <MenuItem value={"CCL.NS"}>CCL.NS</MenuItem>
+        <MenuItem value={"CDSL.NS"}>CDSL.NS</MenuItem>
+        <MenuItem value={"CEATLTD.NS"}>CEATLTD.NS</MenuItem>
+        <MenuItem value={"CEBBCO.NS"}>CEBBCO.NS</MenuItem>
+        <MenuItem value={"CELEBRITY.NS"}>CELEBRITY.NS</MenuItem>
+        <MenuItem value={"CENTENKA.NS"}>CENTENKA.NS</MenuItem>
+        <MenuItem value={"CENTEXT.NS"}>CENTEXT.NS</MenuItem>
+        <MenuItem value={"CENTRALBK.NS"}>CENTRALBK.NS</MenuItem>
+        <MenuItem value={"CENTRUM.NS"}>CENTRUM.NS</MenuItem>
+        <MenuItem value={"CENTUM.NS"}>CENTUM.NS</MenuItem>
+        <MenuItem value={"CENTURYPLY.NS"}>CENTURYPLY.NS</MenuItem>
+        <MenuItem value={"CENTURYTEX.NS"}>CENTURYTEX.NS</MenuItem>
+        <MenuItem value={"CERA.NS"}>CERA.NS</MenuItem>
+        <MenuItem value={"CEREBRAINT.NS"}>CEREBRAINT.NS</MenuItem>
+        <MenuItem value={"CESC.NS"}>CESC.NS</MenuItem>
+        <MenuItem value={"CESCVENT.NS"}>CESCVENT.NS</MenuItem>
+        <MenuItem value={"CGCL.NS"}>CGCL.NS</MenuItem>
+        <MenuItem value={"CGPOWER.NS"}>CGPOWER.NS</MenuItem>
+        <MenuItem value={"CHALET.NS"}>CHALET.NS</MenuItem>
+        <MenuItem value={"CHAMBLFERT.NS"}>CHAMBLFERT.NS</MenuItem>
+        <MenuItem value={"CHEMBOND.NS"}>CHEMBOND.NS</MenuItem>
+        <MenuItem value={"CHEMFAB.NS"}>CHEMFAB.NS</MenuItem>
+        <MenuItem value={"CHENNPETRO.NS"}>CHENNPETRO.NS</MenuItem>
+        <MenuItem value={"CHOLAFIN.NS"}>CHOLAFIN.NS</MenuItem>
+        <MenuItem value={"CHOLAHLDNG.NS"}>CHOLAHLDNG.NS</MenuItem>
+        <MenuItem value={"CHROMATIC.NS"}>CHROMATIC.NS</MenuItem>
+        <MenuItem value={"CIGNITITEC.NS"}>CIGNITITEC.NS</MenuItem>
+        <MenuItem value={"CIMMCO.NS"}>CIMMCO.NS</MenuItem>
+        <MenuItem value={"CINELINE.NS"}>CINELINE.NS</MenuItem>
+        <MenuItem value={"CINEVISTA.NS"}>CINEVISTA.NS</MenuItem>
+        <MenuItem value={"CIPLA.NS"}>CIPLA.NS</MenuItem>
+        <MenuItem value={"CKFSL.NS"}>CKFSL.NS</MenuItem>
+        <MenuItem value={"CLEDUCATE.NS"}>CLEDUCATE.NS</MenuItem>
+        <MenuItem value={"CLNINDIA.NS"}>CLNINDIA.NS</MenuItem>
+        <MenuItem value={"CMICABLES.NS"}>CMICABLES.NS</MenuItem>
+        <MenuItem value={"CNOVAPETRO.NS"}>CNOVAPETRO.NS</MenuItem>
+        <MenuItem value={"COALINDIA.NS"}>COALINDIA.NS</MenuItem>
+        <MenuItem value={"COCHINSHIP.NS"}>COCHINSHIP.NS</MenuItem>
+        <MenuItem value={"COLPAL.NS"}>COLPAL.NS</MenuItem>
+        <MenuItem value={"COMPINFO.NS"}>COMPINFO.NS</MenuItem>
+        <MenuItem value={"COMPUSOFT.NS"}>COMPUSOFT.NS</MenuItem>
+        <MenuItem value={"CONCOR.NS"}>CONCOR.NS</MenuItem>
+        <MenuItem value={"CONSOFINVT.NS"}>CONSOFINVT.NS</MenuItem>
+        <MenuItem value={"CONTROLPR.NS"}>CONTROLPR.NS</MenuItem>
+        <MenuItem value={"CORALFINAC.NS"}>CORALFINAC.NS</MenuItem>
+        <MenuItem value={"CORDSCABLE.NS"}>CORDSCABLE.NS</MenuItem>
+        <MenuItem value={"COROMANDEL.NS"}>COROMANDEL.NS</MenuItem>
+        <MenuItem value={"COSMOFILMS.NS"}>COSMOFILMS.NS</MenuItem>
+        <MenuItem value={"COUNCODOS.NS"}>COUNCODOS.NS</MenuItem>
+        <MenuItem value={"COX&KINGS.NS"}>COX&KINGS.NS</MenuItem>
+        <MenuItem value={"CREATIVE.NS"}>CREATIVE.NS</MenuItem>
+        <MenuItem value={"CREATIVEYE.NS"}>CREATIVEYE.NS</MenuItem>
+        <MenuItem value={"CREDITACC.NS"}>CREDITACC.NS</MenuItem>
+        <MenuItem value={"CREST.NS"}>CREST.NS</MenuItem>
+        <MenuItem value={"CRISIL.NS"}>CRISIL.NS</MenuItem>
+        <MenuItem value={"CROMPTON.NS"}>CROMPTON.NS</MenuItem>
+        <MenuItem value={"CSBBANK.NS"}>CSBBANK.NS</MenuItem>
+        <MenuItem value={"CTE.NS"}>CTE.NS</MenuItem>
+        <MenuItem value={"CUB.NS"}>CUB.NS</MenuItem>
+        <MenuItem value={"CUBEXTUB.NS"}>CUBEXTUB.NS</MenuItem>
+        <MenuItem value={"CUMMINSIND.NS"}>CUMMINSIND.NS</MenuItem>
+        <MenuItem value={"CUPID.NS"}>CUPID.NS</MenuItem>
+        <MenuItem value={"CYBERTECH.NS"}>CYBERTECH.NS</MenuItem>
+        <MenuItem value={"CYIENT.NS"}>CYIENT.NS</MenuItem>
+        <MenuItem value={"DAAWAT.NS"}>DAAWAT.NS</MenuItem>
+        <MenuItem value={"DABUR.NS"}>DABUR.NS</MenuItem>
+        <MenuItem value={"DALBHARAT.NS"}>DALBHARAT.NS</MenuItem>
+        <MenuItem value={"DALMIASUG.NS"}>DALMIASUG.NS</MenuItem>
+        <MenuItem value={"DAMODARIND.NS"}>DAMODARIND.NS</MenuItem>
+        <MenuItem value={"DATAMATICS.NS"}>DATAMATICS.NS</MenuItem>
+        <MenuItem value={"DBCORP.NS"}>DBCORP.NS</MenuItem>
+        <MenuItem value={"DBL.NS"}>DBL.NS</MenuItem>
+        <MenuItem value={"DBREALTY.NS"}>DBREALTY.NS</MenuItem>
+        <MenuItem value={"DBSTOCKBRO.NS"}>DBSTOCKBRO.NS</MenuItem>
+        <MenuItem value={"DCAL.NS"}>DCAL.NS</MenuItem>
+        <MenuItem value={"DCBBANK.NS"}>DCBBANK.NS</MenuItem>
+        <MenuItem value={"DCM.NS"}>DCM.NS</MenuItem>
+        <MenuItem value={"DCMFINSERV.NS"}>DCMFINSERV.NS</MenuItem>
+        <MenuItem value={"DCMNVL.NS"}>DCMNVL.NS</MenuItem>
+        <MenuItem value={"DCMSHRIRAM.NS"}>DCMSHRIRAM.NS</MenuItem>
+        <MenuItem value={"DCW.NS"}>DCW.NS</MenuItem>
+        <MenuItem value={"DECCANCE.NS"}>DECCANCE.NS</MenuItem>
+        <MenuItem value={"DEEPAKFERT.NS"}>DEEPAKFERT.NS</MenuItem>
+        <MenuItem value={"DEEPAKNTR.NS"}>DEEPAKNTR.NS</MenuItem>
+        <MenuItem value={"DEEPIND.NS"}>DEEPIND.NS</MenuItem>
+        <MenuItem value={"DELTACORP.NS"}>DELTACORP.NS</MenuItem>
+        <MenuItem value={"DELTAMAGNT.NS"}>DELTAMAGNT.NS</MenuItem>
+        <MenuItem value={"DEN.NS"}>DEN.NS</MenuItem>
+        <MenuItem value={"DENORA.NS"}>DENORA.NS</MenuItem>
+        <MenuItem value={"DFMFOODS.NS"}>DFMFOODS.NS</MenuItem>
+        <MenuItem value={"DGCONTENT.NS"}>DGCONTENT.NS</MenuItem>
+        <MenuItem value={"DHAMPURSUG.NS"}>DHAMPURSUG.NS</MenuItem>
+        <MenuItem value={"DHANBANK.NS"}>DHANBANK.NS</MenuItem>
+        <MenuItem value={"DHANUKA.NS"}>DHANUKA.NS</MenuItem>
+        <MenuItem value={"DHFL.NS"}>DHFL.NS</MenuItem>
+        <MenuItem value={"DHUNINV.NS"}>DHUNINV.NS</MenuItem>
+        <MenuItem value={"DIAMONDYD.NS"}>DIAMONDYD.NS</MenuItem>
+        <MenuItem value={"DIAPOWER.NS"}>DIAPOWER.NS</MenuItem>
+        <MenuItem value={"DICIND.NS"}>DICIND.NS</MenuItem>
+        <MenuItem value={"DIGISPICE.NS"}>DIGISPICE.NS</MenuItem>
+        <MenuItem value={"DIGJAMLTD.NS"}>DIGJAMLTD.NS</MenuItem>
+        <MenuItem value={"DISHTV.NS"}>DISHTV.NS</MenuItem>
+        <MenuItem value={"DIVISLAB.NS"}>DIVISLAB.NS</MenuItem>
+        <MenuItem value={"DIXON.NS"}>DIXON.NS</MenuItem>
+        <MenuItem value={"DLF.NS"}>DLF.NS</MenuItem>
+        <MenuItem value={"DLINKINDIA.NS"}>DLINKINDIA.NS</MenuItem>
+        <MenuItem value={"DMART.NS"}>DMART.NS</MenuItem>
+        <MenuItem value={"DNAMEDIA.NS"}>DNAMEDIA.NS</MenuItem>
+        <MenuItem value={"DOLAT.NS"}>DOLAT.NS</MenuItem>
+        <MenuItem value={"DOLLAR.NS"}>DOLLAR.NS</MenuItem>
+        <MenuItem value={"DONEAR.NS"}>DONEAR.NS</MenuItem>
+        <MenuItem value={"DPSCLTD.NS"}>DPSCLTD.NS</MenuItem>
+        <MenuItem value={"DPWIRES.NS"}>DPWIRES.NS</MenuItem>
+        <MenuItem value={"DQE.NS"}>DQE.NS</MenuItem>
+        <MenuItem value={"DREDGECORP.NS"}>DREDGECORP.NS</MenuItem>
+        <MenuItem value={"DRREDDY.NS"}>DRREDDY.NS</MenuItem>
+        <MenuItem value={"DSSL.NS"}>DSSL.NS</MenuItem>
+        <MenuItem value={"DTIL.NS"}>DTIL.NS</MenuItem>
+        <MenuItem value={"DUCON.NS"}>DUCON.NS</MenuItem>
+        <MenuItem value={"DVL.NS"}>DVL.NS</MenuItem>
+        <MenuItem value={"DWARKESH.NS"}>DWARKESH.NS</MenuItem>
+        <MenuItem value={"DYNAMATECH.NS"}>DYNAMATECH.NS</MenuItem>
+        <MenuItem value={"DYNPRO.NS"}>DYNPRO.NS</MenuItem>
+        <MenuItem value={"EASTSILK.NS"}>EASTSILK.NS</MenuItem>
+        <MenuItem value={"EASUNREYRL.NS"}>EASUNREYRL.NS</MenuItem>
+        <MenuItem value={"EBIXFOREX.NS"}>EBIXFOREX.NS</MenuItem>
+        <MenuItem value={"ECLERX.NS"}>ECLERX.NS</MenuItem>
+        <MenuItem value={"EDELWEISS.NS"}>EDELWEISS.NS</MenuItem>
+        <MenuItem value={"EDUCOMP.NS"}>EDUCOMP.NS</MenuItem>
+        <MenuItem value={"EICHERMOT.NS"}>EICHERMOT.NS</MenuItem>
+        <MenuItem value={"EIDPARRY.NS"}>EIDPARRY.NS</MenuItem>
+        <MenuItem value={"EIHAHOTELS.NS"}>EIHAHOTELS.NS</MenuItem>
+        <MenuItem value={"EIHOTEL.NS"}>EIHOTEL.NS</MenuItem>
+        <MenuItem value={"EIMCOELECO.NS"}>EIMCOELECO.NS</MenuItem>
+        <MenuItem value={"EKC.NS"}>EKC.NS</MenuItem>
+        <MenuItem value={"ELECON.NS"}>ELECON.NS</MenuItem>
+        <MenuItem value={"ELECTCAST.NS"}>ELECTCAST.NS</MenuItem>
+        <MenuItem value={"ELECTHERM.NS"}>ELECTHERM.NS</MenuItem>
+        <MenuItem value={"ELGIEQUIP.NS"}>ELGIEQUIP.NS</MenuItem>
+        <MenuItem value={"ELGIRUBCO.NS"}>ELGIRUBCO.NS</MenuItem>
+        <MenuItem value={"EMAMILTD.NS"}>EMAMILTD.NS</MenuItem>
+        <MenuItem value={"EMAMIREAL.NS"}>EMAMIREAL.NS</MenuItem>
+        <MenuItem value={"EMCO.NS"}>EMCO.NS</MenuItem>
+        <MenuItem value={"EMKAY.NS"}>EMKAY.NS</MenuItem>
+        <MenuItem value={"EMMBI.NS"}>EMMBI.NS</MenuItem>
+        <MenuItem value={"ENDURANCE.NS"}>ENDURANCE.NS</MenuItem>
+        <MenuItem value={"ENERGYDEV.NS"}>ENERGYDEV.NS</MenuItem>
+        <MenuItem value={"ENGINERSIN.NS"}>ENGINERSIN.NS</MenuItem>
+        <MenuItem value={"ENIL.NS"}>ENIL.NS</MenuItem>
+        <MenuItem value={"EQUITAS.NS"}>EQUITAS.NS</MenuItem>
+        <MenuItem value={"ERIS.NS"}>ERIS.NS</MenuItem>
+        <MenuItem value={"EROSMEDIA.NS"}>EROSMEDIA.NS</MenuItem>
+        <MenuItem value={"ESABINDIA.NS"}>ESABINDIA.NS</MenuItem>
+        <MenuItem value={"ESCORTS.NS"}>ESCORTS.NS</MenuItem>
+        <MenuItem value={"ESSARSHPNG.NS"}>ESSARSHPNG.NS</MenuItem>
+        <MenuItem value={"ESSELPACK.NS"}>ESSELPACK.NS</MenuItem>
+        <MenuItem value={"ESTER.NS"}>ESTER.NS</MenuItem>
+        <MenuItem value={"EUROCERA.NS"}>EUROCERA.NS</MenuItem>
+        <MenuItem value={"EUROMULTI.NS"}>EUROMULTI.NS</MenuItem>
+        <MenuItem value={"EUROTEXIND.NS"}>EUROTEXIND.NS</MenuItem>
+        <MenuItem value={"EVEREADY.NS"}>EVEREADY.NS</MenuItem>
+        <MenuItem value={"EVERESTIND.NS"}>EVERESTIND.NS</MenuItem>
+        <MenuItem value={"EXCEL.NS"}>EXCEL.NS</MenuItem>
+        <MenuItem value={"EXCELINDUS.NS"}>EXCELINDUS.NS</MenuItem>
+        <MenuItem value={"EXIDEIND.NS"}>EXIDEIND.NS</MenuItem>
+        <MenuItem value={"EXPLEOSOL.NS"}>EXPLEOSOL.NS</MenuItem>
+        <MenuItem value={"FACT.NS"}>FACT.NS</MenuItem>
+        <MenuItem value={"FAIRCHEM.NS"}>FAIRCHEM.NS</MenuItem>
+        <MenuItem value={"FCL.NS"}>FCL.NS</MenuItem>
+        <MenuItem value={"FCONSUMER.NS"}>FCONSUMER.NS</MenuItem>
+        <MenuItem value={"FCSSOFT.NS"}>FCSSOFT.NS</MenuItem>
+        <MenuItem value={"FDC.NS"}>FDC.NS</MenuItem>
+        <MenuItem value={"FEDERALBNK.NS"}>FEDERALBNK.NS</MenuItem>
+        <MenuItem value={"FEL.NS"}>FEL.NS</MenuItem>
+        <MenuItem value={"FELDVR.NS"}>FELDVR.NS</MenuItem>
+        <MenuItem value={"FIEMIND.NS"}>FIEMIND.NS</MenuItem>
+        <MenuItem value={"FILATEX.NS"}>FILATEX.NS</MenuItem>
+        <MenuItem value={"FINCABLES.NS"}>FINCABLES.NS</MenuItem>
+        <MenuItem value={"FINEORG.NS"}>FINEORG.NS</MenuItem>
+        <MenuItem value={"FINPIPE.NS"}>FINPIPE.NS</MenuItem>
+        <MenuItem value={"FLEXITUFF.NS"}>FLEXITUFF.NS</MenuItem>
+        <MenuItem value={"FLFL.NS"}>FLFL.NS</MenuItem>
+        <MenuItem value={"FLUOROCHEM.NS"}>FLUOROCHEM.NS</MenuItem>
+        <MenuItem value={"FMGOETZE.NS"}>FMGOETZE.NS</MenuItem>
+        <MenuItem value={"FMNL.NS"}>FMNL.NS</MenuItem>
+        <MenuItem value={"FORCEMOT.NS"}>FORCEMOT.NS</MenuItem>
+        <MenuItem value={"FORTIS.NS"}>FORTIS.NS</MenuItem>
+        <MenuItem value={"FOSECOIND.NS"}>FOSECOIND.NS</MenuItem>
+        <MenuItem value={"FRETAIL.NS"}>FRETAIL.NS</MenuItem>
+        <MenuItem value={"FSC.NS"}>FSC.NS</MenuItem>
+        <MenuItem value={"FSL.NS"}>FSL.NS</MenuItem>
+        <MenuItem value={"GABRIEL.NS"}>GABRIEL.NS</MenuItem>
+        <MenuItem value={"GAEL.NS"}>GAEL.NS</MenuItem>
+        <MenuItem value={"GAIL.NS"}>GAIL.NS</MenuItem>
+        <MenuItem value={"GAL.NS"}>GAL.NS</MenuItem>
+        <MenuItem value={"GALAXYSURF.NS"}>GALAXYSURF.NS</MenuItem>
+        <MenuItem value={"GALLANTT.NS"}>GALLANTT.NS</MenuItem>
+        <MenuItem value={"GALLISPAT.NS"}>GALLISPAT.NS</MenuItem>
+        <MenuItem value={"GAMMNINFRA.NS"}>GAMMNINFRA.NS</MenuItem>
+        <MenuItem value={"GANDHITUBE.NS"}>GANDHITUBE.NS</MenuItem>
+        <MenuItem value={"GANECOS.NS"}>GANECOS.NS</MenuItem>
+        <MenuItem value={"GANESHHOUC.NS"}>GANESHHOUC.NS</MenuItem>
+        <MenuItem value={"GANGESSECU.NS"}>GANGESSECU.NS</MenuItem>
+        <MenuItem value={"GARDENSILK.NS"}>GARDENSILK.NS</MenuItem>
+        <MenuItem value={"GARFIBRES.NS"}>GARFIBRES.NS</MenuItem>
+        <MenuItem value={"GATI.NS"}>GATI.NS</MenuItem>
+        <MenuItem value={"GAYAHWS.NS"}>GAYAHWS.NS</MenuItem>
+        <MenuItem value={"GAYAPROJ.NS"}>GAYAPROJ.NS</MenuItem>
+        <MenuItem value={"GBGLOBAL.NS"}>GBGLOBAL.NS</MenuItem>
+        <MenuItem value={"GDL.NS"}>GDL.NS</MenuItem>
+        <MenuItem value={"GEECEE.NS"}>GEECEE.NS</MenuItem>
+        <MenuItem value={"GEEKAYWIRE.NS"}>GEEKAYWIRE.NS</MenuItem>
+        <MenuItem value={"GENESYS.NS"}>GENESYS.NS</MenuItem>
+        <MenuItem value={"GENUSPAPER.NS"}>GENUSPAPER.NS</MenuItem>
+        <MenuItem value={"GENUSPOWER.NS"}>GENUSPOWER.NS</MenuItem>
+        <MenuItem value={"GEOJITFSL.NS"}>GEOJITFSL.NS</MenuItem>
+        <MenuItem value={"GEPIL.NS"}>GEPIL.NS</MenuItem>
+        <MenuItem value={"GESHIP.NS"}>GESHIP.NS</MenuItem>
+        <MenuItem value={"GET&D.NS"}>GET&D.NS</MenuItem>
+        <MenuItem value={"GFLLIMITED.NS"}>GFLLIMITED.NS</MenuItem>
+        <MenuItem value={"GFSTEELS.NS"}>GFSTEELS.NS</MenuItem>
+        <MenuItem value={"GHCL.NS"}>GHCL.NS</MenuItem>
+        <MenuItem value={"GICHSGFIN.NS"}>GICHSGFIN.NS</MenuItem>
+        <MenuItem value={"GICRE.NS"}>GICRE.NS</MenuItem>
+        <MenuItem value={"GILLANDERS.NS"}>GILLANDERS.NS</MenuItem>
+        <MenuItem value={"GILLETTE.NS"}>GILLETTE.NS</MenuItem>
+        <MenuItem value={"GINNIFILA.NS"}>GINNIFILA.NS</MenuItem>
+        <MenuItem value={"GIPCL.NS"}>GIPCL.NS</MenuItem>
+        <MenuItem value={"GISOLUTION.NS"}>GISOLUTION.NS</MenuItem>
+        <MenuItem value={"GKWLIMITED.NS"}>GKWLIMITED.NS</MenuItem>
+        <MenuItem value={"GLAXO.NS"}>GLAXO.NS</MenuItem>
+        <MenuItem value={"GLENMARK.NS"}>GLENMARK.NS</MenuItem>
+        <MenuItem value={"GLOBALVECT.NS"}>GLOBALVECT.NS</MenuItem>
+        <MenuItem value={"GLOBOFFS.NS"}>GLOBOFFS.NS</MenuItem>
+        <MenuItem value={"GLOBUSSPR.NS"}>GLOBUSSPR.NS</MenuItem>
+        <MenuItem value={"GMBREW.NS"}>GMBREW.NS</MenuItem>
+        <MenuItem value={"GMDCLTD.NS"}>GMDCLTD.NS</MenuItem>
+        <MenuItem value={"GMMPFAUDLR.NS"}>GMMPFAUDLR.NS</MenuItem>
+        <MenuItem value={"GMRINFRA.NS"}>GMRINFRA.NS</MenuItem>
+        <MenuItem value={"GNA.NS"}>GNA.NS</MenuItem>
+        <MenuItem value={"GNFC.NS"}>GNFC.NS</MenuItem>
+        <MenuItem value={"GOACARBON.NS"}>GOACARBON.NS</MenuItem>
+        <MenuItem value={"GOCLCORP.NS"}>GOCLCORP.NS</MenuItem>
+        <MenuItem value={"GODFRYPHLP.NS"}>GODFRYPHLP.NS</MenuItem>
+        <MenuItem value={"GODREJAGRO.NS"}>GODREJAGRO.NS</MenuItem>
+        <MenuItem value={"GODREJCP.NS"}>GODREJCP.NS</MenuItem>
+        <MenuItem value={"GODREJIND.NS"}>GODREJIND.NS</MenuItem>
+        <MenuItem value={"GODREJPROP.NS"}>GODREJPROP.NS</MenuItem>
+        <MenuItem value={"GOENKA.NS"}>GOENKA.NS</MenuItem>
+        <MenuItem value={"GOKEX.NS"}>GOKEX.NS</MenuItem>
+        <MenuItem value={"GOKUL.NS"}>GOKUL.NS</MenuItem>
+        <MenuItem value={"GOKULAGRO.NS"}>GOKULAGRO.NS</MenuItem>
+        <MenuItem value={"GOLDENTOBC.NS"}>GOLDENTOBC.NS</MenuItem>
+        <MenuItem value={"GOLDIAM.NS"}>GOLDIAM.NS</MenuItem>
+        <MenuItem value={"GOLDTECH.NS"}>GOLDTECH.NS</MenuItem>
+        <MenuItem value={"GOODLUCK.NS"}>GOODLUCK.NS</MenuItem>
+        <MenuItem value={"GPIL.NS"}>GPIL.NS</MenuItem>
+        <MenuItem value={"GPPL.NS"}>GPPL.NS</MenuItem>
+        <MenuItem value={"GPTINFRA.NS"}>GPTINFRA.NS</MenuItem>
+        <MenuItem value={"GRANULES.NS"}>GRANULES.NS</MenuItem>
+        <MenuItem value={"GRAPHITE.NS"}>GRAPHITE.NS</MenuItem>
+        <MenuItem value={"GRASIM.NS"}>GRASIM.NS</MenuItem>
+        <MenuItem value={"GRAVITA.NS"}>GRAVITA.NS</MenuItem>
+        <MenuItem value={"GREAVESCOT.NS"}>GREAVESCOT.NS</MenuItem>
+        <MenuItem value={"GREENLAM.NS"}>GREENLAM.NS</MenuItem>
+        <MenuItem value={"GREENPANEL.NS"}>GREENPANEL.NS</MenuItem>
+        <MenuItem value={"GREENPLY.NS"}>GREENPLY.NS</MenuItem>
+        <MenuItem value={"GREENPOWER.NS"}>GREENPOWER.NS</MenuItem>
+        <MenuItem value={"GRINDWELL.NS"}>GRINDWELL.NS</MenuItem>
+        <MenuItem value={"GROBTEA.NS"}>GROBTEA.NS</MenuItem>
+        <MenuItem value={"GRPLTD.NS"}>GRPLTD.NS</MenuItem>
+        <MenuItem value={"GRSE.NS"}>GRSE.NS</MenuItem>
+        <MenuItem value={"GSCLCEMENT.NS"}>GSCLCEMENT.NS</MenuItem>
+        <MenuItem value={"GSFC.NS"}>GSFC.NS</MenuItem>
+        <MenuItem value={"GSPL.NS"}>GSPL.NS</MenuItem>
+        <MenuItem value={"GSS.NS"}>GSS.NS</MenuItem>
+        <MenuItem value={"GTLINFRA.NS"}>GTLINFRA.NS</MenuItem>
+        <MenuItem value={"GTNIND.NS"}>GTNIND.NS</MenuItem>
+        <MenuItem value={"GTNTEX.NS"}>GTNTEX.NS</MenuItem>
+        <MenuItem value={"GTPL.NS"}>GTPL.NS</MenuItem>
+        <MenuItem value={"GUFICBIO.NS"}>GUFICBIO.NS</MenuItem>
+        <MenuItem value={"GUJALKALI.NS"}>GUJALKALI.NS</MenuItem>
+        <MenuItem value={"GUJAPOLLO.NS"}>GUJAPOLLO.NS</MenuItem>
+        <MenuItem value={"GUJGASLTD.NS"}>GUJGASLTD.NS</MenuItem>
+        <MenuItem value={"GULFOILLUB.NS"}>GULFOILLUB.NS</MenuItem>
+        <MenuItem value={"GULFPETRO.NS"}>GULFPETRO.NS</MenuItem>
+        <MenuItem value={"GULPOLY.NS"}>GULPOLY.NS</MenuItem>
+        <MenuItem value={"GVKPIL.NS"}>GVKPIL.NS</MenuItem>
+        <MenuItem value={"HAL.NS"}>HAL.NS</MenuItem>
+        <MenuItem value={"HARITASEAT.NS"}>HARITASEAT.NS</MenuItem>
+        <MenuItem value={"HARRMALAYA.NS"}>HARRMALAYA.NS</MenuItem>
+        <MenuItem value={"HATHWAY.NS"}>HATHWAY.NS</MenuItem>
+        <MenuItem value={"HATSUN.NS"}>HATSUN.NS</MenuItem>
+        <MenuItem value={"HAVELLS.NS"}>HAVELLS.NS</MenuItem>
+        <MenuItem value={"HAVISHA.NS"}>HAVISHA.NS</MenuItem>
+        <MenuItem value={"HBLPOWER.NS"}>HBLPOWER.NS</MenuItem>
+        <MenuItem value={"HBSL.NS"}>HBSL.NS</MenuItem>
+        <MenuItem value={"HCC.NS"}>HCC.NS</MenuItem>
+        <MenuItem value={"HCG.NS"}>HCG.NS</MenuItem>
+        <MenuItem value={"HCL-INSYS.NS"}>HCL-INSYS.NS</MenuItem>
+        <MenuItem value={"HCLTECH.NS"}>HCLTECH.NS</MenuItem>
+        <MenuItem value={"HDFC.NS"}>HDFC.NS</MenuItem>
+        <MenuItem value={"HDFCAMC.NS"}>HDFCAMC.NS</MenuItem>
+        <MenuItem value={"HDFCBANK.NS"}>HDFCBANK.NS</MenuItem>
+        <MenuItem value={"HDFCLIFE.NS"}>HDFCLIFE.NS</MenuItem>
+        <MenuItem value={"HDIL.NS"}>HDIL.NS</MenuItem>
+        <MenuItem value={"HEG.NS"}>HEG.NS</MenuItem>
+        <MenuItem value={"HEIDELBERG.NS"}>HEIDELBERG.NS</MenuItem>
+        <MenuItem value={"HERCULES.NS"}>HERCULES.NS</MenuItem>
+        <MenuItem value={"HERITGFOOD.NS"}>HERITGFOOD.NS</MenuItem>
+        <MenuItem value={"HEROMOTOCO.NS"}>HEROMOTOCO.NS</MenuItem>
+        <MenuItem value={"HESTERBIO.NS"}>HESTERBIO.NS</MenuItem>
+        <MenuItem value={"HEXATRADEX.NS"}>HEXATRADEX.NS</MenuItem>
+        <MenuItem value={"HEXAWARE.NS"}>HEXAWARE.NS</MenuItem>
+        <MenuItem value={"HFCL.NS"}>HFCL.NS</MenuItem>
+        <MenuItem value={"HGINFRA.NS"}>HGINFRA.NS</MenuItem>
+        <MenuItem value={"HGS.NS"}>HGS.NS</MenuItem>
+        <MenuItem value={"HIKAL.NS"}>HIKAL.NS</MenuItem>
+        <MenuItem value={"HIL.NS"}>HIL.NS</MenuItem>
+        <MenuItem value={"HILTON.NS"}>HILTON.NS</MenuItem>
+        <MenuItem value={"HIMATSEIDE.NS"}>HIMATSEIDE.NS</MenuItem>
+        <MenuItem value={"HINDALCO.NS"}>HINDALCO.NS</MenuItem>
+        <MenuItem value={"HINDCOMPOS.NS"}>HINDCOMPOS.NS</MenuItem>
+        <MenuItem value={"HINDCOPPER.NS"}>HINDCOPPER.NS</MenuItem>
+        <MenuItem value={"HINDMOTORS.NS"}>HINDMOTORS.NS</MenuItem>
+        <MenuItem value={"HINDNATGLS.NS"}>HINDNATGLS.NS</MenuItem>
+        <MenuItem value={"HINDOILEXP.NS"}>HINDOILEXP.NS</MenuItem>
+        <MenuItem value={"HINDPETRO.NS"}>HINDPETRO.NS</MenuItem>
+        <MenuItem value={"HINDUNILVR.NS"}>HINDUNILVR.NS</MenuItem>
+        <MenuItem value={"HINDZINC.NS"}>HINDZINC.NS</MenuItem>
+        <MenuItem value={"HIRECT.NS"}>HIRECT.NS</MenuItem>
+        <MenuItem value={"HISARMETAL.NS"}>HISARMETAL.NS</MenuItem>
+        <MenuItem value={"HITECH.NS"}>HITECH.NS</MenuItem>
+        <MenuItem value={"HITECHCORP.NS"}>HITECHCORP.NS</MenuItem>
+        <MenuItem value={"HITECHGEAR.NS"}>HITECHGEAR.NS</MenuItem>
+        <MenuItem value={"HLVLTD.NS"}>HLVLTD.NS</MenuItem>
+        <MenuItem value={"HMT.NS"}>HMT.NS</MenuItem>
+        <MenuItem value={"HMVL.NS"}>HMVL.NS</MenuItem>
+        <MenuItem value={"HNDFDS.NS"}>HNDFDS.NS</MenuItem>
+        <MenuItem value={"HONAUT.NS"}>HONAUT.NS</MenuItem>
+        <MenuItem value={"HONDAPOWER.NS"}>HONDAPOWER.NS</MenuItem>
+        <MenuItem value={"HOTELRUGBY.NS"}>HOTELRUGBY.NS</MenuItem>
+        <MenuItem value={"HOVS.NS"}>HOVS.NS</MenuItem>
+        <MenuItem value={"HPL.NS"}>HPL.NS</MenuItem>
+        <MenuItem value={"HSCL.NS"}>HSCL.NS</MenuItem>
+        <MenuItem value={"HSIL.NS"}>HSIL.NS</MenuItem>
+        <MenuItem value={"HTMEDIA.NS"}>HTMEDIA.NS</MenuItem>
+        <MenuItem value={"HUBTOWN.NS"}>HUBTOWN.NS</MenuItem>
+        <MenuItem value={"HUDCO.NS"}>HUDCO.NS</MenuItem>
+        <MenuItem value={"IBREALEST.NS"}>IBREALEST.NS</MenuItem>
+        <MenuItem value={"IBULHSGFIN.NS"}>IBULHSGFIN.NS</MenuItem>
+        <MenuItem value={"IBULISL.NS"}>IBULISL.NS</MenuItem>
+        <MenuItem value={"IBVENTURES.NS"}>IBVENTURES.NS</MenuItem>
+        <MenuItem value={"ICICIBANK.NS"}>ICICIBANK.NS</MenuItem>
+        <MenuItem value={"ICICIGI.NS"}>ICICIGI.NS</MenuItem>
+        <MenuItem value={"ICICIPRULI.NS"}>ICICIPRULI.NS</MenuItem>
+        <MenuItem value={"ICIL.NS"}>ICIL.NS</MenuItem>
+        <MenuItem value={"ICRA.NS"}>ICRA.NS</MenuItem>
+        <MenuItem value={"IDBI.NS"}>IDBI.NS</MenuItem>
+        <MenuItem value={"IDEA.NS"}>IDEA.NS</MenuItem>
+        <MenuItem value={"IDFC.NS"}>IDFC.NS</MenuItem>
+        <MenuItem value={"IDFCFIRSTB.NS"}>IDFCFIRSTB.NS</MenuItem>
+        <MenuItem value={"IEX.NS"}>IEX.NS</MenuItem>
+        <MenuItem value={"IFBAGRO.NS"}>IFBAGRO.NS</MenuItem>
+        <MenuItem value={"IFBIND.NS"}>IFBIND.NS</MenuItem>
+        <MenuItem value={"IFCI.NS"}>IFCI.NS</MenuItem>
+        <MenuItem value={"IFGLEXPOR.NS"}>IFGLEXPOR.NS</MenuItem>
+        <MenuItem value={"IGARASHI.NS"}>IGARASHI.NS</MenuItem>
+        <MenuItem value={"IGL.NS"}>IGL.NS</MenuItem>
+        <MenuItem value={"IGPL.NS"}>IGPL.NS</MenuItem>
+        <MenuItem value={"IIFL.NS"}>IIFL.NS</MenuItem>
+        <MenuItem value={"IIFLSEC.NS"}>IIFLSEC.NS</MenuItem>
+        <MenuItem value={"IIFLWAM.NS"}>IIFLWAM.NS</MenuItem>
+        <MenuItem value={"IITL.NS"}>IITL.NS</MenuItem>
+        <MenuItem value={"IL&FSENGG.NS"}>IL&FSENGG.NS</MenuItem>
+        <MenuItem value={"IL&FSTRANS.NS"}>IL&FSTRANS.NS</MenuItem>
+        <MenuItem value={"IMAGICAA.NS"}>IMAGICAA.NS</MenuItem>
+        <MenuItem value={"IMFA.NS"}>IMFA.NS</MenuItem>
+        <MenuItem value={"IMPAL.NS"}>IMPAL.NS</MenuItem>
+        <MenuItem value={"IMPEXFERRO.NS"}>IMPEXFERRO.NS</MenuItem>
+        <MenuItem value={"INDBANK.NS"}>INDBANK.NS</MenuItem>
+        <MenuItem value={"INDHOTEL.NS"}>INDHOTEL.NS</MenuItem>
+        <MenuItem value={"INDIACEM.NS"}>INDIACEM.NS</MenuItem>
+        <MenuItem value={"INDIAGLYCO.NS"}>INDIAGLYCO.NS</MenuItem>
+        <MenuItem value={"INDIAMART.NS"}>INDIAMART.NS</MenuItem>
+        <MenuItem value={"INDIANB.NS"}>INDIANB.NS</MenuItem>
+        <MenuItem value={"INDIANCARD.NS"}>INDIANCARD.NS</MenuItem>
+        <MenuItem value={"INDIANHUME.NS"}>INDIANHUME.NS</MenuItem>
+        <MenuItem value={"INDIGO.NS"}>INDIGO.NS</MenuItem>
+        <MenuItem value={"INDLMETER.NS"}>INDLMETER.NS</MenuItem>
+        <MenuItem value={"INDNIPPON.NS"}>INDNIPPON.NS</MenuItem>
+        <MenuItem value={"INDOCO.NS"}>INDOCO.NS</MenuItem>
+        <MenuItem value={"INDORAMA.NS"}>INDORAMA.NS</MenuItem>
+        <MenuItem value={"INDOSOLAR.NS"}>INDOSOLAR.NS</MenuItem>
+        <MenuItem value={"INDOSTAR.NS"}>INDOSTAR.NS</MenuItem>
+        <MenuItem value={"INDOTECH.NS"}>INDOTECH.NS</MenuItem>
+        <MenuItem value={"INDOTHAI.NS"}>INDOTHAI.NS</MenuItem>
+        <MenuItem value={"INDOWIND.NS"}>INDOWIND.NS</MenuItem>
+        <MenuItem value={"INDRAMEDCO.NS"}>INDRAMEDCO.NS</MenuItem>
+        <MenuItem value={"INDSWFTLAB.NS"}>INDSWFTLAB.NS</MenuItem>
+        <MenuItem value={"INDSWFTLTD.NS"}>INDSWFTLTD.NS</MenuItem>
+        <MenuItem value={"INDTERRAIN.NS"}>INDTERRAIN.NS</MenuItem>
+        <MenuItem value={"INDUSINDBK.NS"}>INDUSINDBK.NS</MenuItem>
+        <MenuItem value={"INEOSSTYRO.NS"}>INEOSSTYRO.NS</MenuItem>
+        <MenuItem value={"INFIBEAM.NS"}>INFIBEAM.NS</MenuItem>
+        <MenuItem value={"INFOBEAN.NS"}>INFOBEAN.NS</MenuItem>
+        <MenuItem value={"INFRATEL.NS"}>INFRATEL.NS</MenuItem>
+        <MenuItem value={"INFY.NS"}>INFY.NS</MenuItem>
+        <MenuItem value={"INGERRAND.NS"}>INGERRAND.NS</MenuItem>
+        <MenuItem value={"INOXLEISUR.NS"}>INOXLEISUR.NS</MenuItem>
+        <MenuItem value={"INOXWIND.NS"}>INOXWIND.NS</MenuItem>
+        <MenuItem value={"INSECTICID.NS"}>INSECTICID.NS</MenuItem>
+        <MenuItem value={"INSPIRISYS.NS"}>INSPIRISYS.NS</MenuItem>
+        <MenuItem value={"INTEGRA.NS"}>INTEGRA.NS</MenuItem>
+        <MenuItem value={"INTELLECT.NS"}>INTELLECT.NS</MenuItem>
+        <MenuItem value={"INTENTECH.NS"}>INTENTECH.NS</MenuItem>
+        <MenuItem value={"INVENTURE.NS"}>INVENTURE.NS</MenuItem>
+        <MenuItem value={"IOB.NS"}>IOB.NS</MenuItem>
+        <MenuItem value={"IOC.NS"}>IOC.NS</MenuItem>
+        <MenuItem value={"IOLCP.NS"}>IOLCP.NS</MenuItem>
+        <MenuItem value={"IPCALAB.NS"}>IPCALAB.NS</MenuItem>
+        <MenuItem value={"IRB.NS"}>IRB.NS</MenuItem>
+        <MenuItem value={"IRCON.NS"}>IRCON.NS</MenuItem>
+        <MenuItem value={"IRCTC.NS"}>IRCTC.NS</MenuItem>
+        <MenuItem value={"ISEC.NS"}>ISEC.NS</MenuItem>
+        <MenuItem value={"ISFT.NS"}>ISFT.NS</MenuItem>
+        <MenuItem value={"ISMTLTD.NS"}>ISMTLTD.NS</MenuItem>
+        <MenuItem value={"ITC.NS"}>ITC.NS</MenuItem>
+        <MenuItem value={"ITDC.NS"}>ITDC.NS</MenuItem>
+        <MenuItem value={"ITDCEM.NS"}>ITDCEM.NS</MenuItem>
+        <MenuItem value={"ITI.NS"}>ITI.NS</MenuItem>
+        <MenuItem value={"IVC.NS"}>IVC.NS</MenuItem>
+        <MenuItem value={"IVP.NS"}>IVP.NS</MenuItem>
+        <MenuItem value={"IZMO.NS"}>IZMO.NS</MenuItem>
+        <MenuItem value={"J&KBANK.NS"}>J&KBANK.NS</MenuItem>
+        <MenuItem value={"JAGRAN.NS"}>JAGRAN.NS</MenuItem>
+        <MenuItem value={"JAGSNPHARM.NS"}>JAGSNPHARM.NS</MenuItem>
+        <MenuItem value={"JAIBALAJI.NS"}>JAIBALAJI.NS</MenuItem>
+        <MenuItem value={"JAICORPLTD.NS"}>JAICORPLTD.NS</MenuItem>
+        <MenuItem value={"JAIHINDPRO.NS"}>JAIHINDPRO.NS</MenuItem>
+        <MenuItem value={"JAINSTUDIO.NS"}>JAINSTUDIO.NS</MenuItem>
+        <MenuItem value={"JAMNAAUTO.NS"}>JAMNAAUTO.NS</MenuItem>
+        <MenuItem value={"JASH.NS"}>JASH.NS</MenuItem>
+        <MenuItem value={"JAYAGROGN.NS"}>JAYAGROGN.NS</MenuItem>
+        <MenuItem value={"JAYBARMARU.NS"}>JAYBARMARU.NS</MenuItem>
+        <MenuItem value={"JAYNECOIND.NS"}>JAYNECOIND.NS</MenuItem>
+        <MenuItem value={"JAYSREETEA.NS"}>JAYSREETEA.NS</MenuItem>
+        <MenuItem value={"JBCHEPHARM.NS"}>JBCHEPHARM.NS</MenuItem>
+        <MenuItem value={"JBFIND.NS"}>JBFIND.NS</MenuItem>
+        <MenuItem value={"JBMA.NS"}>JBMA.NS</MenuItem>
+        <MenuItem value={"JCHAC.NS"}>JCHAC.NS</MenuItem>
+        <MenuItem value={"JETAIRWAYS.NS"}>JETAIRWAYS.NS</MenuItem>
+        <MenuItem value={"JHS.NS"}>JHS.NS</MenuItem>
+        <MenuItem value={"JINDALPHOT.NS"}>JINDALPHOT.NS</MenuItem>
+        <MenuItem value={"JINDALPOLY.NS"}>JINDALPOLY.NS</MenuItem>
+        <MenuItem value={"JINDALSAW.NS"}>JINDALSAW.NS</MenuItem>
+        <MenuItem value={"JINDALSTEL.NS"}>JINDALSTEL.NS</MenuItem>
+        <MenuItem value={"JINDRILL.NS"}>JINDRILL.NS</MenuItem>
+        <MenuItem value={"JINDWORLD.NS"}>JINDWORLD.NS</MenuItem>
+        <MenuItem value={"JISLDVREQS.NS"}>JISLDVREQS.NS</MenuItem>
+        <MenuItem value={"JISLJALEQS.NS"}>JISLJALEQS.NS</MenuItem>
+        <MenuItem value={"JITFINFRA.NS"}>JITFINFRA.NS</MenuItem>
+        <MenuItem value={"JIYAECO.NS"}>JIYAECO.NS</MenuItem>
+        <MenuItem value={"JKCEMENT.NS"}>JKCEMENT.NS</MenuItem>
+        <MenuItem value={"JKIL.NS"}>JKIL.NS</MenuItem>
+        <MenuItem value={"JKLAKSHMI.NS"}>JKLAKSHMI.NS</MenuItem>
+        <MenuItem value={"JKPAPER.NS"}>JKPAPER.NS</MenuItem>
+        <MenuItem value={"JKTYRE.NS"}>JKTYRE.NS</MenuItem>
+        <MenuItem value={"JMA.NS"}>JMA.NS</MenuItem>
+        <MenuItem value={"JMCPROJECT.NS"}>JMCPROJECT.NS</MenuItem>
+        <MenuItem value={"JMFINANCIL.NS"}>JMFINANCIL.NS</MenuItem>
+        <MenuItem value={"JMTAUTOLTD.NS"}>JMTAUTOLTD.NS</MenuItem>
+        <MenuItem value={"JOCIL.NS"}>JOCIL.NS</MenuItem>
+        <MenuItem value={"JPASSOCIAT.NS"}>JPASSOCIAT.NS</MenuItem>
+        <MenuItem value={"JPINFRATEC.NS"}>JPINFRATEC.NS</MenuItem>
+        <MenuItem value={"JPOLYINVST.NS"}>JPOLYINVST.NS</MenuItem>
+        <MenuItem value={"JPPOWER.NS"}>JPPOWER.NS</MenuItem>
+        <MenuItem value={"JSL.NS"}>JSL.NS</MenuItem>
+        <MenuItem value={"JSLHISAR.NS"}>JSLHISAR.NS</MenuItem>
+        <MenuItem value={"JSWENERGY.NS"}>JSWENERGY.NS</MenuItem>
+        <MenuItem value={"JSWHL.NS"}>JSWHL.NS</MenuItem>
+        <MenuItem value={"JSWSTEEL.NS"}>JSWSTEEL.NS</MenuItem>
+        <MenuItem value={"JTEKTINDIA.NS"}>JTEKTINDIA.NS</MenuItem>
+        <MenuItem value={"JUBILANT.NS"}>JUBILANT.NS</MenuItem>
+        <MenuItem value={"JUBLFOOD.NS"}>JUBLFOOD.NS</MenuItem>
+        <MenuItem value={"JUBLINDS.NS"}>JUBLINDS.NS</MenuItem>
+        <MenuItem value={"JUMPNET.NS"}>JUMPNET.NS</MenuItem>
+        <MenuItem value={"JUSTDIAL.NS"}>JUSTDIAL.NS</MenuItem>
+        <MenuItem value={"JVLAGRO.NS"}>JVLAGRO.NS</MenuItem>
+        <MenuItem value={"JYOTHYLAB.NS"}>JYOTHYLAB.NS</MenuItem>
+        <MenuItem value={"KABRAEXTRU.NS"}>KABRAEXTRU.NS</MenuItem>
+        <MenuItem value={"KAJARIACER.NS"}>KAJARIACER.NS</MenuItem>
+        <MenuItem value={"KAKATCEM.NS"}>KAKATCEM.NS</MenuItem>
+        <MenuItem value={"KALPATPOWR.NS"}>KALPATPOWR.NS</MenuItem>
+        <MenuItem value={"KALYANIFRG.NS"}>KALYANIFRG.NS</MenuItem>
+        <MenuItem value={"KAMATHOTEL.NS"}>KAMATHOTEL.NS</MenuItem>
+        <MenuItem value={"KAMDHENU.NS"}>KAMDHENU.NS</MenuItem>
+        <MenuItem value={"KANANIIND.NS"}>KANANIIND.NS</MenuItem>
+        <MenuItem value={"KANORICHEM.NS"}>KANORICHEM.NS</MenuItem>
+        <MenuItem value={"KANSAINER.NS"}>KANSAINER.NS</MenuItem>
+        <MenuItem value={"KAPSTON.NS"}>KAPSTON.NS</MenuItem>
+        <MenuItem value={"KARDA.NS"}>KARDA.NS</MenuItem>
+        <MenuItem value={"KARMAENG.NS"}>KARMAENG.NS</MenuItem>
+        <MenuItem value={"KARURVYSYA.NS"}>KARURVYSYA.NS</MenuItem>
+        <MenuItem value={"KAUSHALYA.NS"}>KAUSHALYA.NS</MenuItem>
+        <MenuItem value={"KAYA.NS"}>KAYA.NS</MenuItem>
+        <MenuItem value={"KCP.NS"}>KCP.NS</MenuItem>
+        <MenuItem value={"KCPSUGIND.NS"}>KCPSUGIND.NS</MenuItem>
+        <MenuItem value={"KDDL.NS"}>KDDL.NS</MenuItem>
+        <MenuItem value={"KEC.NS"}>KEC.NS</MenuItem>
+        <MenuItem value={"KECL.NS"}>KECL.NS</MenuItem>
+        <MenuItem value={"KEI.NS"}>KEI.NS</MenuItem>
+        <MenuItem value={"KELLTONTEC.NS"}>KELLTONTEC.NS</MenuItem>
+        <MenuItem value={"KENNAMET.NS"}>KENNAMET.NS</MenuItem>
+        <MenuItem value={"KERNEX.NS"}>KERNEX.NS</MenuItem>
+        <MenuItem value={"KESORAMIND.NS"}>KESORAMIND.NS</MenuItem>
+        <MenuItem value={"KEYFINSERV.NS"}>KEYFINSERV.NS</MenuItem>
+        <MenuItem value={"KGL.NS"}>KGL.NS</MenuItem>
+        <MenuItem value={"KHADIM.NS"}>KHADIM.NS</MenuItem>
+        <MenuItem value={"KHANDSE.NS"}>KHANDSE.NS</MenuItem>
+        <MenuItem value={"KICL.NS"}>KICL.NS</MenuItem>
+        <MenuItem value={"KILITCH.NS"}>KILITCH.NS</MenuItem>
+        <MenuItem value={"KINGFA.NS"}>KINGFA.NS</MenuItem>
+        <MenuItem value={"KIOCL.NS"}>KIOCL.NS</MenuItem>
+        <MenuItem value={"KIRIINDUS.NS"}>KIRIINDUS.NS</MenuItem>
+        <MenuItem value={"KIRLFER.NS"}>KIRLFER.NS</MenuItem>
+        <MenuItem value={"KIRLOSBROS.NS"}>KIRLOSBROS.NS</MenuItem>
+        <MenuItem value={"KIRLOSENG.NS"}>KIRLOSENG.NS</MenuItem>
+        <MenuItem value={"KIRLOSIND.NS"}>KIRLOSIND.NS</MenuItem>
+        <MenuItem value={"KITEX.NS"}>KITEX.NS</MenuItem>
+        <MenuItem value={"KKCL.NS"}>KKCL.NS</MenuItem>
+        <MenuItem value={"KMSUGAR.NS"}>KMSUGAR.NS</MenuItem>
+        <MenuItem value={"KNRCON.NS"}>KNRCON.NS</MenuItem>
+        <MenuItem value={"KOHINOOR.NS"}>KOHINOOR.NS</MenuItem>
+        <MenuItem value={"KOKUYOCMLN.NS"}>KOKUYOCMLN.NS</MenuItem>
+        <MenuItem value={"KOLTEPATIL.NS"}>KOLTEPATIL.NS</MenuItem>
+        <MenuItem value={"KOPRAN.NS"}>KOPRAN.NS</MenuItem>
+        <MenuItem value={"KOTAKBANK.NS"}>KOTAKBANK.NS</MenuItem>
+        <MenuItem value={"KOTARISUG.NS"}>KOTARISUG.NS</MenuItem>
+        <MenuItem value={"KOTHARIPET.NS"}>KOTHARIPET.NS</MenuItem>
+        <MenuItem value={"KOTHARIPRO.NS"}>KOTHARIPRO.NS</MenuItem>
+        <MenuItem value={"KPITTECH.NS"}>KPITTECH.NS</MenuItem>
+        <MenuItem value={"KPRMILL.NS"}>KPRMILL.NS</MenuItem>
+        <MenuItem value={"KRBL.NS"}>KRBL.NS</MenuItem>
+        <MenuItem value={"KREBSBIO.NS"}>KREBSBIO.NS</MenuItem>
+        <MenuItem value={"KRIDHANINF.NS"}>KRIDHANINF.NS</MenuItem>
+        <MenuItem value={"KRISHANA.NS"}>KRISHANA.NS</MenuItem>
+        <MenuItem value={"KSB.NS"}>KSB.NS</MenuItem>
+        <MenuItem value={"KSCL.NS"}>KSCL.NS</MenuItem>
+        <MenuItem value={"KSERASERA.NS"}>KSERASERA.NS</MenuItem>
+        <MenuItem value={"KSL.NS"}>KSL.NS</MenuItem>
+        <MenuItem value={"KTKBANK.NS"}>KTKBANK.NS</MenuItem>
+        <MenuItem value={"KUANTUM.NS"}>KUANTUM.NS</MenuItem>
+        <MenuItem value={"KWALITY.NS"}>KWALITY.NS</MenuItem>
+        <MenuItem value={"L&TFH.NS"}>L&TFH.NS</MenuItem>
+        <MenuItem value={"LAKPRE.NS"}>LAKPRE.NS</MenuItem>
+        <MenuItem value={"LAKSHVILAS.NS"}>LAKSHVILAS.NS</MenuItem>
+        <MenuItem value={"LALPATHLAB.NS"}>LALPATHLAB.NS</MenuItem>
+        <MenuItem value={"LAMBODHARA.NS"}>LAMBODHARA.NS</MenuItem>
+        <MenuItem value={"LAOPALA.NS"}>LAOPALA.NS</MenuItem>
+        <MenuItem value={"LASA.NS"}>LASA.NS</MenuItem>
+        <MenuItem value={"LAURUSLABS.NS"}>LAURUSLABS.NS</MenuItem>
+        <MenuItem value={"LAXMIMACH.NS"}>LAXMIMACH.NS</MenuItem>
+        <MenuItem value={"LEMONTREE.NS"}>LEMONTREE.NS</MenuItem>
+        <MenuItem value={"LFIC.NS"}>LFIC.NS</MenuItem>
+        <MenuItem value={"LGBBROSLTD.NS"}>LGBBROSLTD.NS</MenuItem>
+        <MenuItem value={"LGBFORGE.NS"}>LGBFORGE.NS</MenuItem>
+        <MenuItem value={"LIBAS.NS"}>LIBAS.NS</MenuItem>
+        <MenuItem value={"LIBERTSHOE.NS"}>LIBERTSHOE.NS</MenuItem>
+        <MenuItem value={"LICHSGFIN.NS"}>LICHSGFIN.NS</MenuItem>
+        <MenuItem value={"LINCOLN.NS"}>LINCOLN.NS</MenuItem>
+        <MenuItem value={"LINCPEN.NS"}>LINCPEN.NS</MenuItem>
+        <MenuItem value={"LINDEINDIA.NS"}>LINDEINDIA.NS</MenuItem>
+        <MenuItem value={"LOKESHMACH.NS"}>LOKESHMACH.NS</MenuItem>
+        <MenuItem value={"LOTUSEYE.NS"}>LOTUSEYE.NS</MenuItem>
+        <MenuItem value={"LOVABLE.NS"}>LOVABLE.NS</MenuItem>
+        <MenuItem value={"LPDC.NS"}>LPDC.NS</MenuItem>
+        <MenuItem value={"LSIL.NS"}>LSIL.NS</MenuItem>
+        <MenuItem value={"LT.NS"}>LT.NS</MenuItem>
+        <MenuItem value={"LTI.NS"}>LTI.NS</MenuItem>
+        <MenuItem value={"LTTS.NS"}>LTTS.NS</MenuItem>
+        <MenuItem value={"LUMAXIND.NS"}>LUMAXIND.NS</MenuItem>
+        <MenuItem value={"LUMAXTECH.NS"}>LUMAXTECH.NS</MenuItem>
+        <MenuItem value={"LUPIN.NS"}>LUPIN.NS</MenuItem>
+        <MenuItem value={"LUXIND.NS"}>LUXIND.NS</MenuItem>
+        <MenuItem value={"LYKALABS.NS"}>LYKALABS.NS</MenuItem>
+        <MenuItem value={"LYPSAGEMS.NS"}>LYPSAGEMS.NS</MenuItem>
+        <MenuItem value={"M&M.NS"}>M&M.NS</MenuItem>
+        <MenuItem value={"M&MFIN.NS"}>M&MFIN.NS</MenuItem>
+        <MenuItem value={"MAANALU.NS"}>MAANALU.NS</MenuItem>
+        <MenuItem value={"MADHAV.NS"}>MADHAV.NS</MenuItem>
+        <MenuItem value={"MADRASFERT.NS"}>MADRASFERT.NS</MenuItem>
+        <MenuItem value={"MAGADSUGAR.NS"}>MAGADSUGAR.NS</MenuItem>
+        <MenuItem value={"MAGMA.NS"}>MAGMA.NS</MenuItem>
+        <MenuItem value={"MAGNUM.NS"}>MAGNUM.NS</MenuItem>
+        <MenuItem value={"MAHABANK.NS"}>MAHABANK.NS</MenuItem>
+        <MenuItem value={"MAHAPEXLTD.NS"}>MAHAPEXLTD.NS</MenuItem>
+        <MenuItem value={"MAHASTEEL.NS"}>MAHASTEEL.NS</MenuItem>
+        <MenuItem value={"MAHEPC.NS"}>MAHEPC.NS</MenuItem>
+        <MenuItem value={"MAHESHWARI.NS"}>MAHESHWARI.NS</MenuItem>
+        <MenuItem value={"MAHINDCIE.NS"}>MAHINDCIE.NS</MenuItem>
+        <MenuItem value={"MAHLIFE.NS"}>MAHLIFE.NS</MenuItem>
+        <MenuItem value={"MAHLOG.NS"}>MAHLOG.NS</MenuItem>
+        <MenuItem value={"MAHSCOOTER.NS"}>MAHSCOOTER.NS</MenuItem>
+        <MenuItem value={"MAHSEAMLES.NS"}>MAHSEAMLES.NS</MenuItem>
+        <MenuItem value={"MAITHANALL.NS"}>MAITHANALL.NS</MenuItem>
+        <MenuItem value={"MAJESCO.NS"}>MAJESCO.NS</MenuItem>
+        <MenuItem value={"MALUPAPER.NS"}>MALUPAPER.NS</MenuItem>
+        <MenuItem value={"MANAKALUCO.NS"}>MANAKALUCO.NS</MenuItem>
+        <MenuItem value={"MANAKCOAT.NS"}>MANAKCOAT.NS</MenuItem>
+        <MenuItem value={"MANAKSIA.NS"}>MANAKSIA.NS</MenuItem>
+        <MenuItem value={"MANAKSTEEL.NS"}>MANAKSTEEL.NS</MenuItem>
+        <MenuItem value={"MANALIPETC.NS"}>MANALIPETC.NS</MenuItem>
+        <MenuItem value={"MANAPPURAM.NS"}>MANAPPURAM.NS</MenuItem>
+        <MenuItem value={"MANGALAM.NS"}>MANGALAM.NS</MenuItem>
+        <MenuItem value={"MANGCHEFER.NS"}>MANGCHEFER.NS</MenuItem>
+        <MenuItem value={"MANGLMCEM.NS"}>MANGLMCEM.NS</MenuItem>
+        <MenuItem value={"MANGTIMBER.NS"}>MANGTIMBER.NS</MenuItem>
+        <MenuItem value={"MANINDS.NS"}>MANINDS.NS</MenuItem>
+        <MenuItem value={"MANINFRA.NS"}>MANINFRA.NS</MenuItem>
+        <MenuItem value={"MANUGRAPH.NS"}>MANUGRAPH.NS</MenuItem>
+        <MenuItem value={"MARALOVER.NS"}>MARALOVER.NS</MenuItem>
+        <MenuItem value={"MARATHON.NS"}>MARATHON.NS</MenuItem>
+        <MenuItem value={"MARICO.NS"}>MARICO.NS</MenuItem>
+        <MenuItem value={"MARKSANS.NS"}>MARKSANS.NS</MenuItem>
+        <MenuItem value={"MARUTI.NS"}>MARUTI.NS</MenuItem>
+        <MenuItem value={"MASFIN.NS"}>MASFIN.NS</MenuItem>
+        <MenuItem value={"MASKINVEST.NS"}>MASKINVEST.NS</MenuItem>
+        <MenuItem value={"MASTEK.NS"}>MASTEK.NS</MenuItem>
+        <MenuItem value={"MATRIMONY.NS"}>MATRIMONY.NS</MenuItem>
+        <MenuItem value={"MAWANASUG.NS"}>MAWANASUG.NS</MenuItem>
+        <MenuItem value={"MAXVIL.NS"}>MAXVIL.NS</MenuItem>
+        <MenuItem value={"MAYURUNIQ.NS"}>MAYURUNIQ.NS</MenuItem>
+        <MenuItem value={"MAZDA.NS"}>MAZDA.NS</MenuItem>
+        <MenuItem value={"MBAPL.NS"}>MBAPL.NS</MenuItem>
+        <MenuItem value={"MBECL.NS"}>MBECL.NS</MenuItem>
+        <MenuItem value={"MBLINFRA.NS"}>MBLINFRA.NS</MenuItem>
+        <MenuItem value={"MCDHOLDING.NS"}>MCDHOLDING.NS</MenuItem>
+        <MenuItem value={"MCDOWELL-N.NS"}>MCDOWELL-N.NS</MenuItem>
+        <MenuItem value={"MCLEODRUSS.NS"}>MCLEODRUSS.NS</MenuItem>
+        <MenuItem value={"MCX.NS"}>MCX.NS</MenuItem>
+        <MenuItem value={"MEGASOFT.NS"}>MEGASOFT.NS</MenuItem>
+        <MenuItem value={"MEGH.NS"}>MEGH.NS</MenuItem>
+        <MenuItem value={"MELSTAR.NS"}>MELSTAR.NS</MenuItem>
+        <MenuItem value={"MENONBE.NS"}>MENONBE.NS</MenuItem>
+        <MenuItem value={"MEP.NS"}>MEP.NS</MenuItem>
+        <MenuItem value={"MERCATOR.NS"}>MERCATOR.NS</MenuItem>
+        <MenuItem value={"METALFORGE.NS"}>METALFORGE.NS</MenuItem>
+        <MenuItem value={"METKORE.NS"}>METKORE.NS</MenuItem>
+        <MenuItem value={"METROPOLIS.NS"}>METROPOLIS.NS</MenuItem>
+        <MenuItem value={"MFSL.NS"}>MFSL.NS</MenuItem>
+        <MenuItem value={"MGL.NS"}>MGL.NS</MenuItem>
+        <MenuItem value={"MHRIL.NS"}>MHRIL.NS</MenuItem>
+        <MenuItem value={"MIDHANI.NS"}>MIDHANI.NS</MenuItem>
+        <MenuItem value={"MINDACORP.NS"}>MINDACORP.NS</MenuItem>
+        <MenuItem value={"MINDAIND.NS"}>MINDAIND.NS</MenuItem>
+        <MenuItem value={"MINDTECK.NS"}>MINDTECK.NS</MenuItem>
+        <MenuItem value={"MINDTREE.NS"}>MINDTREE.NS</MenuItem>
+        <MenuItem value={"MIRCELECTR.NS"}>MIRCELECTR.NS</MenuItem>
+        <MenuItem value={"MIRZAINT.NS"}>MIRZAINT.NS</MenuItem>
+        <MenuItem value={"MITTAL.NS"}>MITTAL.NS</MenuItem>
+        <MenuItem value={"MMFL.NS"}>MMFL.NS</MenuItem>
+        <MenuItem value={"MMP.NS"}>MMP.NS</MenuItem>
+        <MenuItem value={"MMTC.NS"}>MMTC.NS</MenuItem>
+        <MenuItem value={"MODIRUBBER.NS"}>MODIRUBBER.NS</MenuItem>
+        <MenuItem value={"MOHITIND.NS"}>MOHITIND.NS</MenuItem>
+        <MenuItem value={"MOHOTAIND.NS"}>MOHOTAIND.NS</MenuItem>
+        <MenuItem value={"MOIL.NS"}>MOIL.NS</MenuItem>
+        <MenuItem value={"MOLDTECH.NS"}>MOLDTECH.NS</MenuItem>
+        <MenuItem value={"MOLDTKPAC.NS"}>MOLDTKPAC.NS</MenuItem>
+        <MenuItem value={"MONTECARLO.NS"}>MONTECARLO.NS</MenuItem>
+        <MenuItem value={"MORARJEE.NS"}>MORARJEE.NS</MenuItem>
+        <MenuItem value={"MOREPENLAB.NS"}>MOREPENLAB.NS</MenuItem>
+        <MenuItem value={"MOTHERSUMI.NS"}>MOTHERSUMI.NS</MenuItem>
+        <MenuItem value={"MOTILALOFS.NS"}>MOTILALOFS.NS</MenuItem>
+        <MenuItem value={"MOTOGENFIN.NS"}>MOTOGENFIN.NS</MenuItem>
+        <MenuItem value={"MPHASIS.NS"}>MPHASIS.NS</MenuItem>
+        <MenuItem value={"MPSLTD.NS"}>MPSLTD.NS</MenuItem>
+        <MenuItem value={"MRF.NS"}>MRF.NS</MenuItem>
+        <MenuItem value={"MRO-TEK.NS"}>MRO-TEK.NS</MenuItem>
+        <MenuItem value={"MRPL.NS"}>MRPL.NS</MenuItem>
+        <MenuItem value={"MSPL.NS"}>MSPL.NS</MenuItem>
+        <MenuItem value={"MSTCLTD.NS"}>MSTCLTD.NS</MenuItem>
+        <MenuItem value={"MTEDUCARE.NS"}>MTEDUCARE.NS</MenuItem>
+        <MenuItem value={"MTNL.NS"}>MTNL.NS</MenuItem>
+        <MenuItem value={"MUKANDENGG.NS"}>MUKANDENGG.NS</MenuItem>
+        <MenuItem value={"MUKANDLTD.NS"}>MUKANDLTD.NS</MenuItem>
+        <MenuItem value={"MUKTAARTS.NS"}>MUKTAARTS.NS</MenuItem>
+        <MenuItem value={"MUNJALAU.NS"}>MUNJALAU.NS</MenuItem>
+        <MenuItem value={"MUNJALSHOW.NS"}>MUNJALSHOW.NS</MenuItem>
+        <MenuItem value={"MURUDCERA.NS"}>MURUDCERA.NS</MenuItem>
+        <MenuItem value={"MUTHOOTCAP.NS"}>MUTHOOTCAP.NS</MenuItem>
+        <MenuItem value={"MUTHOOTFIN.NS"}>MUTHOOTFIN.NS</MenuItem>
+        <MenuItem value={"NACLIND.NS"}>NACLIND.NS</MenuItem>
+        <MenuItem value={"NAGAFERT.NS"}>NAGAFERT.NS</MenuItem>
+        <MenuItem value={"NAGREEKCAP.NS"}>NAGREEKCAP.NS</MenuItem>
+        <MenuItem value={"NAGREEKEXP.NS"}>NAGREEKEXP.NS</MenuItem>
+        <MenuItem value={"NAHARCAP.NS"}>NAHARCAP.NS</MenuItem>
+        <MenuItem value={"NAHARINDUS.NS"}>NAHARINDUS.NS</MenuItem>
+        <MenuItem value={"NAHARPOLY.NS"}>NAHARPOLY.NS</MenuItem>
+        <MenuItem value={"NAHARSPING.NS"}>NAHARSPING.NS</MenuItem>
+        <MenuItem value={"NAM-INDIA.NS"}>NAM-INDIA.NS</MenuItem>
+        <MenuItem value={"NATCOPHARM.NS"}>NATCOPHARM.NS</MenuItem>
+        <MenuItem value={"NATHBIOGEN.NS"}>NATHBIOGEN.NS</MenuItem>
+        <MenuItem value={"NATIONALUM.NS"}>NATIONALUM.NS</MenuItem>
+        <MenuItem value={"NATNLSTEEL.NS"}>NATNLSTEEL.NS</MenuItem>
+        <MenuItem value={"NAUKRI.NS"}>NAUKRI.NS</MenuItem>
+        <MenuItem value={"NAVINFLUOR.NS"}>NAVINFLUOR.NS</MenuItem>
+        <MenuItem value={"NAVKARCORP.NS"}>NAVKARCORP.NS</MenuItem>
+        <MenuItem value={"NAVNETEDUL.NS"}>NAVNETEDUL.NS</MenuItem>
+        <MenuItem value={"NBCC.NS"}>NBCC.NS</MenuItem>
+        <MenuItem value={"NBIFIN.NS"}>NBIFIN.NS</MenuItem>
+        <MenuItem value={"NBVENTURES.NS"}>NBVENTURES.NS</MenuItem>
+        <MenuItem value={"NCC.NS"}>NCC.NS</MenuItem>
+        <MenuItem value={"NCLIND.NS"}>NCLIND.NS</MenuItem>
+        <MenuItem value={"NDGL.NS"}>NDGL.NS</MenuItem>
+        <MenuItem value={"NDL.NS"}>NDL.NS</MenuItem>
+        <MenuItem value={"NDTV.NS"}>NDTV.NS</MenuItem>
+        <MenuItem value={"NECCLTD.NS"}>NECCLTD.NS</MenuItem>
+        <MenuItem value={"NECLIFE.NS"}>NECLIFE.NS</MenuItem>
+        <MenuItem value={"NELCAST.NS"}>NELCAST.NS</MenuItem>
+        <MenuItem value={"NELCO.NS"}>NELCO.NS</MenuItem>
+        <MenuItem value={"NEOGEN.NS"}>NEOGEN.NS</MenuItem>
+        <MenuItem value={"NESCO.NS"}>NESCO.NS</MenuItem>
+        <MenuItem value={"NESTLEIND.NS"}>NESTLEIND.NS</MenuItem>
+        <MenuItem value={"NETWORK18.NS"}>NETWORK18.NS</MenuItem>
+        <MenuItem value={"NEULANDLAB.NS"}>NEULANDLAB.NS</MenuItem>
+        <MenuItem value={"NEWGEN.NS"}>NEWGEN.NS</MenuItem>
+        <MenuItem value={"NEXTMEDIA.NS"}>NEXTMEDIA.NS</MenuItem>
+        <MenuItem value={"NFL.NS"}>NFL.NS</MenuItem>
+        <MenuItem value={"NH.NS"}>NH.NS</MenuItem>
+        <MenuItem value={"NHPC.NS"}>NHPC.NS</MenuItem>
+        <MenuItem value={"NIACL.NS"}>NIACL.NS</MenuItem>
+        <MenuItem value={"NIBL.NS"}>NIBL.NS</MenuItem>
+        <MenuItem value={"NIITLTD.NS"}>NIITLTD.NS</MenuItem>
+        <MenuItem value={"NIITTECH.NS"}>NIITTECH.NS</MenuItem>
+        <MenuItem value={"NILAINFRA.NS"}>NILAINFRA.NS</MenuItem>
+        <MenuItem value={"NILASPACES.NS"}>NILASPACES.NS</MenuItem>
+        <MenuItem value={"NILKAMAL.NS"}>NILKAMAL.NS</MenuItem>
+        <MenuItem value={"NIPPOBATRY.NS"}>NIPPOBATRY.NS</MenuItem>
+        <MenuItem value={"NITCO.NS"}>NITCO.NS</MenuItem>
+        <MenuItem value={"NITINFIRE.NS"}>NITINFIRE.NS</MenuItem>
+        <MenuItem value={"NITINSPIN.NS"}>NITINSPIN.NS</MenuItem>
+        <MenuItem value={"NKIND.NS"}>NKIND.NS</MenuItem>
+        <MenuItem value={"NLCINDIA.NS"}>NLCINDIA.NS</MenuItem>
+        <MenuItem value={"NMDC.NS"}>NMDC.NS</MenuItem>
+        <MenuItem value={"NOCIL.NS"}>NOCIL.NS</MenuItem>
+        <MenuItem value={"NOIDATOLL.NS"}>NOIDATOLL.NS</MenuItem>
+        <MenuItem value={"NORBTEAEXP.NS"}>NORBTEAEXP.NS</MenuItem>
+        <MenuItem value={"NRAIL.NS"}>NRAIL.NS</MenuItem>
+        <MenuItem value={"NRBBEARING.NS"}>NRBBEARING.NS</MenuItem>
+        <MenuItem value={"NSIL.NS"}>NSIL.NS</MenuItem>
+        <MenuItem value={"NTL.NS"}>NTL.NS</MenuItem>
+        <MenuItem value={"NTPC.NS"}>NTPC.NS</MenuItem>
+        <MenuItem value={"NUCLEUS.NS"}>NUCLEUS.NS</MenuItem>
+        <MenuItem value={"NXTDIGITAL.NS"}>NXTDIGITAL.NS</MenuItem>
+        <MenuItem value={"OAL.NS"}>OAL.NS</MenuItem>
+        <MenuItem value={"OBEROIRLTY.NS"}>OBEROIRLTY.NS</MenuItem>
+        <MenuItem value={"OCCL.NS"}>OCCL.NS</MenuItem>
+        <MenuItem value={"OFSS.NS"}>OFSS.NS</MenuItem>
+        <MenuItem value={"OIL.NS"}>OIL.NS</MenuItem>
+        <MenuItem value={"OILCOUNTUB.NS"}>OILCOUNTUB.NS</MenuItem>
+        <MenuItem value={"OISL.NS"}>OISL.NS</MenuItem>
+        <MenuItem value={"OLECTRA.NS"}>OLECTRA.NS</MenuItem>
+        <MenuItem value={"OMAXAUTO.NS"}>OMAXAUTO.NS</MenuItem>
+        <MenuItem value={"OMAXE.NS"}>OMAXE.NS</MenuItem>
+        <MenuItem value={"OMKARCHEM.NS"}>OMKARCHEM.NS</MenuItem>
+        <MenuItem value={"OMMETALS.NS"}>OMMETALS.NS</MenuItem>
+        <MenuItem value={"ONELIFECAP.NS"}>ONELIFECAP.NS</MenuItem>
+        <MenuItem value={"ONEPOINT.NS"}>ONEPOINT.NS</MenuItem>
+        <MenuItem value={"ONGC.NS"}>ONGC.NS</MenuItem>
+        <MenuItem value={"ONMOBILE.NS"}>ONMOBILE.NS</MenuItem>
+        <MenuItem value={"ONWARDTEC.NS"}>ONWARDTEC.NS</MenuItem>
+        <MenuItem value={"OPTIEMUS.NS"}>OPTIEMUS.NS</MenuItem>
+        <MenuItem value={"OPTOCIRCUI.NS"}>OPTOCIRCUI.NS</MenuItem>
+        <MenuItem value={"ORBTEXP.NS"}>ORBTEXP.NS</MenuItem>
+        <MenuItem value={"ORICONENT.NS"}>ORICONENT.NS</MenuItem>
+        <MenuItem value={"ORIENTABRA.NS"}>ORIENTABRA.NS</MenuItem>
+        <MenuItem value={"ORIENTALTL.NS"}>ORIENTALTL.NS</MenuItem>
+        <MenuItem value={"ORIENTBELL.NS"}>ORIENTBELL.NS</MenuItem>
+        <MenuItem value={"ORIENTCEM.NS"}>ORIENTCEM.NS</MenuItem>
+        <MenuItem value={"ORIENTELEC.NS"}>ORIENTELEC.NS</MenuItem>
+        <MenuItem value={"ORIENTHOT.NS"}>ORIENTHOT.NS</MenuItem>
+        <MenuItem value={"ORIENTLTD.NS"}>ORIENTLTD.NS</MenuItem>
+        <MenuItem value={"ORIENTPPR.NS"}>ORIENTPPR.NS</MenuItem>
+        <MenuItem value={"ORIENTREF.NS"}>ORIENTREF.NS</MenuItem>
+        <MenuItem value={"ORISSAMINE.NS"}>ORISSAMINE.NS</MenuItem>
+        <MenuItem value={"ORTEL.NS"}>ORTEL.NS</MenuItem>
+        <MenuItem value={"ORTINLABSS.NS"}>ORTINLABSS.NS</MenuItem>
+        <MenuItem value={"OSWALAGRO.NS"}>OSWALAGRO.NS</MenuItem>
+        <MenuItem value={"PAEL.NS"}>PAEL.NS</MenuItem>
+        <MenuItem value={"PAGEIND.NS"}>PAGEIND.NS</MenuItem>
+        <MenuItem value={"PAISALO.NS"}>PAISALO.NS</MenuItem>
+        <MenuItem value={"PALASHSECU.NS"}>PALASHSECU.NS</MenuItem>
+        <MenuItem value={"PALREDTEC.NS"}>PALREDTEC.NS</MenuItem>
+        <MenuItem value={"PANACEABIO.NS"}>PANACEABIO.NS</MenuItem>
+        <MenuItem value={"PANACHE.NS"}>PANACHE.NS</MenuItem>
+        <MenuItem value={"PANAMAPET.NS"}>PANAMAPET.NS</MenuItem>
+        <MenuItem value={"PAPERPROD.NS"}>PAPERPROD.NS</MenuItem>
+        <MenuItem value={"PARABDRUGS.NS"}>PARABDRUGS.NS</MenuItem>
+        <MenuItem value={"PARACABLES.NS"}>PARACABLES.NS</MenuItem>
+        <MenuItem value={"PARAGMILK.NS"}>PARAGMILK.NS</MenuItem>
+        <MenuItem value={"PARSVNATH.NS"}>PARSVNATH.NS</MenuItem>
+        <MenuItem value={"PATELENG.NS"}>PATELENG.NS</MenuItem>
+        <MenuItem value={"PATINTLOG.NS"}>PATINTLOG.NS</MenuItem>
+        <MenuItem value={"PATSPINLTD.NS"}>PATSPINLTD.NS</MenuItem>
+        <MenuItem value={"PCJEWELLER.NS"}>PCJEWELLER.NS</MenuItem>
+        <MenuItem value={"PDMJEPAPER.NS"}>PDMJEPAPER.NS</MenuItem>
+        <MenuItem value={"PDSMFL.NS"}>PDSMFL.NS</MenuItem>
+        <MenuItem value={"PEARLPOLY.NS"}>PEARLPOLY.NS</MenuItem>
+        <MenuItem value={"PEL.NS"}>PEL.NS</MenuItem>
+        <MenuItem value={"PENIND.NS"}>PENIND.NS</MenuItem>
+        <MenuItem value={"PENINLAND.NS"}>PENINLAND.NS</MenuItem>
+        <MenuItem value={"PERSISTENT.NS"}>PERSISTENT.NS</MenuItem>
+        <MenuItem value={"PETRONET.NS"}>PETRONET.NS</MenuItem>
+        <MenuItem value={"PFC.NS"}>PFC.NS</MenuItem>
+        <MenuItem value={"PFIZER.NS"}>PFIZER.NS</MenuItem>
+        <MenuItem value={"PFOCUS.NS"}>PFOCUS.NS</MenuItem>
+        <MenuItem value={"PFS.NS"}>PFS.NS</MenuItem>
+        <MenuItem value={"PGEL.NS"}>PGEL.NS</MenuItem>
+        <MenuItem value={"PGHH.NS"}>PGHH.NS</MenuItem>
+        <MenuItem value={"PGHL.NS"}>PGHL.NS</MenuItem>
+        <MenuItem value={"PGIL.NS"}>PGIL.NS</MenuItem>
+        <MenuItem value={"PHILIPCARB.NS"}>PHILIPCARB.NS</MenuItem>
+        <MenuItem value={"PHOENIXLTD.NS"}>PHOENIXLTD.NS</MenuItem>
+        <MenuItem value={"PIDILITIND.NS"}>PIDILITIND.NS</MenuItem>
+        <MenuItem value={"PIIND.NS"}>PIIND.NS</MenuItem>
+        <MenuItem value={"PILANIINVS.NS"}>PILANIINVS.NS</MenuItem>
+        <MenuItem value={"PILITA.NS"}>PILITA.NS</MenuItem>
+        <MenuItem value={"PIONDIST.NS"}>PIONDIST.NS</MenuItem>
+        <MenuItem value={"PIONEEREMB.NS"}>PIONEEREMB.NS</MenuItem>
+        <MenuItem value={"PITTIENG.NS"}>PITTIENG.NS</MenuItem>
+        <MenuItem value={"PKTEA.NS"}>PKTEA.NS</MenuItem>
+        <MenuItem value={"PLASTIBLEN.NS"}>PLASTIBLEN.NS</MenuItem>
+        <MenuItem value={"PNB.NS"}>PNB.NS</MenuItem>
+        <MenuItem value={"PNBGILTS.NS"}>PNBGILTS.NS</MenuItem>
+        <MenuItem value={"PNBHOUSING.NS"}>PNBHOUSING.NS</MenuItem>
+        <MenuItem value={"PNC.NS"}>PNC.NS</MenuItem>
+        <MenuItem value={"PNCINFRA.NS"}>PNCINFRA.NS</MenuItem>
+        <MenuItem value={"PODDARHOUS.NS"}>PODDARHOUS.NS</MenuItem>
+        <MenuItem value={"PODDARMENT.NS"}>PODDARMENT.NS</MenuItem>
+        <MenuItem value={"POKARNA.NS"}>POKARNA.NS</MenuItem>
+        <MenuItem value={"POLYCAB.NS"}>POLYCAB.NS</MenuItem>
+        <MenuItem value={"POLYMED.NS"}>POLYMED.NS</MenuItem>
+        <MenuItem value={"POLYPLEX.NS"}>POLYPLEX.NS</MenuItem>
+        <MenuItem value={"PONNIERODE.NS"}>PONNIERODE.NS</MenuItem>
+        <MenuItem value={"POWERGRID.NS"}>POWERGRID.NS</MenuItem>
+        <MenuItem value={"POWERINDIA.NS"}>POWERINDIA.NS</MenuItem>
+        <MenuItem value={"POWERMECH.NS"}>POWERMECH.NS</MenuItem>
+        <MenuItem value={"PPAP.NS"}>PPAP.NS</MenuItem>
+        <MenuItem value={"PPL.NS"}>PPL.NS</MenuItem>
+        <MenuItem value={"PRABHAT.NS"}>PRABHAT.NS</MenuItem>
+        <MenuItem value={"PRADIP.NS"}>PRADIP.NS</MenuItem>
+        <MenuItem value={"PRAENG.NS"}>PRAENG.NS</MenuItem>
+        <MenuItem value={"PRAJIND.NS"}>PRAJIND.NS</MenuItem>
+        <MenuItem value={"PRAKASH.NS"}>PRAKASH.NS</MenuItem>
+        <MenuItem value={"PRAKASHSTL.NS"}>PRAKASHSTL.NS</MenuItem>
+        <MenuItem value={"PRAXIS.NS"}>PRAXIS.NS</MenuItem>
+        <MenuItem value={"PRECAM.NS"}>PRECAM.NS</MenuItem>
+        <MenuItem value={"PRECOT.NS"}>PRECOT.NS</MenuItem>
+        <MenuItem value={"PRECWIRE.NS"}>PRECWIRE.NS</MenuItem>
+        <MenuItem value={"PREMEXPLN.NS"}>PREMEXPLN.NS</MenuItem>
+        <MenuItem value={"PREMIER.NS"}>PREMIER.NS</MenuItem>
+        <MenuItem value={"PREMIERPOL.NS"}>PREMIERPOL.NS</MenuItem>
+        <MenuItem value={"PRESSMN.NS"}>PRESSMN.NS</MenuItem>
+        <MenuItem value={"PRESTIGE.NS"}>PRESTIGE.NS</MenuItem>
+        <MenuItem value={"PRICOLLTD.NS"}>PRICOLLTD.NS</MenuItem>
+        <MenuItem value={"PRIMESECU.NS"}>PRIMESECU.NS</MenuItem>
+        <MenuItem value={"PRINCEPIPE.NS"}>PRINCEPIPE.NS</MenuItem>
+        <MenuItem value={"PROZONINTU.NS"}>PROZONINTU.NS</MenuItem>
+        <MenuItem value={"PRSMJOHNSN.NS"}>PRSMJOHNSN.NS</MenuItem>
+        <MenuItem value={"PSB.NS"}>PSB.NS</MenuItem>
+        <MenuItem value={"PSPPROJECT.NS"}>PSPPROJECT.NS</MenuItem>
+        <MenuItem value={"PTC.NS"}>PTC.NS</MenuItem>
+        <MenuItem value={"PTL.NS"}>PTL.NS</MenuItem>
+        <MenuItem value={"PUNJABCHEM.NS"}>PUNJABCHEM.NS</MenuItem>
+        <MenuItem value={"PUNJLLOYD.NS"}>PUNJLLOYD.NS</MenuItem>
+        <MenuItem value={"PURVA.NS"}>PURVA.NS</MenuItem>
+        <MenuItem value={"PVR.NS"}>PVR.NS</MenuItem>
+        <MenuItem value={"QUESS.NS"}>QUESS.NS</MenuItem>
+        <MenuItem value={"QUICKHEAL.NS"}>QUICKHEAL.NS</MenuItem>
+        <MenuItem value={"RADAAN.NS"}>RADAAN.NS</MenuItem>
+        <MenuItem value={"RADICO.NS"}>RADICO.NS</MenuItem>
+        <MenuItem value={"RADIOCITY.NS"}>RADIOCITY.NS</MenuItem>
+        <MenuItem value={"RAIN.NS"}>RAIN.NS</MenuItem>
+        <MenuItem value={"RAJESHEXPO.NS"}>RAJESHEXPO.NS</MenuItem>
+        <MenuItem value={"RAJRATAN.NS"}>RAJRATAN.NS</MenuItem>
+        <MenuItem value={"RAJSREESUG.NS"}>RAJSREESUG.NS</MenuItem>
+        <MenuItem value={"RAJTV.NS"}>RAJTV.NS</MenuItem>
+        <MenuItem value={"RALLIS.NS"}>RALLIS.NS</MenuItem>
+        <MenuItem value={"RAMANEWS.NS"}>RAMANEWS.NS</MenuItem>
+        <MenuItem value={"RAMASTEEL.NS"}>RAMASTEEL.NS</MenuItem>
+        <MenuItem value={"RAMCOCEM.NS"}>RAMCOCEM.NS</MenuItem>
+        <MenuItem value={"RAMCOIND.NS"}>RAMCOIND.NS</MenuItem>
+        <MenuItem value={"RAMCOSYS.NS"}>RAMCOSYS.NS</MenuItem>
+        <MenuItem value={"RAMKY.NS"}>RAMKY.NS</MenuItem>
+        <MenuItem value={"RANASUG.NS"}>RANASUG.NS</MenuItem>
+        <MenuItem value={"RANEENGINE.NS"}>RANEENGINE.NS</MenuItem>
+        <MenuItem value={"RANEHOLDIN.NS"}>RANEHOLDIN.NS</MenuItem>
+        <MenuItem value={"RATNAMANI.NS"}>RATNAMANI.NS</MenuItem>
+        <MenuItem value={"RAYMOND.NS"}>RAYMOND.NS</MenuItem>
+        <MenuItem value={"RBL.NS"}>RBL.NS</MenuItem>
+        <MenuItem value={"RBLBANK.NS"}>RBLBANK.NS</MenuItem>
+        <MenuItem value={"RCOM.NS"}>RCOM.NS</MenuItem>
+        <MenuItem value={"RECLTD.NS"}>RECLTD.NS</MenuItem>
+        <MenuItem value={"REDINGTON.NS"}>REDINGTON.NS</MenuItem>
+        <MenuItem value={"REFEX.NS"}>REFEX.NS</MenuItem>
+        <MenuItem value={"RELAXO.NS"}>RELAXO.NS</MenuItem>
+        <MenuItem value={"RELCAPITAL.NS"}>RELCAPITAL.NS</MenuItem>
+        <MenuItem value={"RELIANCE.NS"}>RELIANCE.NS</MenuItem>
+        <MenuItem value={"RELIGARE.NS"}>RELIGARE.NS</MenuItem>
+        <MenuItem value={"RELINFRA.NS"}>RELINFRA.NS</MenuItem>
+        <MenuItem value={"REMSONSIND.NS"}>REMSONSIND.NS</MenuItem>
+        <MenuItem value={"RENUKA.NS"}>RENUKA.NS</MenuItem>
+        <MenuItem value={"REPCOHOME.NS"}>REPCOHOME.NS</MenuItem>
+        <MenuItem value={"REPRO.NS"}>REPRO.NS</MenuItem>
+        <MenuItem value={"RESPONIND.NS"}>RESPONIND.NS</MenuItem>
+        <MenuItem value={"REVATHI.NS"}>REVATHI.NS</MenuItem>
+        <MenuItem value={"RGL.NS"}>RGL.NS</MenuItem>
+        <MenuItem value={"RHFL.NS"}>RHFL.NS</MenuItem>
+        <MenuItem value={"RICOAUTO.NS"}>RICOAUTO.NS</MenuItem>
+        <MenuItem value={"RIIL.NS"}>RIIL.NS</MenuItem>
+        <MenuItem value={"RITES.NS"}>RITES.NS</MenuItem>
+        <MenuItem value={"RKDL.NS"}>RKDL.NS</MenuItem>
+        <MenuItem value={"RKFORGE.NS"}>RKFORGE.NS</MenuItem>
+        <MenuItem value={"RMCL.NS"}>RMCL.NS</MenuItem>
+        <MenuItem value={"RML.NS"}>RML.NS</MenuItem>
+        <MenuItem value={"RNAVAL.NS"}>RNAVAL.NS</MenuItem>
+        <MenuItem value={"ROHITFERRO.NS"}>ROHITFERRO.NS</MenuItem>
+        <MenuItem value={"ROHLTD.NS"}>ROHLTD.NS</MenuItem>
+        <MenuItem value={"ROLLT.NS"}>ROLLT.NS</MenuItem>
+        <MenuItem value={"ROLTA.NS"}>ROLTA.NS</MenuItem>
+        <MenuItem value={"ROSSELLIND.NS"}>ROSSELLIND.NS</MenuItem>
+        <MenuItem value={"RPGLIFE.NS"}>RPGLIFE.NS</MenuItem>
+        <MenuItem value={"RPOWER.NS"}>RPOWER.NS</MenuItem>
+        <MenuItem value={"RPPINFRA.NS"}>RPPINFRA.NS</MenuItem>
+        <MenuItem value={"RSSOFTWARE.NS"}>RSSOFTWARE.NS</MenuItem>
+        <MenuItem value={"RSWM.NS"}>RSWM.NS</MenuItem>
+        <MenuItem value={"RSYSTEMS.NS"}>RSYSTEMS.NS</MenuItem>
+        <MenuItem value={"RTNINFRA.NS"}>RTNINFRA.NS</MenuItem>
+        <MenuItem value={"RTNPOWER.NS"}>RTNPOWER.NS</MenuItem>
+        <MenuItem value={"RUBYMILLS.NS"}>RUBYMILLS.NS</MenuItem>
+        <MenuItem value={"RUCHI.NS"}>RUCHI.NS</MenuItem>
+        <MenuItem value={"RUCHINFRA.NS"}>RUCHINFRA.NS</MenuItem>
+        <MenuItem value={"RUCHIRA.NS"}>RUCHIRA.NS</MenuItem>
+        <MenuItem value={"RUPA.NS"}>RUPA.NS</MenuItem>
+        <MenuItem value={"RUSHIL.NS"}>RUSHIL.NS</MenuItem>
+        <MenuItem value={"RVNL.NS"}>RVNL.NS</MenuItem>
+        <MenuItem value={"S&SPOWER.NS"}>S&SPOWER.NS</MenuItem>
+        <MenuItem value={"SABEVENTS.NS"}>SABEVENTS.NS</MenuItem>
+        <MenuItem value={"SADBHAV.NS"}>SADBHAV.NS</MenuItem>
+        <MenuItem value={"SADBHIN.NS"}>SADBHIN.NS</MenuItem>
+        <MenuItem value={"SAFARI.NS"}>SAFARI.NS</MenuItem>
+        <MenuItem value={"SAGARDEEP.NS"}>SAGARDEEP.NS</MenuItem>
+        <MenuItem value={"SAGCEM.NS"}>SAGCEM.NS</MenuItem>
+        <MenuItem value={"SAIL.NS"}>SAIL.NS</MenuItem>
+        <MenuItem value={"SAKAR.NS"}>SAKAR.NS</MenuItem>
+        <MenuItem value={"SAKHTISUG.NS"}>SAKHTISUG.NS</MenuItem>
+        <MenuItem value={"SAKSOFT.NS"}>SAKSOFT.NS</MenuItem>
+        <MenuItem value={"SAKUMA.NS"}>SAKUMA.NS</MenuItem>
+        <MenuItem value={"SALASAR.NS"}>SALASAR.NS</MenuItem>
+        <MenuItem value={"SALONA.NS"}>SALONA.NS</MenuItem>
+        <MenuItem value={"SALSTEEL.NS"}>SALSTEEL.NS</MenuItem>
+        <MenuItem value={"SALZERELEC.NS"}>SALZERELEC.NS</MenuItem>
+        <MenuItem value={"SAMBHAAV.NS"}>SAMBHAAV.NS</MenuItem>
+        <MenuItem value={"SANCO.NS"}>SANCO.NS</MenuItem>
+        <MenuItem value={"SANDESH.NS"}>SANDESH.NS</MenuItem>
+        <MenuItem value={"SANDHAR.NS"}>SANDHAR.NS</MenuItem>
+        <MenuItem value={"SANGAMIND.NS"}>SANGAMIND.NS</MenuItem>
+        <MenuItem value={"SANGHIIND.NS"}>SANGHIIND.NS</MenuItem>
+        <MenuItem value={"SANGHVIFOR.NS"}>SANGHVIFOR.NS</MenuItem>
+        <MenuItem value={"SANGHVIMOV.NS"}>SANGHVIMOV.NS</MenuItem>
+        <MenuItem value={"SANGINITA.NS"}>SANGINITA.NS</MenuItem>
+        <MenuItem value={"SANOFI.NS"}>SANOFI.NS</MenuItem>
+        <MenuItem value={"SANWARIA.NS"}>SANWARIA.NS</MenuItem>
+        <MenuItem value={"SARDAEN.NS"}>SARDAEN.NS</MenuItem>
+        <MenuItem value={"SAREGAMA.NS"}>SAREGAMA.NS</MenuItem>
+        <MenuItem value={"SARLAPOLY.NS"}>SARLAPOLY.NS</MenuItem>
+        <MenuItem value={"SASKEN.NS"}>SASKEN.NS</MenuItem>
+        <MenuItem value={"SASTASUNDR.NS"}>SASTASUNDR.NS</MenuItem>
+        <MenuItem value={"SATHAISPAT.NS"}>SATHAISPAT.NS</MenuItem>
+        <MenuItem value={"SATIA.NS"}>SATIA.NS</MenuItem>
+        <MenuItem value={"SATIN.NS"}>SATIN.NS</MenuItem>
+        <MenuItem value={"SBICARD.NS"}>SBICARD.NS</MenuItem>
+        <MenuItem value={"SBILIFE.NS"}>SBILIFE.NS</MenuItem>
+        <MenuItem value={"SBIN.NS"}>SBIN.NS</MenuItem>
+        <MenuItem value={"SCAPDVR.NS"}>SCAPDVR.NS</MenuItem>
+        <MenuItem value={"SCHAEFFLER.NS"}>SCHAEFFLER.NS</MenuItem>
+        <MenuItem value={"SCHAND.NS"}>SCHAND.NS</MenuItem>
+        <MenuItem value={"SCHNEIDER.NS"}>SCHNEIDER.NS</MenuItem>
+        <MenuItem value={"SCI.NS"}>SCI.NS</MenuItem>
+        <MenuItem value={"SDBL.NS"}>SDBL.NS</MenuItem>
+        <MenuItem value={"SEAMECLTD.NS"}>SEAMECLTD.NS</MenuItem>
+        <MenuItem value={"SELAN.NS"}>SELAN.NS</MenuItem>
+        <MenuItem value={"SELMCL.NS"}>SELMCL.NS</MenuItem>
+        <MenuItem value={"SEPOWER.NS"}>SEPOWER.NS</MenuItem>
+        <MenuItem value={"SEQUENT.NS"}>SEQUENT.NS</MenuItem>
+        <MenuItem value={"SESHAPAPER.NS"}>SESHAPAPER.NS</MenuItem>
+        <MenuItem value={"SETCO.NS"}>SETCO.NS</MenuItem>
+        <MenuItem value={"SETUINFRA.NS"}>SETUINFRA.NS</MenuItem>
+        <MenuItem value={"SEYAIND.NS"}>SEYAIND.NS</MenuItem>
+        <MenuItem value={"SEZAL.NS"}>SEZAL.NS</MenuItem>
+        <MenuItem value={"SFL.NS"}>SFL.NS</MenuItem>
+        <MenuItem value={"SGL.NS"}>SGL.NS</MenuItem>
+        <MenuItem value={"SHAHALLOYS.NS"}>SHAHALLOYS.NS</MenuItem>
+        <MenuItem value={"SHAKTIPUMP.NS"}>SHAKTIPUMP.NS</MenuItem>
+        <MenuItem value={"SHALBY.NS"}>SHALBY.NS</MenuItem>
+        <MenuItem value={"SHALPAINTS.NS"}>SHALPAINTS.NS</MenuItem>
+        <MenuItem value={"SHANKARA.NS"}>SHANKARA.NS</MenuItem>
+        <MenuItem value={"SHANTIGEAR.NS"}>SHANTIGEAR.NS</MenuItem>
+        <MenuItem value={"SHARDACROP.NS"}>SHARDACROP.NS</MenuItem>
+        <MenuItem value={"SHARDAMOTR.NS"}>SHARDAMOTR.NS</MenuItem>
+        <MenuItem value={"SHEMAROO.NS"}>SHEMAROO.NS</MenuItem>
+        <MenuItem value={"SHIL.NS"}>SHIL.NS</MenuItem>
+        <MenuItem value={"SHILPAMED.NS"}>SHILPAMED.NS</MenuItem>
+        <MenuItem value={"SHIRPUR-G.NS"}>SHIRPUR-G.NS</MenuItem>
+        <MenuItem value={"SHIVAMAUTO.NS"}>SHIVAMAUTO.NS</MenuItem>
+        <MenuItem value={"SHIVAMILLS.NS"}>SHIVAMILLS.NS</MenuItem>
+        <MenuItem value={"SHIVATEX.NS"}>SHIVATEX.NS</MenuItem>
+        <MenuItem value={"SHK.NS"}>SHK.NS</MenuItem>
+        <MenuItem value={"SHOPERSTOP.NS"}>SHOPERSTOP.NS</MenuItem>
+        <MenuItem value={"SHREDIGCEM.NS"}>SHREDIGCEM.NS</MenuItem>
+        <MenuItem value={"SHREECEM.NS"}>SHREECEM.NS</MenuItem>
+        <MenuItem value={"SHREEPUSHK.NS"}>SHREEPUSHK.NS</MenuItem>
+        <MenuItem value={"SHREERAMA.NS"}>SHREERAMA.NS</MenuItem>
+        <MenuItem value={"SHRENIK.NS"}>SHRENIK.NS</MenuItem>
+        <MenuItem value={"SHREYANIND.NS"}>SHREYANIND.NS</MenuItem>
+        <MenuItem value={"SHREYAS.NS"}>SHREYAS.NS</MenuItem>
+        <MenuItem value={"SHRIPISTON.NS"}>SHRIPISTON.NS</MenuItem>
+        <MenuItem value={"SHRIRAMCIT.NS"}>SHRIRAMCIT.NS</MenuItem>
+        <MenuItem value={"SHRIRAMEPC.NS"}>SHRIRAMEPC.NS</MenuItem>
+        <MenuItem value={"SHYAMCENT.NS"}>SHYAMCENT.NS</MenuItem>
+        <MenuItem value={"SHYAMTEL.NS"}>SHYAMTEL.NS</MenuItem>
+        <MenuItem value={"SICAGEN.NS"}>SICAGEN.NS</MenuItem>
+        <MenuItem value={"SICAL.NS"}>SICAL.NS</MenuItem>
+        <MenuItem value={"SIEMENS.NS"}>SIEMENS.NS</MenuItem>
+        <MenuItem value={"SIGIND.NS"}>SIGIND.NS</MenuItem>
+        <MenuItem value={"SIL.NS"}>SIL.NS</MenuItem>
+        <MenuItem value={"SILINV.NS"}>SILINV.NS</MenuItem>
+        <MenuItem value={"SILLYMONKS.NS"}>SILLYMONKS.NS</MenuItem>
+        <MenuItem value={"SIMBHALS.NS"}>SIMBHALS.NS</MenuItem>
+        <MenuItem value={"SIMPLEXINF.NS"}>SIMPLEXINF.NS</MenuItem>
+        <MenuItem value={"SINTEX.NS"}>SINTEX.NS</MenuItem>
+        <MenuItem value={"SIRCA.NS"}>SIRCA.NS</MenuItem>
+        <MenuItem value={"SIS.NS"}>SIS.NS</MenuItem>
+        <MenuItem value={"SITINET.NS"}>SITINET.NS</MenuItem>
+        <MenuItem value={"SIYSIL.NS"}>SIYSIL.NS</MenuItem>
+        <MenuItem value={"SJVN.NS"}>SJVN.NS</MenuItem>
+        <MenuItem value={"SKFINDIA.NS"}>SKFINDIA.NS</MenuItem>
+        <MenuItem value={"SKIL.NS"}>SKIL.NS</MenuItem>
+        <MenuItem value={"SKIPPER.NS"}>SKIPPER.NS</MenuItem>
+        <MenuItem value={"SKMEGGPROD.NS"}>SKMEGGPROD.NS</MenuItem>
+        <MenuItem value={"SMARTLINK.NS"}>SMARTLINK.NS</MenuItem>
+        <MenuItem value={"SMLISUZU.NS"}>SMLISUZU.NS</MenuItem>
+        <MenuItem value={"SMSLIFE.NS"}>SMSLIFE.NS</MenuItem>
+        <MenuItem value={"SMSPHARMA.NS"}>SMSPHARMA.NS</MenuItem>
+        <MenuItem value={"SNOWMAN.NS"}>SNOWMAN.NS</MenuItem>
+        <MenuItem value={"SOBHA.NS"}>SOBHA.NS</MenuItem>
+        <MenuItem value={"SOLARA.NS"}>SOLARA.NS</MenuItem>
+        <MenuItem value={"SOLARINDS.NS"}>SOLARINDS.NS</MenuItem>
+        <MenuItem value={"SOMANYCERA.NS"}>SOMANYCERA.NS</MenuItem>
+        <MenuItem value={"SOMATEX.NS"}>SOMATEX.NS</MenuItem>
+        <MenuItem value={"SOMICONVEY.NS"}>SOMICONVEY.NS</MenuItem>
+        <MenuItem value={"SONATSOFTW.NS"}>SONATSOFTW.NS</MenuItem>
+        <MenuItem value={"SORILINFRA.NS"}>SORILINFRA.NS</MenuItem>
+        <MenuItem value={"SOTL.NS"}>SOTL.NS</MenuItem>
+        <MenuItem value={"SOUTHBANK.NS"}>SOUTHBANK.NS</MenuItem>
+        <MenuItem value={"SOUTHWEST.NS"}>SOUTHWEST.NS</MenuItem>
+        <MenuItem value={"SPAL.NS"}>SPAL.NS</MenuItem>
+        <MenuItem value={"SPANDANA.NS"}>SPANDANA.NS</MenuItem>
+        <MenuItem value={"SPARC.NS"}>SPARC.NS</MenuItem>
+        <MenuItem value={"SPECIALITY.NS"}>SPECIALITY.NS</MenuItem>
+        <MenuItem value={"SPENCERS.NS"}>SPENCERS.NS</MenuItem>
+        <MenuItem value={"SPENTEX.NS"}>SPENTEX.NS</MenuItem>
+        <MenuItem value={"SPIC.NS"}>SPIC.NS</MenuItem>
+        <MenuItem value={"SPICEJET.NS"}>SPICEJET.NS</MenuItem>
+        <MenuItem value={"SPLIL.NS"}>SPLIL.NS</MenuItem>
+        <MenuItem value={"SPMLINFRA.NS"}>SPMLINFRA.NS</MenuItem>
+        <MenuItem value={"SPTL.NS"}>SPTL.NS</MenuItem>
+        <MenuItem value={"SREEL.NS"}>SREEL.NS</MenuItem>
+        <MenuItem value={"SREINFRA.NS"}>SREINFRA.NS</MenuItem>
+        <MenuItem value={"SRF.NS"}>SRF.NS</MenuItem>
+        <MenuItem value={"SRHHYPOLTD.NS"}>SRHHYPOLTD.NS</MenuItem>
+        <MenuItem value={"SRIPIPES.NS"}>SRIPIPES.NS</MenuItem>
+        <MenuItem value={"SRTRANSFIN.NS"}>SRTRANSFIN.NS</MenuItem>
+        <MenuItem value={"SSWL.NS"}>SSWL.NS</MenuItem>
+        <MenuItem value={"STAR.NS"}>STAR.NS</MenuItem>
+        <MenuItem value={"STARCEMENT.NS"}>STARCEMENT.NS</MenuItem>
+        <MenuItem value={"STARPAPER.NS"}>STARPAPER.NS</MenuItem>
+        <MenuItem value={"STEELCITY.NS"}>STEELCITY.NS</MenuItem>
+        <MenuItem value={"STEELXIND.NS"}>STEELXIND.NS</MenuItem>
+        <MenuItem value={"STEL.NS"}>STEL.NS</MenuItem>
+        <MenuItem value={"STERTOOLS.NS"}>STERTOOLS.NS</MenuItem>
+        <MenuItem value={"STINDIA.NS"}>STINDIA.NS</MenuItem>
+        <MenuItem value={"STRTECH.NS"}>STRTECH.NS</MenuItem>
+        <MenuItem value={"SUBEX.NS"}>SUBEX.NS</MenuItem>
+        <MenuItem value={"SUBROS.NS"}>SUBROS.NS</MenuItem>
+        <MenuItem value={"SUDARSCHEM.NS"}>SUDARSCHEM.NS</MenuItem>
+        <MenuItem value={"SUMEETINDS.NS"}>SUMEETINDS.NS</MenuItem>
+        <MenuItem value={"SUMICHEM.NS"}>SUMICHEM.NS</MenuItem>
+        <MenuItem value={"SUMIT.NS"}>SUMIT.NS</MenuItem>
+        <MenuItem value={"SUMMITSEC.NS"}>SUMMITSEC.NS</MenuItem>
+        <MenuItem value={"SUNCLAYLTD.NS"}>SUNCLAYLTD.NS</MenuItem>
+        <MenuItem value={"SUNDARAM.NS"}>SUNDARAM.NS</MenuItem>
+        <MenuItem value={"SUNDARMFIN.NS"}>SUNDARMFIN.NS</MenuItem>
+        <MenuItem value={"SUNDARMHLD.NS"}>SUNDARMHLD.NS</MenuItem>
+        <MenuItem value={"SUNDRMBRAK.NS"}>SUNDRMBRAK.NS</MenuItem>
+        <MenuItem value={"SUNDRMFAST.NS"}>SUNDRMFAST.NS</MenuItem>
+        <MenuItem value={"SUNFLAG.NS"}>SUNFLAG.NS</MenuItem>
+        <MenuItem value={"SUNPHARMA.NS"}>SUNPHARMA.NS</MenuItem>
+        <MenuItem value={"SUNTECK.NS"}>SUNTECK.NS</MenuItem>
+        <MenuItem value={"SUNTV.NS"}>SUNTV.NS</MenuItem>
+        <MenuItem value={"SUPERHOUSE.NS"}>SUPERHOUSE.NS</MenuItem>
+        <MenuItem value={"SUPERSPIN.NS"}>SUPERSPIN.NS</MenuItem>
+        <MenuItem value={"SUPPETRO.NS"}>SUPPETRO.NS</MenuItem>
+        <MenuItem value={"SUPRAJIT.NS"}>SUPRAJIT.NS</MenuItem>
+        <MenuItem value={"SUPREMEIND.NS"}>SUPREMEIND.NS</MenuItem>
+        <MenuItem value={"SUPREMEINF.NS"}>SUPREMEINF.NS</MenuItem>
+        <MenuItem value={"SURANASOL.NS"}>SURANASOL.NS</MenuItem>
+        <MenuItem value={"SURANAT&P.NS"}>SURANAT&P.NS</MenuItem>
+        <MenuItem value={"SURYALAXMI.NS"}>SURYALAXMI.NS</MenuItem>
+        <MenuItem value={"SURYAROSNI.NS"}>SURYAROSNI.NS</MenuItem>
+        <MenuItem value={"SUTLEJTEX.NS"}>SUTLEJTEX.NS</MenuItem>
+        <MenuItem value={"SUVEN.NS"}>SUVEN.NS</MenuItem>
+        <MenuItem value={"SUVENPHAR.NS"}>SUVENPHAR.NS</MenuItem>
+        <MenuItem value={"SUZLON.NS"}>SUZLON.NS</MenuItem>
+        <MenuItem value={"SWANENERGY.NS"}>SWANENERGY.NS</MenuItem>
+        <MenuItem value={"SWARAJENG.NS"}>SWARAJENG.NS</MenuItem>
+        <MenuItem value={"SWELECTES.NS"}>SWELECTES.NS</MenuItem>
+        <MenuItem value={"SWSOLAR.NS"}>SWSOLAR.NS</MenuItem>
+        <MenuItem value={"SYMPHONY.NS"}>SYMPHONY.NS</MenuItem>
+        <MenuItem value={"SYNCOM.NS"}>SYNCOM.NS</MenuItem>
+        <MenuItem value={"SYNGENE.NS"}>SYNGENE.NS</MenuItem>
+        <MenuItem value={"TAINWALCHM.NS"}>TAINWALCHM.NS</MenuItem>
+        <MenuItem value={"TAJGVK.NS"}>TAJGVK.NS</MenuItem>
+        <MenuItem value={"TAKE.NS"}>TAKE.NS</MenuItem>
+        <MenuItem value={"TALBROAUTO.NS"}>TALBROAUTO.NS</MenuItem>
+        <MenuItem value={"TALWALKARS.NS"}>TALWALKARS.NS</MenuItem>
+        <MenuItem value={"TALWGYM.NS"}>TALWGYM.NS</MenuItem>
+        <MenuItem value={"TANLA.NS"}>TANLA.NS</MenuItem>
+        <MenuItem value={"TANTIACONS.NS"}>TANTIACONS.NS</MenuItem>
+        <MenuItem value={"TARMAT.NS"}>TARMAT.NS</MenuItem>
+        <MenuItem value={"TASTYBITE.NS"}>TASTYBITE.NS</MenuItem>
+        <MenuItem value={"TATACHEM.NS"}>TATACHEM.NS</MenuItem>
+        <MenuItem value={"TATACOFFEE.NS"}>TATACOFFEE.NS</MenuItem>
+        <MenuItem value={"TATACOMM.NS"}>TATACOMM.NS</MenuItem>
+        <MenuItem value={"TATACONSUM.NS"}>TATACONSUM.NS</MenuItem>
+        <MenuItem value={"TATAELXSI.NS"}>TATAELXSI.NS</MenuItem>
+        <MenuItem value={"TATAINVEST.NS"}>TATAINVEST.NS</MenuItem>
+        <MenuItem value={"TATAMETALI.NS"}>TATAMETALI.NS</MenuItem>
+        <MenuItem value={"TATAMOTORS.NS"}>TATAMOTORS.NS</MenuItem>
+        <MenuItem value={"TATAMTRDVR.NS"}>TATAMTRDVR.NS</MenuItem>
+        <MenuItem value={"TATAPOWER.NS"}>TATAPOWER.NS</MenuItem>
+        <MenuItem value={"TATASTEEL.NS"}>TATASTEEL.NS</MenuItem>
+        <MenuItem value={"TATASTLBSL.NS"}>TATASTLBSL.NS</MenuItem>
+        <MenuItem value={"TATASTLLP.NS"}>TATASTLLP.NS</MenuItem>
+        <MenuItem value={"TBZ.NS"}>TBZ.NS</MenuItem>
+        <MenuItem value={"TCI.NS"}>TCI.NS</MenuItem>
+        <MenuItem value={"TCIDEVELOP.NS"}>TCIDEVELOP.NS</MenuItem>
+        <MenuItem value={"TCIEXP.NS"}>TCIEXP.NS</MenuItem>
+        <MenuItem value={"TCIFINANCE.NS"}>TCIFINANCE.NS</MenuItem>
+        <MenuItem value={"TCNSBRANDS.NS"}>TCNSBRANDS.NS</MenuItem>
+        <MenuItem value={"TCPLPACK.NS"}>TCPLPACK.NS</MenuItem>
+        <MenuItem value={"TCS.NS"}>TCS.NS</MenuItem>
+        <MenuItem value={"TDPOWERSYS.NS"}>TDPOWERSYS.NS</MenuItem>
+        <MenuItem value={"TEAMLEASE.NS"}>TEAMLEASE.NS</MenuItem>
+        <MenuItem value={"TECHIN.NS"}>TECHIN.NS</MenuItem>
+        <MenuItem value={"TECHM.NS"}>TECHM.NS</MenuItem>
+        <MenuItem value={"TECHNOE.NS"}>TECHNOE.NS</MenuItem>
+        <MenuItem value={"TECHNOFAB.NS"}>TECHNOFAB.NS</MenuItem>
+        <MenuItem value={"TEJASNET.NS"}>TEJASNET.NS</MenuItem>
+        <MenuItem value={"TERASOFT.NS"}>TERASOFT.NS</MenuItem>
+        <MenuItem value={"TEXINFRA.NS"}>TEXINFRA.NS</MenuItem>
+        <MenuItem value={"TEXMOPIPES.NS"}>TEXMOPIPES.NS</MenuItem>
+        <MenuItem value={"TEXRAIL.NS"}>TEXRAIL.NS</MenuItem>
+        <MenuItem value={"TFCILTD.NS"}>TFCILTD.NS</MenuItem>
+        <MenuItem value={"TFL.NS"}>TFL.NS</MenuItem>
+        <MenuItem value={"TGBHOTELS.NS"}>TGBHOTELS.NS</MenuItem>
+        <MenuItem value={"THANGAMAYL.NS"}>THANGAMAYL.NS</MenuItem>
+        <MenuItem value={"THEINVEST.NS"}>THEINVEST.NS</MenuItem>
+        <MenuItem value={"THEMISMED.NS"}>THEMISMED.NS</MenuItem>
+        <MenuItem value={"THERMAX.NS"}>THERMAX.NS</MenuItem>
+        <MenuItem value={"THIRUSUGAR.NS"}>THIRUSUGAR.NS</MenuItem>
+        <MenuItem value={"THOMASCOOK.NS"}>THOMASCOOK.NS</MenuItem>
+        <MenuItem value={"THOMASCOTT.NS"}>THOMASCOTT.NS</MenuItem>
+        <MenuItem value={"THYROCARE.NS"}>THYROCARE.NS</MenuItem>
+        <MenuItem value={"TI.NS"}>TI.NS</MenuItem>
+        <MenuItem value={"TIDEWATER.NS"}>TIDEWATER.NS</MenuItem>
+        <MenuItem value={"TIIL.NS"}>TIIL.NS</MenuItem>
+        <MenuItem value={"TIINDIA.NS"}>TIINDIA.NS</MenuItem>
+        <MenuItem value={"TIJARIA.NS"}>TIJARIA.NS</MenuItem>
+        <MenuItem value={"TIL.NS"}>TIL.NS</MenuItem>
+        <MenuItem value={"TIMESGTY.NS"}>TIMESGTY.NS</MenuItem>
+        <MenuItem value={"TIMETECHNO.NS"}>TIMETECHNO.NS</MenuItem>
+        <MenuItem value={"TIMKEN.NS"}>TIMKEN.NS</MenuItem>
+        <MenuItem value={"TINPLATE.NS"}>TINPLATE.NS</MenuItem>
+        <MenuItem value={"TIPSINDLTD.NS"}>TIPSINDLTD.NS</MenuItem>
+        <MenuItem value={"TIRUMALCHM.NS"}>TIRUMALCHM.NS</MenuItem>
+        <MenuItem value={"TITAN.NS"}>TITAN.NS</MenuItem>
+        <MenuItem value={"TMRVL.NS"}>TMRVL.NS</MenuItem>
+        <MenuItem value={"TNPETRO.NS"}>TNPETRO.NS</MenuItem>
+        <MenuItem value={"TNPL.NS"}>TNPL.NS</MenuItem>
+        <MenuItem value={"TNTELE.NS"}>TNTELE.NS</MenuItem>
+        <MenuItem value={"TOKYOPLAST.NS"}>TOKYOPLAST.NS</MenuItem>
+        <MenuItem value={"TORNTPHARM.NS"}>TORNTPHARM.NS</MenuItem>
+        <MenuItem value={"TORNTPOWER.NS"}>TORNTPOWER.NS</MenuItem>
+        <MenuItem value={"TOUCHWOOD.NS"}>TOUCHWOOD.NS</MenuItem>
+        <MenuItem value={"TPLPLASTEH.NS"}>TPLPLASTEH.NS</MenuItem>
+        <MenuItem value={"TREEHOUSE.NS"}>TREEHOUSE.NS</MenuItem>
+        <MenuItem value={"TREJHARA.NS"}>TREJHARA.NS</MenuItem>
+        <MenuItem value={"TRENT.NS"}>TRENT.NS</MenuItem>
+        <MenuItem value={"TRF.NS"}>TRF.NS</MenuItem>
+        <MenuItem value={"TRIDENT.NS"}>TRIDENT.NS</MenuItem>
+        <MenuItem value={"TRIGYN.NS"}>TRIGYN.NS</MenuItem>
+        <MenuItem value={"TRIL.NS"}>TRIL.NS</MenuItem>
+        <MenuItem value={"TRITURBINE.NS"}>TRITURBINE.NS</MenuItem>
+        <MenuItem value={"TRIVENI.NS"}>TRIVENI.NS</MenuItem>
+        <MenuItem value={"TTKHLTCARE.NS"}>TTKHLTCARE.NS</MenuItem>
+        <MenuItem value={"TTKPRESTIG.NS"}>TTKPRESTIG.NS</MenuItem>
+        <MenuItem value={"TTL.NS"}>TTL.NS</MenuItem>
+        <MenuItem value={"TTML.NS"}>TTML.NS</MenuItem>
+        <MenuItem value={"TV18BRDCST.NS"}>TV18BRDCST.NS</MenuItem>
+        <MenuItem value={"TVSELECT.NS"}>TVSELECT.NS</MenuItem>
+        <MenuItem value={"TVSMOTOR.NS"}>TVSMOTOR.NS</MenuItem>
+        <MenuItem value={"TVSSRICHAK.NS"}>TVSSRICHAK.NS</MenuItem>
+        <MenuItem value={"TVTODAY.NS"}>TVTODAY.NS</MenuItem>
+        <MenuItem value={"TVVISION.NS"}>TVVISION.NS</MenuItem>
+        <MenuItem value={"TWL.NS"}>TWL.NS</MenuItem>
+        <MenuItem value={"UBL.NS"}>UBL.NS</MenuItem>
+        <MenuItem value={"UCALFUEL.NS"}>UCALFUEL.NS</MenuItem>
+        <MenuItem value={"UCOBANK.NS"}>UCOBANK.NS</MenuItem>
+        <MenuItem value={"UFLEX.NS"}>UFLEX.NS</MenuItem>
+        <MenuItem value={"UFO.NS"}>UFO.NS</MenuItem>
+        <MenuItem value={"UGARSUGAR.NS"}>UGARSUGAR.NS</MenuItem>
+        <MenuItem value={"UJAAS.NS"}>UJAAS.NS</MenuItem>
+        <MenuItem value={"UJJIVAN.NS"}>UJJIVAN.NS</MenuItem>
+        <MenuItem value={"UJJIVANSFB.NS"}>UJJIVANSFB.NS</MenuItem>
+        <MenuItem value={"ULTRACEMCO.NS"}>ULTRACEMCO.NS</MenuItem>
+        <MenuItem value={"UMANGDAIRY.NS"}>UMANGDAIRY.NS</MenuItem>
+        <MenuItem value={"UNICHEMLAB.NS"}>UNICHEMLAB.NS</MenuItem>
+        <MenuItem value={"UNIENTER.NS"}>UNIENTER.NS</MenuItem>
+        <MenuItem value={"UNIONBANK.NS"}>UNIONBANK.NS</MenuItem>
+        <MenuItem value={"UNIPLY.NS"}>UNIPLY.NS</MenuItem>
+        <MenuItem value={"UNITECH.NS"}>UNITECH.NS</MenuItem>
+        <MenuItem value={"UNITEDTEA.NS"}>UNITEDTEA.NS</MenuItem>
+        <MenuItem value={"UNITY.NS"}>UNITY.NS</MenuItem>
+        <MenuItem value={"UNIVASTU.NS"}>UNIVASTU.NS</MenuItem>
+        <MenuItem value={"UNIVCABLES.NS"}>UNIVCABLES.NS</MenuItem>
+        <MenuItem value={"UNIVPHOTO.NS"}>UNIVPHOTO.NS</MenuItem>
+        <MenuItem value={"UPL.NS"}>UPL.NS</MenuItem>
+        <MenuItem value={"URJA.NS"}>URJA.NS</MenuItem>
+        <MenuItem value={"USHAMART.NS"}>USHAMART.NS</MenuItem>
+        <MenuItem value={"UTTAMSTL.NS"}>UTTAMSTL.NS</MenuItem>
+        <MenuItem value={"UTTAMSUGAR.NS"}>UTTAMSUGAR.NS</MenuItem>
+        <MenuItem value={"UVSL.NS"}>UVSL.NS</MenuItem>
+        <MenuItem value={"V2RETAIL.NS"}>V2RETAIL.NS</MenuItem>
+        <MenuItem value={"VADILALIND.NS"}>VADILALIND.NS</MenuItem>
+        <MenuItem value={"VAIBHAVGBL.NS"}>VAIBHAVGBL.NS</MenuItem>
+        <MenuItem value={"VAISHALI.NS"}>VAISHALI.NS</MenuItem>
+        <MenuItem value={"VAKRANGEE.NS"}>VAKRANGEE.NS</MenuItem>
+        <MenuItem value={"VARDHACRLC.NS"}>VARDHACRLC.NS</MenuItem>
+        <MenuItem value={"VARDMNPOLY.NS"}>VARDMNPOLY.NS</MenuItem>
+        <MenuItem value={"VARROC.NS"}>VARROC.NS</MenuItem>
+        <MenuItem value={"VASCONEQ.NS"}>VASCONEQ.NS</MenuItem>
+        <MenuItem value={"VASWANI.NS"}>VASWANI.NS</MenuItem>
+        <MenuItem value={"VBL.NS"}>VBL.NS</MenuItem>
+        <MenuItem value={"VEDL.NS"}>VEDL.NS</MenuItem>
+        <MenuItem value={"VENKEYS.NS"}>VENKEYS.NS</MenuItem>
+        <MenuItem value={"VENUSREM.NS"}>VENUSREM.NS</MenuItem>
+        <MenuItem value={"VERTOZ.NS"}>VERTOZ.NS</MenuItem>
+        <MenuItem value={"VESUVIUS.NS"}>VESUVIUS.NS</MenuItem>
+        <MenuItem value={"VETO.NS"}>VETO.NS</MenuItem>
+        <MenuItem value={"VGUARD.NS"}>VGUARD.NS</MenuItem>
+        <MenuItem value={"VHL.NS"}>VHL.NS</MenuItem>
+        <MenuItem value={"VICEROY.NS"}>VICEROY.NS</MenuItem>
+        <MenuItem value={"VIDEOIND.NS"}>VIDEOIND.NS</MenuItem>
+        <MenuItem value={"VIDHIING.NS"}>VIDHIING.NS</MenuItem>
+        <MenuItem value={"VIJIFIN.NS"}>VIJIFIN.NS</MenuItem>
+        <MenuItem value={"VIKASECO.NS"}>VIKASECO.NS</MenuItem>
+        <MenuItem value={"VIKASMCORP.NS"}>VIKASMCORP.NS</MenuItem>
+        <MenuItem value={"VIKASPROP.NS"}>VIKASPROP.NS</MenuItem>
+        <MenuItem value={"VIKASWSP.NS"}>VIKASWSP.NS</MenuItem>
+        <MenuItem value={"VIMTALABS.NS"}>VIMTALABS.NS</MenuItem>
+        <MenuItem value={"VINATIORGA.NS"}>VINATIORGA.NS</MenuItem>
+        <MenuItem value={"VINDHYATEL.NS"}>VINDHYATEL.NS</MenuItem>
+        <MenuItem value={"VINYLINDIA.NS"}>VINYLINDIA.NS</MenuItem>
+        <MenuItem value={"VIPCLOTHNG.NS"}>VIPCLOTHNG.NS</MenuItem>
+        <MenuItem value={"VIPIND.NS"}>VIPIND.NS</MenuItem>
+        <MenuItem value={"VIPULLTD.NS"}>VIPULLTD.NS</MenuItem>
+        <MenuItem value={"VISAKAIND.NS"}>VISAKAIND.NS</MenuItem>
+        <MenuItem value={"VISASTEEL.NS"}>VISASTEEL.NS</MenuItem>
+        <MenuItem value={"VISHAL.NS"}>VISHAL.NS</MenuItem>
+        <MenuItem value={"VISHNU.NS"}>VISHNU.NS</MenuItem>
+        <MenuItem value={"VISHWARAJ.NS"}>VISHWARAJ.NS</MenuItem>
+        <MenuItem value={"VIVIDHA.NS"}>VIVIDHA.NS</MenuItem>
+        <MenuItem value={"VIVIMEDLAB.NS"}>VIVIMEDLAB.NS</MenuItem>
+        <MenuItem value={"VLSFINANCE.NS"}>VLSFINANCE.NS</MenuItem>
+        <MenuItem value={"VMART.NS"}>VMART.NS</MenuItem>
+        <MenuItem value={"VOLTAMP.NS"}>VOLTAMP.NS</MenuItem>
+        <MenuItem value={"VOLTAS.NS"}>VOLTAS.NS</MenuItem>
+        <MenuItem value={"VRLLOG.NS"}>VRLLOG.NS</MenuItem>
+        <MenuItem value={"VSSL.NS"}>VSSL.NS</MenuItem>
+        <MenuItem value={"VSTIND.NS"}>VSTIND.NS</MenuItem>
+        <MenuItem value={"VSTTILLERS.NS"}>VSTTILLERS.NS</MenuItem>
+        <MenuItem value={"VTL.NS"}>VTL.NS</MenuItem>
+        <MenuItem value={"WABAG.NS"}>WABAG.NS</MenuItem>
+        <MenuItem value={"WABCOINDIA.NS"}>WABCOINDIA.NS</MenuItem>
+        <MenuItem value={"WALCHANNAG.NS"}>WALCHANNAG.NS</MenuItem>
+        <MenuItem value={"WANBURY.NS"}>WANBURY.NS</MenuItem>
+        <MenuItem value={"WATERBASE.NS"}>WATERBASE.NS</MenuItem>
+        <MenuItem value={"WEBELSOLAR.NS"}>WEBELSOLAR.NS</MenuItem>
+        <MenuItem value={"WEIZMANIND.NS"}>WEIZMANIND.NS</MenuItem>
+        <MenuItem value={"WELCORP.NS"}>WELCORP.NS</MenuItem>
+        <MenuItem value={"WELENT.NS"}>WELENT.NS</MenuItem>
+        <MenuItem value={"WELINV.NS"}>WELINV.NS</MenuItem>
+        <MenuItem value={"WELSPUNIND.NS"}>WELSPUNIND.NS</MenuItem>
+        <MenuItem value={"WENDT.NS"}>WENDT.NS</MenuItem>
+        <MenuItem value={"WESTLIFE.NS"}>WESTLIFE.NS</MenuItem>
+        <MenuItem value={"WHEELS.NS"}>WHEELS.NS</MenuItem>
+        <MenuItem value={"WHIRLPOOL.NS"}>WHIRLPOOL.NS</MenuItem>
+        <MenuItem value={"WILLAMAGOR.NS"}>WILLAMAGOR.NS</MenuItem>
+        <MenuItem value={"WINDMACHIN.NS"}>WINDMACHIN.NS</MenuItem>
+        <MenuItem value={"WIPL.NS"}>WIPL.NS</MenuItem>
+        <MenuItem value={"WIPRO.NS"}>WIPRO.NS</MenuItem>
+        <MenuItem value={"WOCKPHARMA.NS"}>WOCKPHARMA.NS</MenuItem>
+        <MenuItem value={"WONDERLA.NS"}>WONDERLA.NS</MenuItem>
+        <MenuItem value={"WSI.NS"}>WSI.NS</MenuItem>
+        <MenuItem value={"WSTCSTPAPR.NS"}>WSTCSTPAPR.NS</MenuItem>
+        <MenuItem value={"XCHANGING.NS"}>XCHANGING.NS</MenuItem>
+        <MenuItem value={"XELPMOC.NS"}>XELPMOC.NS</MenuItem>
+        <MenuItem value={"XPROINDIA.NS"}>XPROINDIA.NS</MenuItem>
+        <MenuItem value={"YESBANK.NS"}>YESBANK.NS</MenuItem>
+        <MenuItem value={"ZEEL.NS"}>ZEEL.NS</MenuItem>
+        <MenuItem value={"ZEELEARN.NS"}>ZEELEARN.NS</MenuItem>
+        <MenuItem value={"ZEEMEDIA.NS"}>ZEEMEDIA.NS</MenuItem>
+        <MenuItem value={"ZENITHEXPO.NS"}>ZENITHEXPO.NS</MenuItem>
+        <MenuItem value={"ZENSARTECH.NS"}>ZENSARTECH.NS</MenuItem>
+        <MenuItem value={"ZENTEC.NS"}>ZENTEC.NS</MenuItem>
+        <MenuItem value={"ZICOM.NS"}>ZICOM.NS</MenuItem>
+        <MenuItem value={"ZODIACLOTH.NS"}>ZODIACLOTH.NS</MenuItem>
+        <MenuItem value={"ZODJRDMKJ.NS"}>ZODJRDMKJ.NS</MenuItem>
+        <MenuItem value={"ZOTA.NS"}>ZOTA.NS</MenuItem>
+        <MenuItem value={"ZUARI.NS"}>ZUARI.NS</MenuItem>
+        <MenuItem value={"ZUARIGLOB.NS"}>ZUARIGLOB.NS</MenuItem>
+        <MenuItem value={"ZYDUSWELL.NS"}>ZYDUSWELL.NS</MenuItem>
       </Select>
     </FormControl>
   );
