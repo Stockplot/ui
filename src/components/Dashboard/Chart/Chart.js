@@ -1,15 +1,39 @@
+import axios from "axios";
+import CircularProgress from "@material-ui/core/CircularProgress";
+
 import Candlesticks from "./CandleSticks";
 import BBand from "./BBand";
+import Styles from "../styles";
 
 let ChartJS = (props) => {
-  console.log(props);
-  switch(props.chartType) {
+  const useStyles = Styles;
+  const classes = useStyles();
+  switch (props.chartType) {
     case "CS":
-      return <Candlesticks data={props.data} />
+      if (props.data.length === 0) {
+        return <CircularProgress className={classes.progress} />;
+      } else {
+        return <Candlesticks data={props.data} />;
+      }
     case "BB":
-      return <BBand />
+      if (Object.keys(props.BBData).length === 0) {
+        return <CircularProgress className={classes.progress} />;
+      } else {
+        return (
+          <BBand
+            res={props.BBData}
+            ticker={props.ticker}
+            startDate={props.startDate}
+            endDate={props.endDate}
+          />
+        );
+      }
     default:
-      return <Candlesticks data={props.data} />
+      if (props.data.length === 0) {
+        return <CircularProgress className={classes.progress} />;
+      } else {
+        return <Candlesticks data={props.data} />;
+      }
   }
 };
 

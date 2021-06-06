@@ -13,18 +13,23 @@ import {
 import DateFnsUtils from "@date-io/date-fns";
 
 import Styles from "./styles";
-import getData from "../getData";
+import getData from "../getCandlestickData";
+import getBBData from "../getBBdata";
 import Ticker from "./Ticker";
 
 const DashboardDrawer = (props) => {
   const useStyles = Styles;
   const classes = useStyles();
 
-  let [ticker, setTicker] = useState("BAJFINANCE.NS");
-  let [startDate, setStartDate] = useState(new Date(2018, 1, 1));
-  let [endDate, setEndDate] = useState(new Date(2020, 11, 30));
+  let ticker = props.ticker;
+  let setTicker = props.setTicker;
+  let startDate = props.startDate;
+  let setStartDate = props.setStartDate;
+  let endDate = props.endDate;
+  let setEndDate = props.setEndDate;
   let chartType = props.chartType;
   let setChartType = props.setChartType;
+  let setBBData = props.setBBData;
 
   const handleTickerChange = (e) => {
     console.log(e.target.value);
@@ -44,18 +49,29 @@ const DashboardDrawer = (props) => {
   };
 
   const handleSubmit = async () => {
-    props.setChartData([]);
-    console.log(startDate.toISOString().substring(0, 10));
-    console.log(endDate.toISOString().substring(0, 10));
-    console.log(ticker);
-    const data = {
-      context: {
-        ticker: ticker,
-        start: startDate.toISOString().substring(0, 10),
-        end: endDate.toISOString().substring(0, 10),
-      },
-    };
-    props.setChartData(await getData(data));
+    if (chartType === "CS") {
+      props.setChartData([]);
+      const data = {
+        context: {
+          ticker: ticker,
+          start: startDate.toISOString().substring(0, 10),
+          end: endDate.toISOString().substring(0, 10),
+        },
+      };
+      props.setChartData(await getData(data));
+    } else if(chartType === "BB") {
+      props.setBBData({});
+      const data = {
+        context: {
+          ticker: ticker,
+          start: startDate.toISOString().substring(0, 10),
+          end: endDate.toISOString().substring(0, 10),
+          window: 20,
+          sdfactor: 2,
+        },
+      };
+      props.setBBData(await getBBData(data));
+    }
   };
 
   return (

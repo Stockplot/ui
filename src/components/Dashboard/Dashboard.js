@@ -5,29 +5,46 @@ import Hidden from "@material-ui/core/Hidden";
 import { useTheme } from "@material-ui/core/styles";
 import "date-fns";
 import CircularProgress from "@material-ui/core/CircularProgress";
+import axios from "axios";
 
 import Chart from "./Chart/Chart";
 import DashboardDrawer from "./Drawer/Drawer";
 import Styles from "./styles";
-import getData from "./getData";
+import getCandlestickData from "./getCandlestickData";
+import getBBData from "./getBBdata";
 
 const useStyles = Styles;
 
 function ResponsiveDrawer(props) {
   let [chartData, setChartData] = useState([]);
+  let [BBData, setBBData] = useState({});
   let [chartType, setChartType] = useState("CS");
+  let [ticker, setTicker] = useState("BAJFINANCE.NS");
+  let [startDate, setStartDate] = useState(new Date(2018, 1, 1));
+  let [endDate, setEndDate] = useState(new Date(2020, 11, 30));
 
   useLayoutEffect(() => {
     (async () => {
       const data = {
         context: {
-          ticker: "MSFT",
-          start: "2018-01-01",
-          end: "2020-11-30",
+          ticker: ticker,
+          start: startDate.toISOString().substring(0, 10),
+          end: endDate.toISOString().substring(0, 10),
         },
       };
 
-      setChartData(await getData(data));
+      setChartData(await getCandlestickData(data));
+      const reqData = {
+        context: {
+          ticker: ticker,
+          start: startDate.toISOString().substring(0, 10),
+          end: endDate.toISOString().substring(0, 10),
+          window: 20,
+          sdfactor: 2,
+        },
+      };
+
+      setBBData(await getBBData(reqData));
     })();
   }, []);
 
@@ -67,6 +84,13 @@ function ResponsiveDrawer(props) {
               chartType={chartType}
               setChartType={setChartType}
               setChartData={setChartData}
+              ticker={ticker}
+              setTicker={setTicker}
+              startDate={startDate}
+              setStartDate={setStartDate}
+              endDate={endDate}
+              setEndDate={setEndDate}
+              setBBData={setBBData}
             ></DashboardDrawer>
           </Drawer>
         </Hidden>
@@ -82,6 +106,13 @@ function ResponsiveDrawer(props) {
               chartType={chartType}
               setChartType={setChartType}
               setChartData={setChartData}
+              ticker={ticker}
+              setTicker={setTicker}
+              startDate={startDate}
+              setStartDate={setStartDate}
+              endDate={endDate}
+              setEndDate={setEndDate}
+              setBBData={setBBData}
             ></DashboardDrawer>
           </Drawer>
         </Hidden>
@@ -89,11 +120,14 @@ function ResponsiveDrawer(props) {
 
       <main className={classes.content}>
         <div className={classes.toolbar} />
-        {chartData.length === 0 ? (
-          <CircularProgress className={classes.progress} />
-        ) : (
-          <Chart data={chartData} chartType={chartType} ></Chart>
-        )}
+        <Chart
+          BBData={BBData}
+          ticker={ticker}
+          startDate={startDate}
+          endDate={endDate}
+          data={chartData}
+          chartType={chartType}
+        ></Chart>
       </main>
     </div>
   );

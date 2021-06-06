@@ -1,42 +1,57 @@
-import React from 'react';
-import { Line } from 'react-chartjs-2';
+import React, { useState, useLayoutEffect } from "react";
+import { Line } from "react-chartjs-2";
+import axios from "axios";
 
-const data = {
-  labels: ['1', '2', '3', '4', '5', '6'],
-  datasets: [
-    {
-      label: '# of Votes',
-      data: [12, 19, 3, 5, 2, 3],
-      fill: false,
-      backgroundColor: 'rgb(255, 99, 132)',
-      borderColor: 'rgba(255, 99, 132, 0.2)',
-    },
-    {
-      label: '# of parties',
-      data: [1, 9, 5, 3, 4, 6],
-      fill: false,
-      backgroundColor: 'rgb(255, 99, 132)',
-      borderColor: 'rgba(255, 99, 132, 0.2)',
-    },
-  ],
-};
+const LineChart = (props) => {
 
-const options = {
-  scales: {
-    yAxes: [
+  let bb = props.res;
+
+  const data = {
+    labels: bb.date,
+    datasets: [
       {
-        ticks: {
-          beginAtZero: true,
-        },
+        label: "Closing Price",
+        data: bb.close,
+        fill: false,
+        backgroundColor: "#1eae98",
+        borderColor: "rgba(255, 99, 132, 0.2)",
+      },
+      {
+        label: "Upper band",
+        data: bb.uband,
+        fill: false,
+        backgroundColor: "#f55c47",
+        borderColor: "rgba(255, 99, 132, 0.2)",
+      },
+      {
+        label: "Lower band",
+        data: bb.lband,
+        fill: false,
+        backgroundColor: "#f55c47",
+        borderColor: "rgba(255, 99, 132, 0.2)",
       },
     ],
-  },
-};
+  };
 
-const LineChart = () => (
-  <>
-    <Line data={data} options={options} />
-  </>
-);
+  const options = {
+    elements: {
+      point: {
+        radius: 2,
+      },
+    },
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            beginAtZero: true,
+          },
+        },
+      ],
+    },
+  };
+
+  
+  return <Line style={{ width: "90%" }} data={data} options={options} />;
+};
 
 export default LineChart;

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const getData = async (data) => {
+const getCandlestickData = async (data) => {
 
   const res = await axios.post(
     "https://secret-reaches-87237.herokuapp.com/",
@@ -18,4 +18,4 @@ const getData = async (data) => {
   return dataArray;
 };
 
-export default getData;
+export default getCandlestickData;
