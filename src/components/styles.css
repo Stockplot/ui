@@ -74,3 +74,39 @@
     top: 0px;
   }
 }
+
+.blog {
+  margin-top: 5%;
+  text-align: left;
+  padding: 1% 20%;
+  font-size: 20px;
+  line-height: 2;
+}
+.blog ul {
+  list-style: disc;
+}
+.blog blockquote {
+  border-left: 10px solid rgb(184, 107, 194);
+  padding-left: 3%;
+  font-family: Blinker;
+  font-size: 20px;
+}
+.blog blockquote h3 {
+  color: rgb(202, 79, 196);
+}
+.blog h1 {
+  text-align: center;
+  font-size: 40px;
+  color: blue;
+}
+.blog p {
+  padding: 10px;
+}
+.blog h2 {
+  padding: 10px;
+  font-size: 30px;
+  color: rgb(78, 206, 78);
+}
+.blog p img {
+  text-align: center;
+}
