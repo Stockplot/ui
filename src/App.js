@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 
-
 import { Route, Switch } from "react-router";
 import Home from "./components/Home";
 import Dashboard from "./components/Dashboard/Dashboard";
@@ -24,7 +23,7 @@ function App() {
   const classes = useStyles();
 
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
-
+  
   return (
     <BrowserRouter>
     
@@ -40,11 +39,12 @@ function App() {
           setMobileDrawerOpen={setMobileDrawerOpen}
           />} 
         />
-        <Route path='/blog' component={Blog}/>
+        <Route path='/blog' component={Blog} />
       </Switch>
      </div>
     </BrowserRouter>
   );
+  
 }
 
 export default App;
