@@ -16,12 +16,20 @@ import getBBData from "./getBBdata";
 const useStyles = Styles;
 
 function ResponsiveDrawer(props) {
+
+  //Common params
+
   let [chartData, setChartData] = useState([]);
   let [BBData, setBBData] = useState({});
   let [chartType, setChartType] = useState("CS");
   let [ticker, setTicker] = useState("BAJFINANCE.NS");
   let [startDate, setStartDate] = useState(new Date(2018, 1, 1));
   let [endDate, setEndDate] = useState(new Date(2020, 11, 30));
+
+  //BB params
+
+  let [BBWindow, setBBWindow] = useState(20);
+  let [BBSDFactor, setBBSDFactor] = useState(2);
 
   useLayoutEffect(() => {
     (async () => {
@@ -91,7 +99,11 @@ function ResponsiveDrawer(props) {
               endDate={endDate}
               setEndDate={setEndDate}
               setBBData={setBBData}
-            ></DashboardDrawer>
+              BBWindow={BBWindow}
+              setBBWindow={setBBWindow}
+              BBSDFactor={BBSDFactor}
+              setBBSDFactor={setBBSDFactor}
+            />
           </Drawer>
         </Hidden>
         <Hidden xsDown implementation="css">
@@ -113,7 +125,11 @@ function ResponsiveDrawer(props) {
               endDate={endDate}
               setEndDate={setEndDate}
               setBBData={setBBData}
-            ></DashboardDrawer>
+              BBWindow={BBWindow}
+              setBBWindow={setBBWindow}
+              BBSDFactor={BBSDFactor}
+              setBBSDFactor={setBBSDFactor}
+            />
           </Drawer>
         </Hidden>
       </nav>

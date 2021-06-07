@@ -16,6 +16,7 @@ import Styles from "./styles";
 import getData from "../getCandlestickData";
 import getBBData from "../getBBdata";
 import Ticker from "./Ticker";
+import Hyperparameter from "./Hyperparameters";
 
 const DashboardDrawer = (props) => {
   const useStyles = Styles;
@@ -30,6 +31,11 @@ const DashboardDrawer = (props) => {
   let chartType = props.chartType;
   let setChartType = props.setChartType;
   let setBBData = props.setBBData;
+
+  let BBWindow = props.BBWindow;
+  let setBBWindow = props.setBBWindow;
+  let BBSDFactor = props.BBSDFactor;
+  let setBBSDFactor = props.setBBSDFactor;
 
   const handleTickerChange = (e) => {
     console.log(e.target.value);
@@ -59,15 +65,15 @@ const DashboardDrawer = (props) => {
         },
       };
       props.setChartData(await getData(data));
-    } else if(chartType === "BB") {
+    } else if (chartType === "BB") {
       props.setBBData({});
       const data = {
         context: {
           ticker: ticker,
           start: startDate.toISOString().substring(0, 10),
           end: endDate.toISOString().substring(0, 10),
-          window: 20,
-          sdfactor: 2,
+          window: BBWindow,
+          sdfactor: BBSDFactor,
         },
       };
       props.setBBData(await getBBData(data));
@@ -122,11 +128,19 @@ const DashboardDrawer = (props) => {
           <MenuItem value={"BB"}>Bollinger Bands</MenuItem>
         </Select>
       </FormControl>
+      <Hyperparameter
+          BBWindow={BBWindow}
+          setBBWindow={setBBWindow}
+          BBSDFactor={BBSDFactor}
+          setBBSDFactor={setBBSDFactor}
+          chartType={chartType}
+          className={classes.drawerItem}
+        />
       <Button
         variant="contained"
         color="primary"
-        className={classes.drawerItem}
         onClick={handleSubmit}
+        className={classes.submit}
       >
         Submit
       </Button>
