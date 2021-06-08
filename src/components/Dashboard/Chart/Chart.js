@@ -54,7 +54,13 @@ let ChartJS = (props) => {
       }
     case "MACD":
       if (Object.keys(props.MACDData).length === 0) {
-        return <CircularProgress className={classes.progress} />;
+        return <img src="https://media.giphy.com/media/l150Tal3EKqgj0v9gs/giphy.gif" style={{
+          position:"absolute",
+          top:"50%",
+          left:"50%",
+          transform:"translate(-50%,-50%)"
+        }}/>
+        // return <CircularProgress className={classes.progress} />;
       } else {
         return <MACD res={props.MACDData} />;
       }
