@@ -1,6 +1,6 @@
 # Techincal Analysis
 
-Technical Analysis (also abbreviated as TA) is a popular technique that allows you to do just that. It helps you develop a point of view on a particular stock or index and helps you define the trade, keeping in mind the entry, exit, and risk perspective.
+Technical analysis is a trading discipline employed to evaluate investments and identify trading opportunities by analyzing statistical trends gathered from trading activity, such as price movement and volume.
 
 ![tech analysis](https://news.tradimo.com/wp-content/uploads/2019/11/technicalanalysis-696x365.jpg)
 
