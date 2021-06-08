@@ -18,6 +18,7 @@ import getBBData from "../getBBdata";
 import getRSIData from "../getRSIData";
 import Ticker from "./Ticker";
 import Hyperparameter from "./Hyperparameters";
+import TickerNew from "./TickeNew";
 
 const DashboardDrawer = (props) => {
   const useStyles = Styles;
@@ -105,6 +106,7 @@ const DashboardDrawer = (props) => {
     <div className={{ textAlign: "center" }}>
       <div className={classes.toolbar} />
       <Divider />
+      {/* <TickerNew value={ticker} handleChange={handleTickerChange}/> */}
       <Ticker value={ticker} handleChange={handleTickerChange} />
       <MuiPickersUtilsProvider utils={DateFnsUtils}>
         <KeyboardDatePicker
