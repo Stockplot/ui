@@ -217,6 +217,7 @@ function ResponsiveDrawer(props) {
               setMACDBuyLimit={setMACDBuyLimit}
               MACDSellLimit={MACDSellLimit}
               setMACDSellLimit={setMACDSellLimit}
+              style={{backgroundColor:"blue"}}
             />
           </Drawer>
         </Hidden>

@@ -5,6 +5,7 @@ import SignalCellularAltIcon from "@material-ui/icons/SignalCellularAlt";
 import "./styles.css";
 import About from "./About";
 import Footer from "./Footer";
+import img from "./images/logo1.svg"
 function Home() {
   return (
     <div className="curved" id="blog-hero">
@@ -19,9 +20,9 @@ function Home() {
         <div className="content">
           <LottieControl />
           <div className="desc">
-            <h1>Stock Plot</h1>
+           <img src={img} className="logo"/>
             <p className="curved_txt">
-              An online platform to plot indicators for stocks
+              An online platform to plot stock market indicators
               <br></br>
             </p>
 
