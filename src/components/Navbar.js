@@ -212,7 +212,7 @@ export default function Navbar(props) {
                 fontSize:"25px"
               }}
             >
-              Stock Plot
+              Stockplot
             </Link>
           </Typography>
           <div className={classes.grow} />
