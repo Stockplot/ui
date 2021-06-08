@@ -13,6 +13,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import MoreIcon from "@material-ui/icons/MoreVert";
 import { Link, useLocation } from "react-router-dom";
 import "./styles.css";
+import logo from "./images/logo1.svg"
 const useStyles = makeStyles((theme) => ({
   grow: {
     flexGrow: 1,
@@ -104,7 +105,7 @@ export default function Navbar(props) {
   let { mobileDrawerOpen, setMobileDrawerOpen } = props;
 
   const navLinks = [
-    { title: `About us`, path: `/` },
+    // { title: `About us`, path: `/` },
     { title: `Dashboard`, path: `/dashboard` },
     { title: `Blog`, path: `/blog` },
     { title: `Contact`, path: `/contact` },
@@ -161,11 +162,11 @@ export default function Navbar(props) {
       open={isMobileMenuOpen}
       onClose={handleMobileMenuClose}
     >
-      <MenuItem>
+      {/* <MenuItem>
         <Link to="/" className={classes.linkTextMobile}>
           <p>About Us</p>
         </Link>
-      </MenuItem>
+      </MenuItem> */}
       <MenuItem>
         <Link
           to="/dashboard"
@@ -212,7 +213,7 @@ export default function Navbar(props) {
                 fontSize:"25px"
               }}
             >
-              Stockplot
+              <img src={logo} style={{width:"200px" , height:"50px"}}/>
             </Link>
           </Typography>
           <div className={classes.grow} />

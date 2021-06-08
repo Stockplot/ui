@@ -4,13 +4,16 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
-
+import logo from "./images/favicon.svg"
 function Footer() {
     return (
         <div id="footer">
             <footer class="footer"> 
   	 <div class="container">
   	 	<div class="row">
+			   <div class="footer-col">
+			   <img src={logo}/>
+			   </div>
   	 		<div class="footer-col">
   	 			<h4>Stockplot</h4>
   	 			<ul>
@@ -40,8 +43,10 @@ function Footer() {
   	 			</ul>
   	 		</div>
   	 		<div class="footer-col">
+			   
   	 			<h4>follow us</h4>
   	 			<div class="social-links">
+					   
   	 				<a href="#"><FacebookIcon fontSize="large"/></a>
   	 				<a href="#"><LinkedInIcon fontSize="large"/></a>
   	 				<a href="#"><GitHubIcon fontSize="large"/></a>
@@ -54,7 +59,7 @@ function Footer() {
   	 	</div>
   	 </div>
        <hr></hr>
-              <p style={{padding:"10px",fontSize:"20px",textAlign:"center",color:"#000"}}>Copyright  © 2021 Stock Plot</p> 
+              <p style={{padding:"10px",fontSize:"20px",textAlign:"center",color:"#000"}}>Copyright  © 2021 Stockplot</p> 
   </footer>
         </div>
     )

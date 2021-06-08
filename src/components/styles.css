@@ -14,11 +14,15 @@
   font-size: 30px;
   text-align: center;
 }
+.logo {
+  width: 25vw;
+  height: 25vh;
+}
 .curved svg {
   display: block;
 }
 .curved_txt {
-  padding: 5%;
+  padding-bottom: 5%;
 }
 .content {
   text-align: center;
