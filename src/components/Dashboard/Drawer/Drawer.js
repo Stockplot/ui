@@ -16,6 +16,7 @@ import Styles from "./styles";
 import getData from "../getCandlestickData";
 import getBBData from "../getBBdata";
 import Ticker from "./Ticker";
+import TickerNew from "./TickeNew";
 
 const DashboardDrawer = (props) => {
   const useStyles = Styles;
@@ -78,7 +79,8 @@ const DashboardDrawer = (props) => {
     <div className={{ textAlign: "center" }}>
       <div className={classes.toolbar} />
       <Divider />
-      <Ticker value={ticker} handleChange={handleTickerChange} />
+      <TickerNew value={ticker} handleChange={handleTickerChange}/>
+      {/* <Ticker value={ticker} handleChange={handleTickerChange} /> */}
       <MuiPickersUtilsProvider utils={DateFnsUtils}>
         <KeyboardDatePicker
           disableToolbar

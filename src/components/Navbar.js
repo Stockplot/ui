@@ -190,7 +190,7 @@ export default function Navbar(props) {
 
   return (
     <div className={classes.grow}>
-      <AppBar position="static" id="nav" className="nav-bar" color="transparent" position="fixed">
+      <AppBar position="static" id="nav" className="nav-bar" style={{backgroundColor:"rgb(55 91 122 / 27%)"}} position="fixed">
         <Toolbar>
           <IconButton
             color="inherit"
