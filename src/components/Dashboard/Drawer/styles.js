@@ -10,6 +10,12 @@ const styles = makeStyles((theme) => ({
     width: "90%",
     marginTop: "20px",
   },
+  params: {
+    margin: "20px 0px 10px 0px",
+  },
+  submit: {
+    marginTop: "20px",
+  },
 
   // necessary for content to be below app bar
 
