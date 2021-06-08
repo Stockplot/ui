@@ -13,6 +13,7 @@ import Styles from "./styles";
 import getCandlestickData from "./getCandlestickData";
 import getBBData from "./getBBdata";
 import getRSIData from "./getRSIData";
+import getMACDData from "./getMACDData";
 
 const useStyles = Styles;
 
@@ -38,6 +39,14 @@ function ResponsiveDrawer(props) {
   let [RSIWindow, setRSIWindow] = useState(30);
   let [RSIUpperBand, setRSIUpperBand] = useState(70);
   let [RSILowerBand, setRSILowerBand] = useState(30);
+
+  //MACD params
+
+  let [MACDData, setMACDData] = useState({});
+  let [MACDUpperBand, setMACDUpperBand] = useState(70);
+  let [MACDLowerBand, setMACDLowerBand] = useState(30);
+  let [MACDBuyLimit, setMACDBuyLimit] = useState(1);
+  let [MACDSellLimit, setMACDSellLimit] = useState(-1);
 
   useLayoutEffect(() => {
     (async () => {
@@ -74,6 +83,19 @@ function ResponsiveDrawer(props) {
       };
 
       setRSIData(await getRSIData(RSIReqData));
+
+      const MACDReqData = {
+        context: {
+          ticker: ticker,
+          start: startDate.toISOString().substring(0, 10),
+          end: endDate.toISOString().substring(0, 10),
+          upper_band: 70,
+          lower_band: 30,
+          buy_lim: 1,
+          sell_lim: -1,
+        },
+      };
+      setMACDData(await getMACDData(MACDReqData));
 
     })();
   }, []);
@@ -120,11 +142,13 @@ function ResponsiveDrawer(props) {
               setStartDate={setStartDate}
               endDate={endDate}
               setEndDate={setEndDate}
+
               setBBData={setBBData}
               BBWindow={BBWindow}
               setBBWindow={setBBWindow}
               BBSDFactor={BBSDFactor}
               setBBSDFactor={setBBSDFactor}
+
               RSIData={RSIData}
               setRSIData={setRSIData}
               RSIWindow={RSIWindow}
@@ -133,6 +157,17 @@ function ResponsiveDrawer(props) {
               setRSIUpperBand={setRSIUpperBand}
               RSILowerBand={RSILowerBand}
               setRSILowerBand={setRSILowerBand}
+
+              MACDData={MACDData}
+              setMACDData={setMACDData}
+              MACDUpperBand={MACDUpperBand}
+              setMACDUpperBand={MACDUpperBand}
+              MACDLowerBand={MACDLowerBand}
+              setMACDLowerBand={setMACDLowerBand}
+              MACDBuyLimit={MACDBuyLimit}
+              setMACDBuyLimit={setMACDBuyLimit}
+              MACDSellLimit={MACDSellLimit}
+              setMACDSellLimit={setMACDSellLimit}
             />
           </Drawer>
         </Hidden>
@@ -154,11 +189,13 @@ function ResponsiveDrawer(props) {
               setStartDate={setStartDate}
               endDate={endDate}
               setEndDate={setEndDate}
+
               setBBData={setBBData}
               BBWindow={BBWindow}
               setBBWindow={setBBWindow}
               BBSDFactor={BBSDFactor}
               setBBSDFactor={setBBSDFactor}
+              
               RSIData={RSIData}
               setRSIData={setRSIData}
               RSIWindow={RSIWindow}
@@ -167,6 +204,17 @@ function ResponsiveDrawer(props) {
               setRSIUpperBand={setRSIUpperBand}
               RSILowerBand={RSILowerBand}
               setRSILowerBand={setRSILowerBand}
+              
+              MACDData={MACDData}
+              setMACDData={setMACDData}
+              MACDUpperBand={MACDUpperBand}
+              setMACDUpperBand={MACDUpperBand}
+              MACDLowerBand={MACDLowerBand}
+              setMACDLowerBand={setMACDLowerBand}
+              MACDBuyLimit={MACDBuyLimit}
+              setMACDBuyLimit={setMACDBuyLimit}
+              MACDSellLimit={MACDSellLimit}
+              setMACDSellLimit={setMACDSellLimit}
             />
           </Drawer>
         </Hidden>
@@ -182,6 +230,7 @@ function ResponsiveDrawer(props) {
           data={chartData}
           chartType={chartType}
           RSIData={RSIData}
+          MACDData={MACDData}
         ></Chart>
       </main>
     </div>

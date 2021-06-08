@@ -16,6 +16,7 @@ import Styles from "./styles";
 import getData from "../getCandlestickData";
 import getBBData from "../getBBdata";
 import getRSIData from "../getRSIData";
+import getMACDData from "../getMACDData";
 import Ticker from "./Ticker";
 import Hyperparameter from "./Hyperparameters";
 import TickerOld from "./TickerOld";
@@ -32,8 +33,8 @@ const DashboardDrawer = (props) => {
   let setEndDate = props.setEndDate;
   let chartType = props.chartType;
   let setChartType = props.setChartType;
-  let setBBData = props.setBBData;
 
+  let setBBData = props.setBBData;
   let BBWindow = props.BBWindow;
   let setBBWindow = props.setBBWindow;
   let BBSDFactor = props.BBSDFactor;
@@ -45,6 +46,15 @@ const DashboardDrawer = (props) => {
   let setRSIUpperBand = props.setRSIUpperBand;
   let RSILowerBand = props.RSILowerBand;
   let setRSILowerBand = props.setRSILowerBand;
+
+  let MACDUpperBand = props.MACDUpperBand;
+  let setMACDUpperBand = props.setMACDUpperBand;
+  let MACDLowerBand = props.MACDLowerBand;
+  let setMACDLowerBand = props.setMACDLowerBand;
+  let MACDBuyLimit = props.MACDBuyLimit;
+  let setMACDBuyLimit = props.setMACDBuyLimit;
+  let MACDSellLimit = props.MACDSellLimit;
+  let setMACDSellLimit = props.setMACDSellLimit;
 
   const handleTickerChange = (event, value) => {
     setTicker(value);
@@ -94,10 +104,24 @@ const DashboardDrawer = (props) => {
           end: endDate.toISOString().substring(0, 10),
           window: RSIWindow,
           upper_band: 70,
-          lower_band: 30
+          lower_band: 30,
         },
       };
       props.setRSIData(await getRSIData(data));
+    } else if (chartType === "MACD") {
+      props.setMACDData({});
+      const data = {
+        context: {
+          ticker: ticker,
+          start: startDate.toISOString().substring(0, 10),
+          end: endDate.toISOString().substring(0, 10),
+          upper_band: 70,
+          lower_band: 30,
+          buy_lim: 1,
+          sell_lim: -1,
+        },
+      };
+      props.setMACDData(await getMACDData(data));
     }
   };
 
@@ -105,7 +129,11 @@ const DashboardDrawer = (props) => {
     <div className={{ textAlign: "center" }}>
       <div className={classes.toolbar} />
       <Divider />
-      <Ticker value={ticker} handleChange={handleTickerChange} setTicker={setTicker} />
+      <Ticker
+        value={ticker}
+        handleChange={handleTickerChange}
+        setTicker={setTicker}
+      />
       {/* <Ticker value={ticker} handleChange={handleTickerChange} /> */}
       <MuiPickersUtilsProvider utils={DateFnsUtils}>
         <KeyboardDatePicker
@@ -149,9 +177,18 @@ const DashboardDrawer = (props) => {
           <MenuItem value={"CS"}>Candlesticks</MenuItem>
           <MenuItem value={"BB"}>Bollinger Bands</MenuItem>
           <MenuItem value={"RSI"}>RSI</MenuItem>
+          <MenuItem value={"MACD"}>MACD</MenuItem>
         </Select>
       </FormControl>
       <Hyperparameter
+        MACDUpperBand={MACDUpperBand}
+        setMACDUpperBand={MACDUpperBand}
+        MACDLowerBand={MACDLowerBand}
+        setMACDLowerBand={setMACDLowerBand}
+        MACDBuyLimit={MACDBuyLimit}
+        setMACDBuyLimit={setMACDBuyLimit}
+        MACDSellLimit={MACDSellLimit}
+        setMACDSellLimit={setMACDSellLimit}
         RSIWindow={RSIWindow}
         setRSIWindow={setRSIWindow}
         RSIUpperBand={RSIUpperBand}
