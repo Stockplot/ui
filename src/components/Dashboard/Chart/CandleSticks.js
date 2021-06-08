@@ -17,9 +17,9 @@ let CandleSticks = (props) => {
   return (
     <div className="CandleSticks">
       <ChartCanvas
-        height={400}
+        height={800}
         ratio={1}
-        width={1000}
+        width={1600}
         margin={{ left: 50, right: 50, top: 10, bottom: 30 }}
         type={"svg"}
         data={data}

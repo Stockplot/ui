@@ -13,6 +13,7 @@ import Navbar from './components/Navbar';
 import Footer from "./components/Footer";
 import "./components/footer.css"
 import "./components/styles.css"
+import Contact from "./components/Contact"
 const useStyles = makeStyles(theme => ({
   appBar: {
     position: 'relative',
@@ -42,6 +43,7 @@ function App() {
           />} 
         />
         <Route path='/blog' component={Blog} />
+        <Route path="/contact" component={Contact}/>
         <Route path="/article" component={Article}/>
         <Route path="/article1" component={Bbands}/>
         <Route path="/article2" component={RSI}/>

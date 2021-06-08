@@ -65,7 +65,7 @@ ul {
   display: inline-block;
   height: 40px;
   width: 40px;
-  background-color: rgb(211, 211, 211);
+  background-color: rgb(211, 205, 205);
   margin: 0 10px 10px 0;
   text-align: center;
   line-height: 40px;
@@ -75,7 +75,7 @@ ul {
   padding: 2px;
 }
 .footer-col .social-links a:hover {
-  color: #f8f8f8;
+  color: #b6b6b6;
   background-color: #80519c;
 }
 

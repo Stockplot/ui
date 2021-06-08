@@ -98,6 +98,7 @@ function ResponsiveDrawer(props) {
       <nav className={classes.drawer} aria-label="mailbox folders">
         <Hidden smUp implementation="css">
           <Drawer
+       
             container={container}
             variant="temporary"
             anchor={theme.direction === "rtl" ? "right" : "left"}
@@ -143,6 +144,7 @@ function ResponsiveDrawer(props) {
             }}
             variant="permanent"
             open
+            
           >
             <DashboardDrawer
               chartType={chartType}
@@ -172,7 +174,7 @@ function ResponsiveDrawer(props) {
         </Hidden>
       </nav>
 
-      <main className={classes.content}>
+      <main className={classes.content} id="dash-hero">
         <div className={classes.toolbar} />
         <Chart
           BBData={BBData}

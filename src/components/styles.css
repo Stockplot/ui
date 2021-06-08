@@ -122,3 +122,30 @@
     ),
     url("./images/back1.jpg");
 }
+#dash-hero {
+  background-image: linear-gradient(
+      45deg,
+      rgb(246 247 243 / 90%),
+      rgb(255 255 255 / 93%)
+    ),
+    url("./images/back1.jpg");
+}
+
+.contact {
+  text-align: center;
+  font-family: "Karla";
+  padding-top: 10%;
+  font-size: 30px;
+  background: #ee5e9a;
+  color: #fff;
+}
+.contact .social-icons {
+  margin-top: 2%;
+}
+.contact .social-icons a {
+  color: #fff;
+  padding: 20px;
+}
+.contact .social-icons a:hover {
+  color: #ebb5cb;
+}

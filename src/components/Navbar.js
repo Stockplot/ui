@@ -162,7 +162,7 @@ export default function Navbar(props) {
       onClose={handleMobileMenuClose}
     >
       <MenuItem>
-        <Link to="/about us" className={classes.linkTextMobile}>
+        <Link to="/" className={classes.linkTextMobile}>
           <p>About Us</p>
         </Link>
       </MenuItem>
