@@ -105,7 +105,7 @@
 .blog p img {
   text-align: center;
 }
-#blog-post {
+/* #blog-post {
   background-image: linear-gradient(
       45deg,
       rgb(246 247 243),
@@ -113,4 +113,12 @@
     ),
     url("./images/back.jpg");
   background-blend-mode: hard-light;
+} */
+#blog-hero {
+  background-image: linear-gradient(
+      45deg,
+      rgb(246 247 243 / 72%),
+      rgb(255 255 255 / 70%)
+    ),
+    url("./images/back1.jpg");
 }

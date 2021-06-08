@@ -13,7 +13,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
-import { ArrowRightAlt } from '@material-ui/icons';
+import { ArrowRightAlt, Opacity } from '@material-ui/icons';
 import "./styles.css";
 function Copyright() {
   return (
@@ -35,6 +35,8 @@ const useStyles = makeStyles((theme) => ({
   heroContent: {
     // backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(8, 0, 6),
+    backgroundColor:"#b5e080",
+    
     
   },
   heroButtons: {
@@ -104,9 +106,9 @@ export default function Blog() {
     <React.Fragment>
       <CssBaseline />
       
-      <main>
+      <main id="blog-hero">
         {/* Hero unit */}
-        <div className={classes.heroContent}>
+        <div className={classes.heroContent} >
           <Container maxWidth="sm">
             <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom style={{fontFamily:"Karla"}}>
               Blog Page
@@ -126,8 +128,10 @@ export default function Blog() {
                 
               </Grid>
             </div>
+           
           </Container>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" id ="blog-hero" viewBox="0 0 1440 200"><path fill="#b5e080" fill-opacity="1" d="M0,128L480,32L960,160L1440,160L1440,0L960,0L480,0L0,0Z"></path></svg>
         <Container className={classes.cardGrid} maxWidth="lg" id="blog-post">
           {/* End hero unit */}
           <Grid container spacing={8}>
