@@ -79,8 +79,8 @@ const DashboardDrawer = (props) => {
     <div className={{ textAlign: "center" }}>
       <div className={classes.toolbar} />
       <Divider />
-      <TickerNew value={ticker} handleChange={handleTickerChange}/>
-      {/* <Ticker value={ticker} handleChange={handleTickerChange} /> */}
+      {/* <TickerNew value={ticker} handleChange={handleTickerChange}/> */}
+      <Ticker value={ticker} handleChange={handleTickerChange} />
       <MuiPickersUtilsProvider utils={DateFnsUtils}>
         <KeyboardDatePicker
           disableToolbar
