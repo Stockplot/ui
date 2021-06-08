@@ -18,7 +18,7 @@ function Article() {
   }, []);
   console.log(markdown)
   return (
-    <div className="blog">
+    <div className="blog" id="blog-hero">
     
      <ReactMarkdown>
        
@@ -41,7 +41,7 @@ function Bbands() {
   }, []);
   console.log(markdown)
   return (
-    <div className="blog">
+    <div className="blog" id="blog-hero">
     
      <ReactMarkdown>
        
@@ -61,7 +61,7 @@ function RSI() {
   }, []);
   console.log(markdown)
   return (
-    <div className="blog">
+    <div className="blog" id="blog-hero">
     
      <ReactMarkdown>
        
@@ -81,7 +81,7 @@ function MACD() {
   }, []);
   console.log(markdown)
   return (
-    <div className="blog">
+    <div className="blog" id="blog-hero">
     
      <ReactMarkdown>
        
