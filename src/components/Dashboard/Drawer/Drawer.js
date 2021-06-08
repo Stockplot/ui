@@ -18,7 +18,7 @@ import getBBData from "../getBBdata";
 import getRSIData from "../getRSIData";
 import Ticker from "./Ticker";
 import Hyperparameter from "./Hyperparameters";
-import TickerNew from "./TickeNew";
+import TickerOld from "./TickerOld";
 
 const DashboardDrawer = (props) => {
   const useStyles = Styles;
@@ -46,9 +46,8 @@ const DashboardDrawer = (props) => {
   let RSILowerBand = props.RSILowerBand;
   let setRSILowerBand = props.setRSILowerBand;
 
-  const handleTickerChange = (e) => {
-    console.log(e.target.value);
-    setTicker(e.target.value);
+  const handleTickerChange = (event, value) => {
+    setTicker(value);
   };
 
   const handleStartDateChange = (date) => {
@@ -106,8 +105,8 @@ const DashboardDrawer = (props) => {
     <div className={{ textAlign: "center" }}>
       <div className={classes.toolbar} />
       <Divider />
-      {/* <TickerNew value={ticker} handleChange={handleTickerChange}/> */}
-      <Ticker value={ticker} handleChange={handleTickerChange} />
+      <Ticker value={ticker} handleChange={handleTickerChange} setTicker={setTicker} />
+      {/* <Ticker value={ticker} handleChange={handleTickerChange} /> */}
       <MuiPickersUtilsProvider utils={DateFnsUtils}>
         <KeyboardDatePicker
           disableToolbar
