@@ -104,7 +104,7 @@ export default function Navbar(props) {
   let { mobileDrawerOpen, setMobileDrawerOpen } = props;
 
   const navLinks = [
-    { title: `About us`, path: `/aboutus` },
+    { title: `About us`, path: `/` },
     { title: `Dashboard`, path: `/dashboard` },
     { title: `Blog`, path: `/blog` },
     { title: `Contact`, path: `/contact` },
