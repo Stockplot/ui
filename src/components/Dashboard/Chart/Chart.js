@@ -13,13 +13,24 @@ let ChartJS = (props) => {
   switch (props.chartType) {
     case "CS":
       if (props.data.length === 0) {
-        return <CircularProgress className={classes.progress} />;
+        // return <CircularProgress className={classes.progress} />;
+        return <img src="https://media.giphy.com/media/l150Tal3EKqgj0v9gs/giphy.gif" style={{
+          position:"absolute",
+          top:"50%",
+          left:"50%",
+          transform:"translate(-50%,-50%)"
+        }}/>
       } else {
         return <Candlesticks data={props.data} />;
       }
     case "BB":
       if (Object.keys(props.BBData).length === 0) {
-        return <CircularProgress className={classes.progress} />;
+        return <img src="https://media.giphy.com/media/l150Tal3EKqgj0v9gs/giphy.gif" style={{
+          position:"absolute",
+          top:"50%",
+          left:"50%",
+          transform:"translate(-50%,-50%)"
+        }}/>
       } else {
         return (
           <BBand
@@ -32,7 +43,12 @@ let ChartJS = (props) => {
       }
     case "RSI":
       if (Object.keys(props.RSIData).length === 0) {
-        return <CircularProgress className={classes.progress} />;
+        return <img src="https://media.giphy.com/media/l150Tal3EKqgj0v9gs/giphy.gif" style={{
+          position:"absolute",
+          top:"50%",
+          left:"50%",
+          transform:"translate(-50%,-50%)"
+        }}/>
       } else {
         return <RSI res={props.RSIData} />;
       }
@@ -44,7 +60,12 @@ let ChartJS = (props) => {
       }
     default:
       if (props.data.length === 0) {
-        return <CircularProgress className={classes.progress} />;
+        return <img src="https://media.giphy.com/media/l150Tal3EKqgj0v9gs/giphy.gif" style={{
+          position:"absolute",
+          top:"50%",
+          left:"50%",
+          transform:"translate(-50%,-50%)"
+        }}/>
       } else {
         return <Candlesticks data={props.data} />;
       }

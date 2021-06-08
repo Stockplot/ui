@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
   heroContent: {
     // backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(8, 0, 6),
-    backgroundColor:"#b5e080",
+    backgroundColor:"#fffa52",
     
     
   },
@@ -131,7 +131,7 @@ export default function Blog() {
            
           </Container>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" id ="blog-hero" viewBox="0 0 1440 200"><path fill="#b5e080" fill-opacity="1" d="M0,128L480,32L960,160L1440,160L1440,0L960,0L480,0L0,0Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" id ="blog-hero" viewBox="0 0 1440 200"><path fill="#fffa52" fill-opacity="1" d="M0,128L480,32L960,160L1440,160L1440,0L960,0L480,0L0,0Z"></path></svg>
         <Container className={classes.cardGrid} maxWidth="lg" id="blog-post">
           {/* End hero unit */}
           <Grid container spacing={8}>

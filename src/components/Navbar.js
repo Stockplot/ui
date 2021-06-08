@@ -104,7 +104,7 @@ export default function Navbar(props) {
   let { mobileDrawerOpen, setMobileDrawerOpen } = props;
 
   const navLinks = [
-    { title: `About us`, path: `/aboutus` },
+    { title: `About us`, path: `/` },
     { title: `Dashboard`, path: `/dashboard` },
     { title: `Blog`, path: `/blog` },
     { title: `Contact`, path: `/contact` },
@@ -162,7 +162,7 @@ export default function Navbar(props) {
       onClose={handleMobileMenuClose}
     >
       <MenuItem>
-        <Link to="/about us" className={classes.linkTextMobile}>
+        <Link to="/" className={classes.linkTextMobile}>
           <p>About Us</p>
         </Link>
       </MenuItem>

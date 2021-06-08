@@ -98,7 +98,7 @@ const cards=[{
 function About() {
     const classes = useStyles();
     return (
-        <div>
+        <div id="about" style={{scrollBehavior:"smooth"}}> 
             <h1>Why do we use it?</h1>
             <p>
                 This platform is visualize NSE stocks plot various indicators such as Bollinger Bands ,RSI,MACD etc ...
