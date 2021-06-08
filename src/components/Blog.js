@@ -75,7 +75,7 @@ const cards = [
     image:"https://news.tradimo.com/wp-content/uploads/2019/11/technicalanalysis-696x365.jpg",
     id:1,
     url:"/article",
-    desc:""
+    desc:"Technical analysis is a trading discipline employed to evaluate investments and identify trading opportunities by analyzing statistical trends gathered from trading activity, such as price movement and volume."
   },
   {
     name:"Bolinger Bands",
