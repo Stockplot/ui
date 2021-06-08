@@ -10,7 +10,7 @@ const LineChart = (props) => {
     labels: macd.dates,
     datasets: [
       {
-        label: "Closing Price",
+        label: "MACD Value",
         data: macd.val,
         fill: false,
         backgroundColor: "#1eae98",

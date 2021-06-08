@@ -10,7 +10,7 @@ const LineChart = (props) => {
     labels: rsi.dates,
     datasets: [
       {
-        label: "Closing Price",
+        label: "RSI Value",
         data: rsi.val,
         fill: false,
         backgroundColor: "#1eae98",
