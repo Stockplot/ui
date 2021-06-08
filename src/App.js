@@ -7,10 +7,12 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import Blog from "./components/Blog";
 import {BrowserRouter} from "react-router-dom"
 import Header from "./components/Navbar";
-import Article from "./components/Article"
+import {Article,Bbands,RSI,MACD} from "./components/Article"
 import { makeStyles } from "@material-ui/core/styles";
 import Navbar from './components/Navbar';
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+import "./components/footer.css"
+import "./components/styles.css"
 const useStyles = makeStyles(theme => ({
   appBar: {
     position: 'relative',
@@ -41,8 +43,11 @@ function App() {
         />
         <Route path='/blog' component={Blog} />
         <Route path="/article" component={Article}/>
+        <Route path="/article1" component={Bbands}/>
+        <Route path="/article2" component={RSI}/>
+        <Route path="/artticle3" component={MACD}/>
       </Switch>
-      
+     
      </div>
     </BrowserRouter>
   );

@@ -7,8 +7,8 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 
 function Footer() {
     return (
-        <div>
-            <footer class="footer">
+        <div id="footer">
+            <footer class="footer"> 
   	 <div class="container">
   	 	<div class="row">
   	 		<div class="footer-col">
@@ -54,7 +54,7 @@ function Footer() {
   	 	</div>
   	 </div>
        <hr></hr>
-              <p style={{padding:"10px",fontSize:"20px"}}>Copyright  © 2021 Train Test Stock</p> 
+              <p style={{padding:"10px",fontSize:"20px",textAlign:"center",color:"#000"}}>Copyright  © 2021 Train Test Stock</p> 
   </footer>
         </div>
     )
