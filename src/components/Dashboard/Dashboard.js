@@ -12,6 +12,7 @@ import DashboardDrawer from "./Drawer/Drawer";
 import Styles from "./styles";
 import getCandlestickData from "./getCandlestickData";
 import getBBData from "./getBBdata";
+import getRSIData from "./getRSIData";
 
 const useStyles = Styles;
 
@@ -20,16 +21,23 @@ function ResponsiveDrawer(props) {
   //Common params
 
   let [chartData, setChartData] = useState([]);
-  let [BBData, setBBData] = useState({});
   let [chartType, setChartType] = useState("CS");
   let [ticker, setTicker] = useState("BAJFINANCE.NS");
   let [startDate, setStartDate] = useState(new Date(2018, 1, 1));
   let [endDate, setEndDate] = useState(new Date(2020, 11, 30));
-
+  
   //BB params
-
+  
+  let [BBData, setBBData] = useState({});
   let [BBWindow, setBBWindow] = useState(20);
   let [BBSDFactor, setBBSDFactor] = useState(2);
+  
+  //RSI params
+  
+  let [RSIData, setRSIData] = useState({});
+  let [RSIWindow, setRSIWindow] = useState(30);
+  let [RSIUpperBand, setRSIUpperBand] = useState(70);
+  let [RSILowerBand, setRSILowerBand] = useState(30);
 
   useLayoutEffect(() => {
     (async () => {
@@ -53,6 +61,20 @@ function ResponsiveDrawer(props) {
       };
 
       setBBData(await getBBData(reqData));
+
+      const RSIReqData = {
+        context: {
+          ticker: ticker,
+          start: startDate.toISOString().substring(0, 10),
+          end: endDate.toISOString().substring(0, 10),
+          window: 30,
+          upper_band: 70,
+          lower_band: 30
+        }
+      };
+
+      setRSIData(await getRSIData(RSIReqData));
+
     })();
   }, []);
 
@@ -103,6 +125,14 @@ function ResponsiveDrawer(props) {
               setBBWindow={setBBWindow}
               BBSDFactor={BBSDFactor}
               setBBSDFactor={setBBSDFactor}
+              RSIData={RSIData}
+              setRSIData={setRSIData}
+              RSIWindow={RSIWindow}
+              setRSIWindow={setRSIWindow}
+              RSIUpperBand={RSIUpperBand}
+              setRSIUpperBand={setRSIUpperBand}
+              RSILowerBand={RSILowerBand}
+              setRSILowerBand={setRSILowerBand}
             />
           </Drawer>
         </Hidden>
@@ -129,6 +159,14 @@ function ResponsiveDrawer(props) {
               setBBWindow={setBBWindow}
               BBSDFactor={BBSDFactor}
               setBBSDFactor={setBBSDFactor}
+              RSIData={RSIData}
+              setRSIData={setRSIData}
+              RSIWindow={RSIWindow}
+              setRSIWindow={setRSIWindow}
+              RSIUpperBand={RSIUpperBand}
+              setRSIUpperBand={setRSIUpperBand}
+              RSILowerBand={RSILowerBand}
+              setRSILowerBand={setRSILowerBand}
             />
           </Drawer>
         </Hidden>
@@ -143,6 +181,7 @@ function ResponsiveDrawer(props) {
           endDate={endDate}
           data={chartData}
           chartType={chartType}
+          RSIData={RSIData}
         ></Chart>
       </main>
     </div>

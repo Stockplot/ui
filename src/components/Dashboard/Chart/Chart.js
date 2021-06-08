@@ -3,6 +3,7 @@ import CircularProgress from "@material-ui/core/CircularProgress";
 
 import Candlesticks from "./CandleSticks";
 import BBand from "./BBand";
+import RSI from "./RSI";
 import Styles from "../styles";
 
 let ChartJS = (props) => {
@@ -27,6 +28,12 @@ let ChartJS = (props) => {
             endDate={props.endDate}
           />
         );
+      }
+    case "RSI":
+      if (Object.keys(props.RSIData).length === 0) {
+        return <CircularProgress className={classes.progress} />;
+      } else {
+        return <RSI res={props.RSIData} />;
       }
     default:
       if (props.data.length === 0) {

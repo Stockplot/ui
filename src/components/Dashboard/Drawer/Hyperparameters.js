@@ -27,6 +27,31 @@ const Hyperparameter = (props) => {
           />
         </>
       );
+    case "RSI":
+      return(
+        <>
+        <TextField
+            id="standard-basic"
+            label="Lookback Period"
+            value={props.RSIWindow}
+            className={classes.drawerItem}
+            onChange={(e) => {props.setRSIWindow(e.target.value)}}
+          />
+          <TextField
+            id="standard-basic"
+            label="Lower Band"
+            value={props.RSILowerBand}
+            className={classes.drawerItem}
+            onChange={(e) => {props.setRSILowerBand(e.target.value)}}
+          /><TextField
+            id="standard-basic"
+            label="Upper Band"
+            value={props.RSIUpperBand}
+            className={classes.drawerItem}
+            onChange={(e) => {props.setRSIUpperBand(e.target.value)}}
+          />
+        </>
+      );
     default:
       return <></>;
   }
