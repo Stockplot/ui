@@ -212,8 +212,7 @@ export default function Navbar(props) {
                 fontSize:"25px"
               }}
             >
-              {" "}
-              Train Test Stocks
+              Stock Plot
             </Link>
           </Typography>
           <div className={classes.grow} />

@@ -12,7 +12,7 @@ function Footer() {
   	 <div class="container">
   	 	<div class="row">
   	 		<div class="footer-col">
-  	 			<h4>Train Test STock</h4>
+  	 			<h4>Stock Plot</h4>
   	 			<ul>
   	 				<li><a href="#">about us</a></li>
   	 				<li><a href="#">our services</a></li>
@@ -54,7 +54,7 @@ function Footer() {
   	 	</div>
   	 </div>
        <hr></hr>
-              <p style={{padding:"10px",fontSize:"20px",textAlign:"center",color:"#000"}}>Copyright  © 2021 Train Test Stock</p> 
+              <p style={{padding:"10px",fontSize:"20px",textAlign:"center",color:"#000"}}>Copyright  © 2021 Stock Plot</p> 
   </footer>
         </div>
     )

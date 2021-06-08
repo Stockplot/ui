@@ -19,7 +19,7 @@ function Home() {
         <div className="content">
           <LottieControl />
           <div className="desc">
-            <h1>Train Test Stock</h1>
+            <h1>Stock Plot</h1>
             <p className="curved_txt">
               An online platform to plot indicators for stocks
               <br></br>
