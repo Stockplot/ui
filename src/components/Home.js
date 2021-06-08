@@ -7,7 +7,7 @@ import About from "./About";
 import Footer from "./Footer";
 function Home() {
   return (
-    <div className="curved">
+    <div className="curved" id="blog-hero">
       <div>
         {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 90 1440 190">
           <path
