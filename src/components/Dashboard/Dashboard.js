@@ -35,6 +35,7 @@ function ResponsiveDrawer(props) {
   //RSI params
   
   let [RSIData, setRSIData] = useState({});
+  let [RSIAmount, setRSIAmount] = useState(10000);
   let [RSIWindow, setRSIWindow] = useState(30);
   let [RSIUpperBand, setRSIUpperBand] = useState(70);
   let [RSILowerBand, setRSILowerBand] = useState(30);
@@ -76,8 +77,9 @@ function ResponsiveDrawer(props) {
           start: startDate.toISOString().substring(0, 10),
           end: endDate.toISOString().substring(0, 10),
           window: 30,
-          upper_band: 70,
-          lower_band: 30
+          upper_band: RSIUpperBand,
+          lower_band: RSILowerBand,
+          investment: RSIAmount
         }
       };
 
@@ -152,6 +154,8 @@ function ResponsiveDrawer(props) {
 
               RSIData={RSIData}
               setRSIData={setRSIData}
+              RSIAmount={RSIAmount}
+              setRSIAmount={setRSIAmount}
               RSIWindow={RSIWindow}
               setRSIWindow={setRSIWindow}
               RSIUpperBand={RSIUpperBand}
@@ -200,6 +204,8 @@ function ResponsiveDrawer(props) {
               
               RSIData={RSIData}
               setRSIData={setRSIData}
+              RSIAmount={RSIAmount}
+              setRSIAmount={setRSIAmount}
               RSIWindow={RSIWindow}
               setRSIWindow={setRSIWindow}
               RSIUpperBand={RSIUpperBand}

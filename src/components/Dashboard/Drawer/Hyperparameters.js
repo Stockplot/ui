@@ -35,6 +35,15 @@ const Hyperparameter = (props) => {
         <>
           <TextField
             id="standard-basic"
+            label="Amount"
+            value={props.RSIAmount}
+            className={classes.drawerItem}
+            onChange={(e) => {
+              props.setRSIAmount(e.target.value);
+            }}
+          />
+          <TextField
+            id="standard-basic"
             label="Lookback Period"
             value={props.RSIWindow}
             className={classes.drawerItem}

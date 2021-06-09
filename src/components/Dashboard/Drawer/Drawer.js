@@ -37,6 +37,8 @@ const DashboardDrawer = (props) => {
   let BBSDFactor = props.BBSDFactor;
   let setBBSDFactor = props.setBBSDFactor;
 
+  let RSIAmount=props.RSIAmount;
+  let setRSIAmount=props.setRSIAmount;
   let RSIWindow = props.RSIWindow;
   let setRSIWindow = props.setRSIWindow;
   let RSIUpperBand = props.RSIUpperBand;
@@ -100,8 +102,9 @@ const DashboardDrawer = (props) => {
           start: startDate.toISOString().substring(0, 10),
           end: endDate.toISOString().substring(0, 10),
           window: RSIWindow,
-          upper_band: 70,
-          lower_band: 30,
+          upper_band: RSIUpperBand,
+          lower_band: RSILowerBand,
+          investment: RSIAmount
         },
       };
       props.setRSIData(await getRSIData(data));
@@ -186,6 +189,8 @@ const DashboardDrawer = (props) => {
         setMACDBuyLimit={setMACDBuyLimit}
         MACDSellLimit={MACDSellLimit}
         setMACDSellLimit={setMACDSellLimit}
+        RSIAmount={RSIAmount}
+        setRSIAmount={setRSIAmount}
         RSIWindow={RSIWindow}
         setRSIWindow={setRSIWindow}
         RSIUpperBand={RSIUpperBand}
