@@ -76,19 +76,19 @@ const cards = [
     name: "Select",
     image: "https://image.flaticon.com/icons/png/512/1443/1443000.png",
     id: 1,
-    desc: "Select a stock from the list of stocks",
+    desc: "Select a stock",
   },
   {
     name: "Plot",
     image: "https://image.flaticon.com/icons/png/512/1443/1443031.png",
     id: 2,
-    desc: "plot the candlestick model",
+    desc: "Plot any Indicator",
   },
   {
     name: "Test",
     image: "https://image.flaticon.com/icons/png/512/1443/1443029.png",
     id: 3,
-    desc: "obtain the buy and sell points to make trading profitable",
+    desc: "Obtain BUY/SELL signals",
   },
 ];
 function About() {
