@@ -87,7 +87,7 @@ const cards = [
     id:3,
     url:"/article2",
     desc:"Relative strength Index or just RSI, is a prevalent indicator developed by J.Welles Wilder. RSI is a leading momentum indicator which helps in identifying a trend reversal."
-  },
+  }
   {
     name:"MACD",
     image:"https://zerodha.com/varsity/wp-content/uploads/2014/10/M2-Ch15-Chart2-1024x407.jpg",
