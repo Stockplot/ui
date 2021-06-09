@@ -6,6 +6,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: rgb(36, 33, 33); */
+  background-image: linear-gradient(
+      45deg,
+      rgb(246 247 243 / 80%),
+      rgb(255 255 255 / 86%)
+    ),
+    url("./components/images/back1.jpg");
 }
 
 code {
