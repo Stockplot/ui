@@ -3,7 +3,7 @@ import BBand from "./BBand";
 import RSI from "./RSI";
 import MACD from "./MACD";
 
-import Styles from "../styles";
+// import Styles from "../styles";
 import LottieLoader from "../../LottieLoader"
 
 let ChartJS = (props) => {
