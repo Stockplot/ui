@@ -47,7 +47,7 @@ function App() {
         <Route path="/article" component={Article}/>
         <Route path="/article1" component={Bbands}/>
         <Route path="/article2" component={RSI}/>
-        <Route path="/artticle3" component={MACD}/>
+        <Route path="/article3" component={MACD}/>
       </Switch>
      
      </div>

@@ -83,20 +83,21 @@ const cards = [
     id:2,
     url:"/article1",
     desc:"Introduced by John Bollinger in the 1980s, Bollinger Bands (BB) is perhaps one of the most useful technical analysis indicators. BB is used to determine overbought and oversold levels,"
-  },{
-    name:"MACD",
-    image:"https://zerodha.com/varsity/wp-content/uploads/2014/10/M2-Ch15-Chart2-1024x407.jpg",
-    id:3,
-    url:"/article2",
-    desc:"MACD is all about the convergence and divergence of the two moving averages. Convergence occurs when the two moving averages move towards each other, and divergence occurs when the moving averages move away."
   },
   {
     name:"RSI",
     image:"https://zerodha.com/varsity/wp-content/uploads/2014/10/M2-Ch14-Chart1-300x133.jpg",
+    id:3,
+    url:"/article2",
+    desc:"Relative strength Index or just RSI, is a prevalent indicator developed by J.Welles Wilder. RSI is a leading momentum indicator which helps in identifying a trend reversal."
+  },
+  {
+    name:"MACD",
+    image:"https://zerodha.com/varsity/wp-content/uploads/2014/10/M2-Ch15-Chart2-1024x407.jpg",
     id:4,
     url:"/article3",
-    desc:"Relative strength Index or just RSI, is a prevalent indicator developed by J.Welles Wilder. RSI is a leading momentum indicator which helps in identifying a trend reversal."
-  }
+    desc:"MACD is all about the convergence and divergence of the two moving averages. Convergence occurs when the two moving averages move towards each other, and divergence occurs when the moving averages move away."
+  },
 ];
 
 export default function Blog() {
