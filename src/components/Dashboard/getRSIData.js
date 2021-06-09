@@ -6,8 +6,6 @@ const getRSIData = async (data) => {
     data
   );
 
-  console.log(res);
-
   let RSIData = [];
   let Dates = [];
   let Signals = [];
@@ -21,9 +19,6 @@ const getRSIData = async (data) => {
     RSIData.push(res.data.data[i]["RSI"]);
     Dates.push(res.data.data[i]["date"]);
   }
-
-  console.log(RSIData);
-  console.log(Dates);
   
 
   for (let i = 0; i < res.data.ordered_signals_len; i++) {

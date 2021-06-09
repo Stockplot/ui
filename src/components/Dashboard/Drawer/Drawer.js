@@ -37,8 +37,8 @@ const DashboardDrawer = (props) => {
   let BBSDFactor = props.BBSDFactor;
   let setBBSDFactor = props.setBBSDFactor;
 
-  let RSIAmount=props.RSIAmount;
-  let setRSIAmount=props.setRSIAmount;
+  let RSIAmount = props.RSIAmount;
+  let setRSIAmount = props.setRSIAmount;
   let RSIWindow = props.RSIWindow;
   let setRSIWindow = props.setRSIWindow;
   let RSIUpperBand = props.RSIUpperBand;
@@ -47,6 +47,8 @@ const DashboardDrawer = (props) => {
   let setRSILowerBand = props.setRSILowerBand;
 
   let MACDUpperBand = props.MACDUpperBand;
+  let MACDAmount = props.MACDAmount;
+  let setMACDAmount = props.setMACDAmount;
   let setMACDUpperBand = props.setMACDUpperBand;
   let MACDLowerBand = props.MACDLowerBand;
   let setMACDLowerBand = props.setMACDLowerBand;
@@ -104,7 +106,7 @@ const DashboardDrawer = (props) => {
           window: RSIWindow,
           upper_band: RSIUpperBand,
           lower_band: RSILowerBand,
-          investment: RSIAmount
+          investment: RSIAmount,
         },
       };
       props.setRSIData(await getRSIData(data));
@@ -119,6 +121,7 @@ const DashboardDrawer = (props) => {
           lower_band: 30,
           buy_lim: 1,
           sell_lim: -1,
+          investment: MACDAmount,
         },
       };
       props.setMACDData(await getMACDData(data));
@@ -181,6 +184,8 @@ const DashboardDrawer = (props) => {
         </Select>
       </FormControl>
       <Hyperparameter
+        MACDAmount={MACDAmount}
+        setMACDAmount={setMACDAmount}
         MACDUpperBand={MACDUpperBand}
         setMACDUpperBand={setMACDUpperBand}
         MACDLowerBand={MACDLowerBand}
