@@ -1,7 +1,5 @@
 import React from "react";
 import LottieControl from "./Lotte";
-import Lotte from "./Lotte";
-import SignalCellularAltIcon from "@material-ui/icons/SignalCellularAlt";
 import "./styles.css";
 import About from "./About";
 import Footer from "./Footer";
@@ -20,7 +18,7 @@ function Home() {
         <div className="content">
           <LottieControl />
           <div className="desc">
-           <img src={img} className="logo"/>
+           <img src={img} alt="logo" className="logo"/>
             <p className="curved_txt">
               An online platform to plot stock market indicators
               <br></br>

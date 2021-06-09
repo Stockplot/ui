@@ -4,8 +4,7 @@ import Drawer from "@material-ui/core/Drawer";
 import Hidden from "@material-ui/core/Hidden";
 import { useTheme } from "@material-ui/core/styles";
 import "date-fns";
-import CircularProgress from "@material-ui/core/CircularProgress";
-import axios from "axios";
+// import CircularProgress from "@material-ui/core/CircularProgress";
 
 import Chart from "./Chart/Chart";
 import DashboardDrawer from "./Drawer/Drawer";
@@ -98,6 +97,7 @@ function ResponsiveDrawer(props) {
       setMACDData(await getMACDData(MACDReqData));
 
     })();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   let { mobileDrawerOpen, setMobileDrawerOpen } = props;
@@ -162,7 +162,7 @@ function ResponsiveDrawer(props) {
               MACDData={MACDData}
               setMACDData={setMACDData}
               MACDUpperBand={MACDUpperBand}
-              setMACDUpperBand={MACDUpperBand}
+              setMACDUpperBand={setMACDUpperBand}
               MACDLowerBand={MACDLowerBand}
               setMACDLowerBand={setMACDLowerBand}
               MACDBuyLimit={MACDBuyLimit}

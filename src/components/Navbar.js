@@ -13,25 +13,22 @@ import MenuIcon from "@material-ui/icons/Menu";
 import MoreIcon from "@material-ui/icons/MoreVert";
 import { Link, useLocation } from "react-router-dom";
 import "./styles.css";
-import logo from "./images/logo1.svg"
+import logo from "./images/logo1.svg";
 const useStyles = makeStyles((theme) => ({
   grow: {
     flexGrow: 1,
     position: "relative",
-    zIndex: 2
+    zIndex: 2,
   },
   menuButton: {
     marginRight: theme.spacing(2),
-    
   },
   title: {
     display: "none",
     [theme.breakpoints.down("sm")]: {
       display: "block",
-      
     },
-    color:"black",
-    
+    color: "black",
   },
   search: {
     position: "relative",
@@ -191,7 +188,12 @@ export default function Navbar(props) {
 
   return (
     <div className={classes.grow}>
-      <AppBar position="static" id="nav" className="nav-bar" style={{backgroundColor:"rgb(55 91 122 / 27%)"}} position="fixed">
+      <AppBar
+        id="nav"
+        className="nav-bar"
+        style={{ backgroundColor: "rgb(55 91 122 / 27%)" }}
+        position="fixed"
+      >
         <Toolbar>
           <IconButton
             color="inherit"
@@ -210,10 +212,14 @@ export default function Navbar(props) {
                 textDecoration: "none",
                 color: "black",
                 fontFamily: "Karla",
-                fontSize:"25px"
+                fontSize: "25px",
               }}
             >
-              <img src={logo} style={{width:"200px" , height:"50px"}}/>
+              <img
+                alt="logo"
+                src={logo}
+                style={{ width: "200px", height: "50px" }}
+              />
             </Link>
           </Typography>
           <div className={classes.grow} />
