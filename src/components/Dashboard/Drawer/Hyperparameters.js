@@ -12,6 +12,15 @@ const Hyperparameter = (props) => {
         <>
           <TextField
             id="standard-basic"
+            label="Amount"
+            value={props.BBAmount}
+            className={classes.drawerItem}
+            onChange={(e) => {
+              props.setBBAmount(e.target.value);
+            }}
+          />
+          <TextField
+            id="standard-basic"
             label="Lookback Period"
             value={props.BBWindow}
             className={classes.drawerItem}

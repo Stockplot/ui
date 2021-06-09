@@ -32,6 +32,8 @@ const DashboardDrawer = (props) => {
   let setChartType = props.setChartType;
 
   // let setBBData = props.setBBData;
+  let BBAmount = props.BBAmount;
+  let setBBAmount = props.setBBAmount;
   let BBWindow = props.BBWindow;
   let setBBWindow = props.setBBWindow;
   let BBSDFactor = props.BBSDFactor;
@@ -93,6 +95,7 @@ const DashboardDrawer = (props) => {
           end: endDate.toISOString().substring(0, 10),
           window: BBWindow,
           sdfactor: BBSDFactor,
+          investment: BBAmount
         },
       };
       props.setBBData(await getBBData(data));
@@ -202,6 +205,8 @@ const DashboardDrawer = (props) => {
         setRSIUpperBand={setRSIUpperBand}
         RSILowerBand={RSILowerBand}
         setRSILowerBand={setRSILowerBand}
+        BBAmount={BBAmount}
+        setBBAmount={setBBAmount}
         BBWindow={BBWindow}
         setBBWindow={setBBWindow}
         BBSDFactor={BBSDFactor}

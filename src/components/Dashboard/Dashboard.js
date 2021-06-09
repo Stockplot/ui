@@ -29,6 +29,7 @@ function ResponsiveDrawer(props) {
   //BB params
   
   let [BBData, setBBData] = useState({});
+  let [BBAmount, setBBAmount] = useState(10000);
   let [BBWindow, setBBWindow] = useState(20);
   let [BBSDFactor, setBBSDFactor] = useState(2);
   
@@ -67,6 +68,7 @@ function ResponsiveDrawer(props) {
           end: endDate.toISOString().substring(0, 10),
           window: 20,
           sdfactor: 2,
+          investment: BBAmount
         },
       };
 
@@ -149,6 +151,8 @@ function ResponsiveDrawer(props) {
               setEndDate={setEndDate}
 
               setBBData={setBBData}
+              BBAmount={BBAmount}
+              setBBAmount={setBBAmount}
               BBWindow={BBWindow}
               setBBWindow={setBBWindow}
               BBSDFactor={BBSDFactor}
@@ -200,6 +204,9 @@ function ResponsiveDrawer(props) {
               endDate={endDate}
               setEndDate={setEndDate}
 
+              
+              BBAmount={BBAmount}
+              setBBAmount={setBBAmount}
               setBBData={setBBData}
               BBWindow={BBWindow}
               setBBWindow={setBBWindow}

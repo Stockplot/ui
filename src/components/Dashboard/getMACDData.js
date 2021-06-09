@@ -4,8 +4,6 @@ const getMACDData = async (data) => {
 
   let res = await axios.post("https://secret-reaches-87237.herokuapp.com/getMACD", data);
 
-  console.log(res);
-
   let MACDData = [];
   let Dates = [];
   let Signals = [];
@@ -13,7 +11,7 @@ const getMACDData = async (data) => {
   let InvestedAmount = [];
   let LiquidAmount = [];
   let TotalAmount = [];
-  let Pnl = []
+  let Pnl = [];
 
   for(let i = 0; i < res.data.data_len; i++)
   {
@@ -41,8 +39,6 @@ const getMACDData = async (data) => {
       totalAmount: TotalAmount,
       pnl: Pnl
   }
-
-  console.log(MACD);
   
 
   return MACD;
