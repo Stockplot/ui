@@ -76,6 +76,15 @@ const Hyperparameter = (props) => {
         <>
           <TextField
             id="standard-basic"
+            label="Amount"
+            value={props.MACDAmount}
+            className={classes.drawerItem}
+            onChange={(e) => {
+              props.setMACDAmount(e.target.value);
+            }}
+          />
+          <TextField
+            id="standard-basic"
             label="Upper Band"
             value={props.MACDUpperBand}
             className={classes.drawerItem}

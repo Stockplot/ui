@@ -43,6 +43,7 @@ function ResponsiveDrawer(props) {
   //MACD params
 
   let [MACDData, setMACDData] = useState({});
+  let [MACDAmount, setMACDAmount] = useState(10000);
   let [MACDUpperBand, setMACDUpperBand] = useState(70);
   let [MACDLowerBand, setMACDLowerBand] = useState(30);
   let [MACDBuyLimit, setMACDBuyLimit] = useState(1);
@@ -94,6 +95,7 @@ function ResponsiveDrawer(props) {
           lower_band: 30,
           buy_lim: 1,
           sell_lim: -1,
+          investment: MACDAmount
         },
       };
       setMACDData(await getMACDData(MACDReqData));
@@ -165,6 +167,8 @@ function ResponsiveDrawer(props) {
 
               MACDData={MACDData}
               setMACDData={setMACDData}
+              MACDAmount={MACDAmount}
+              setMACDAmount={setMACDAmount}
               MACDUpperBand={MACDUpperBand}
               setMACDUpperBand={setMACDUpperBand}
               MACDLowerBand={MACDLowerBand}
@@ -215,6 +219,8 @@ function ResponsiveDrawer(props) {
               
               MACDData={MACDData}
               setMACDData={setMACDData}
+              MACDAmount={MACDAmount}
+              setMACDAmount={setMACDAmount}
               MACDUpperBand={MACDUpperBand}
               setMACDUpperBand={MACDUpperBand}
               MACDLowerBand={MACDLowerBand}

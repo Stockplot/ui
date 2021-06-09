@@ -10,7 +10,6 @@ import Paper from "@material-ui/core/Paper";
 
 const LineChart = (props) => {
   let rsi = props.res;
-  console.log(rsi.signals);
 
   const data = {
     labels: rsi.dates,
