@@ -1,7 +1,5 @@
-import { useState } from "react";
 import Divider from "@material-ui/core/Divider";
 import Button from "@material-ui/core/Button";
-import TextField from "@material-ui/core/TextField";
 import FormControl from "@material-ui/core/FormControl";
 import InputLabel from "@material-ui/core/InputLabel";
 import Select from "@material-ui/core/Select";
@@ -19,7 +17,6 @@ import getRSIData from "../getRSIData";
 import getMACDData from "../getMACDData";
 import Ticker from "./Ticker";
 import Hyperparameter from "./Hyperparameters";
-import TickerOld from "./TickerOld";
 
 const DashboardDrawer = (props) => {
   const useStyles = Styles;
@@ -34,7 +31,7 @@ const DashboardDrawer = (props) => {
   let chartType = props.chartType;
   let setChartType = props.setChartType;
 
-  let setBBData = props.setBBData;
+  // let setBBData = props.setBBData;
   let BBWindow = props.BBWindow;
   let setBBWindow = props.setBBWindow;
   let BBSDFactor = props.BBSDFactor;
@@ -182,7 +179,7 @@ const DashboardDrawer = (props) => {
       </FormControl>
       <Hyperparameter
         MACDUpperBand={MACDUpperBand}
-        setMACDUpperBand={MACDUpperBand}
+        setMACDUpperBand={setMACDUpperBand}
         MACDLowerBand={MACDLowerBand}
         setMACDLowerBand={setMACDLowerBand}
         MACDBuyLimit={MACDBuyLimit}

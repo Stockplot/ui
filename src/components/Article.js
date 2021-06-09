@@ -1,11 +1,9 @@
-import {render} from 'react-dom'
 import ReactMarkdown from 'react-markdown'
 import file from "./Blogs/Terms.md"
 import file1 from "./Blogs/BBands.md"
 import file2 from "./Blogs/RSI.md"
 import file3 from "./Blogs/MACD.md"
 import "./styles.css"
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import React, { useState,useEffect} from 'react'
 
 

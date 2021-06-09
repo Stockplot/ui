@@ -6,11 +6,9 @@ import Dashboard from "./components/Dashboard/Dashboard";
 
 import Blog from "./components/Blog";
 import {BrowserRouter} from "react-router-dom"
-import Header from "./components/Navbar";
 import {Article,Bbands,RSI,MACD} from "./components/Article"
 import { makeStyles } from "@material-ui/core/styles";
 import Navbar from './components/Navbar';
-import Footer from "./components/Footer";
 import "./components/footer.css"
 import "./components/styles.css"
 import Contact from "./components/Contact"
