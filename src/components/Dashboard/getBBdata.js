@@ -2,7 +2,7 @@ import axios from "axios";
 
 const getBBData = async (data) => {
 
-  let res = await axios.post("http://127.0.0.1:5000/getBBands", data);
+  let res = await axios.post("https://secret-reaches-87237.herokuapp.com/getBBands", data);
   let ma = [];
   let ub = [];
   let lb = [];
