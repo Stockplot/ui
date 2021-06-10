@@ -114,7 +114,7 @@ export default function Blog() {
             <Typography variant="h5" align="center" color="textSecondary" paragraph style={{fontFamily:"Karla"}}>
               A short crisp and interesting collection of articles 
               <br></br>
-              Enhanding your financial knowledge and helping you grow money
+              Enhancing your financial knowledge and helping you grow money
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
