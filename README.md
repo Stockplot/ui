@@ -23,7 +23,6 @@ An onine platform to plot stock market indicators.
 | Tools Used        | Version |
 | ----------------- | ------- |
 | React Js          | 16.13.1 |
-| Flask             |
 | React Stock Chart | 0.7.8   |
 | Chart Js          | 3.0.3   |
 | React-Markdown    | 6.0.2   |

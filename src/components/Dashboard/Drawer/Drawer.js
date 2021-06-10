@@ -216,9 +216,10 @@ const DashboardDrawer = (props) => {
       />
       <Button
         variant="contained"
-        color="primary"
+        
         onClick={handleSubmit}
         className={classes.submit}
+        style={{border:"4px solid white",color:"black",backgroundColor:"#a4d3f8"}}
       >
         Submit
       </Button>

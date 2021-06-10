@@ -4,6 +4,7 @@ import "./styles.css";
 import About from "./About";
 import Footer from "./Footer";
 import img from "./images/logo1.svg"
+import { Button } from "@material-ui/core";
 function Home() {
   return (
     <div className="curved" id="blog-hero">
@@ -16,17 +17,19 @@ function Home() {
           ></path>
         </svg> */}
         <div className="content">
+          <div className="anim">
           <LottieControl />
+          </div>
           <div className="desc">
            <img src={img} alt="logo" className="logo"/>
             <p className="curved_txt">
               An online platform to plot stock market indicators
               <br></br>
             </p>
-
-            <button href="/dashboard" class="btn-test">
+          
+            <Button size="large" color="primary" href="/dashboard" className="btn-test" style={{border:"4px solid white",color:"black"}}>
               Start Testing
-            </button>
+            </Button>
           </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a4d3f8" fill-opacity="1" d="M0,288L480,128L960,224L1440,128L1440,0L960,0L480,0L0,0Z"></path></svg>
