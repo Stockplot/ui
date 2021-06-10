@@ -55,16 +55,16 @@ function Footer() {
 							<h4>top blogs</h4>
 							<ul>
 								<li>
-									<a href="/">Technical Analysis</a>
+									<a href="/article">Technical Analysis</a>
 								</li>
 								<li>
-									<a href="/">Bollinger Bands</a>
+									<a href="/article1">Bollinger Bands</a>
 								</li>
 								<li>
-									<a href="/">RSI</a>
+									<a href="/article2">RSI</a>
 								</li>
 								<li>
-									<a href="/">MACD</a>
+									<a href="/article3">MACD</a>
 								</li>
 							</ul>
 						</div>
