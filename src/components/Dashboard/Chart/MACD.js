@@ -56,12 +56,12 @@ const LineChart = (props) => {
 
   return (
     <>
-      <Line style={{ width: "90%" }} data={data} options={options} />
-      <TableContainer style={{marginTop: "25px"}} component={Paper}>
+      <Line style={{ width: "90%" ,}} data={data} options={options} />
+      <TableContainer style={{marginTop: "25px",background:"transparent"}} component={Paper}>
         <Table aria-label="simple table">
-          <TableHead>
+          <TableHead >
             <TableRow>
-              <TableCell>Date</TableCell>
+              <TableCell >Date</TableCell>
               <TableCell align="right">Signal</TableCell>
               <TableCell align="right">Invested Amount</TableCell>
               <TableCell align="right">Liquid Amount</TableCell>

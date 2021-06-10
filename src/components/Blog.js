@@ -119,7 +119,7 @@ export default function Blog() {
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item >
-                  <Button variant="contained" color="primary">
+                  <Button size="large" color="primary" href="/dashboard"  style={{border:"4px solid black",color:"black"}}>
                     Go to Dashboard
                   </Button>
                 </Grid>

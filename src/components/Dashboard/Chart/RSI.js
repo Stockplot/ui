@@ -56,7 +56,7 @@ const LineChart = (props) => {
   return (
     <>
       <Line style={{ width: "90%" }} data={data} options={options} />
-      <TableContainer style={{marginTop: "25px"}} component={Paper}>
+      <TableContainer style={{marginTop: "25px",background:"transparent"}} component={Paper}>
         <Table aria-label="simple table">
           <TableHead>
             <TableRow>
